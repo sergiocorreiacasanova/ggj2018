@@ -1,0 +1,53 @@
+2018-01-27T02:05:19.058Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-27T02:05:19.071Z - normal: checking language setting...
+2018-01-27T02:05:19.072Z - normal: Language: en
+2018-01-27T02:05:22.754Z - success: protocol editor-framework registered
+2018-01-27T02:05:22.754Z - success: protocol app registered
+2018-01-27T02:05:22.755Z - success: protocol theme registered
+2018-01-27T02:05:22.755Z - success: protocol packages registered
+2018-01-27T02:05:22.755Z - success: protocol unpack registerred
+2018-01-27T02:05:22.755Z - success: protocol disable-commonjs registerred
+2018-01-27T02:05:25.178Z - normal: connected!
+2018-01-27T02:05:25.182Z - normal: Check project C:\Users\ser\Documents\astronauta
+2018-01-27T02:05:25.187Z - normal: Initializing Cocos2d
+2018-01-27T02:05:25.840Z - normal: Initializing Asset Database
+2018-01-27T02:05:26.017Z - success: protocol uuid registerred
+2018-01-27T02:05:26.017Z - success: protocol db registerred
+2018-01-27T02:05:26.018Z - success: protocol thumbnail registerred
+2018-01-27T02:05:26.018Z - normal: Loading editor/builtin packages
+2018-01-27T02:05:26.102Z - success: anysdk loaded
+2018-01-27T02:05:26.658Z - success: assets loaded
+2018-01-27T02:05:26.666Z - success: builder loaded
+2018-01-27T02:05:26.672Z - success: cocos-analytics loaded
+2018-01-27T02:05:26.682Z - success: console loaded
+2018-01-27T02:05:26.696Z - success: hierarchy loaded
+2018-01-27T02:05:26.704Z - success: inspector loaded
+2018-01-27T02:05:26.708Z - success: keystore loaded
+2018-01-27T02:05:26.717Z - success: node-library loaded
+2018-01-27T02:05:26.721Z - success: package-asset loaded
+2018-01-27T02:05:26.727Z - success: preferences loaded
+2018-01-27T02:05:26.733Z - success: project-exporter loaded
+2018-01-27T02:05:26.778Z - success: project-importer loaded
+2018-01-27T02:05:26.783Z - success: project-settings loaded
+2018-01-27T02:05:26.787Z - success: ui-kit loaded
+2018-01-27T02:05:26.792Z - success: ui-grid loaded
+2018-01-27T02:05:26.799Z - success: scene loaded
+2018-01-27T02:05:26.801Z - success: sprite-editor loaded
+2018-01-27T02:05:26.810Z - success: store loaded
+2018-01-27T02:05:26.820Z - success: timeline loaded
+2018-01-27T02:05:26.821Z - normal: Loading builtin packages
+2018-01-27T02:05:26.827Z - success: asset-db-debugger loaded
+2018-01-27T02:05:26.830Z - success: code-editor loaded
+2018-01-27T02:05:26.831Z - success: color-picker loaded
+2018-01-27T02:05:26.835Z - success: package-manager loaded
+2018-01-27T02:05:26.844Z - success: sdkbox loaded
+2018-01-27T02:05:26.853Z - success: tester loaded
+2018-01-27T02:05:26.858Z - success: ui-kit-preview-extra loaded
+2018-01-27T02:05:26.861Z - success: ui-kit-preview loaded
+2018-01-27T02:05:26.864Z - success: ui-tree loaded
+2018-01-27T02:05:30.236Z - normal: Initializing project C:\Users\ser\Documents\astronauta
+2018-01-27T02:05:30.288Z - normal: Loading packages
+2018-01-27T02:05:30.298Z - normal: Watching packages
+2018-01-27T02:05:30.330Z - normal: Run Application
+2018-01-27T02:05:31.526Z - success: preview server running at http://localhost:7456
+2018-01-27T02:05:45.449Z - normal: 1.8.1
