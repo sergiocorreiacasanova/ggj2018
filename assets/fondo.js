@@ -42,21 +42,16 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
 
-	accLeft: false,
-	accRight: false,
-	velocidadgiro: 0.0,
-	anguloactual: 0.0,
+	accionaIzquierda: false,
+	accionaDerecha: false,
+	velocidadGiro: 0.0,
+	anguloActual: 0.0,
 	
     start () {
 		
     },
 
     onLoad () {
-		this.setInputControl();
-		
-	},
-	
-	setInputControl: function () {
         var self = this;
         // add keyboard event listener
         cc.eventManager.addListener({
@@ -65,14 +60,14 @@ cc.Class({
             onKeyPressed: function(keyCode, event) {
                 switch(keyCode) {
                     case cc.KEY.a:
-                        self.accLeft = true;
-                        self.accRight = false;
+                        self.accionaIzquierda = true;
+                        self.accionaDerecha = false;
 						//cc.log('gira izquierda');
 						
                         break;
                     case cc.KEY.d:
-                        self.accLeft = false;
-                        self.accRight = true;
+                        self.accionaIzquierda = false;
+                        self.accionaDerecha = true;
 						//cc.log('gira derecha');
                         break;
                 }
@@ -81,10 +76,10 @@ cc.Class({
             onKeyReleased: function(keyCode, event) {
                 switch(keyCode) {
                     case cc.KEY.a:
-                        self.accLeft = false;
+                        self.accionaIzquierda = false;
                         break;
                     case cc.KEY.d:
-                        self.accRight = false;
+                        self.accionaDerecha = false;
                         break;
                 }
             }
@@ -92,37 +87,42 @@ cc.Class({
 	},
 	
     update (dt) {
+		var variacion = this.aceleracionGiro * dt;
 		
-		if (!isNaN(dt))
+		if (isNaN(this.velocidadGiro)) this.velocidadGiro = 0.0;
+		if (isNaN(this.anguloActual)) this.anguloActual = 0.0;
+		
+		if (this.accionaIzquierda)
 		{
-			if (isNaN(this.velocidadgiro)) this.velocidadgiro = 0.0;
-			if (isNaN(this.anguloactual)) this.anguloactual = 0.0;
-			
-			if (this.accLeft )
-				if (this.velocidadgiro < this.velocidadGiroMaxima)
-					this.velocidadgiro += this.aceleracionGiro * dt;
-				else
-					this.velocidadgiro = this.velocidadGiroMaxima;
+			if (this.velocidadGiro < this.velocidadGiroMaxima)
+				this.velocidadGiro += variacion;
 			else
-				if (this.accRight)
-					if (this.velocidadgiro > -this.velocidadGiroMaxima)
-						this.velocidadgiro -= this.aceleracionGiro * dt;
-					else
-						this.velocidadgiro = - this.velocidadGiroMaxima;
-				else
-					if (this.velocidadgiro > 0.0)
-						this.velocidadgiro -= this.aceleracionGiro * dt;
-					else
-						this.velocidadgiro += this.aceleracionGiro * dt;
-			
-			if (this.velocidadgiro < 5.0)
-				this.velocidadgiro = 0.0;
-			else
-				this.anguloactual+= this.velocidadgiro;
-			
-			//cc.log(this.velocidadgiro, this.anguloactual, dt, this.velocidadGiroMaxima, this.aceleracionGiro);
-			
-			this.node.rotation = this.anguloactual;
+				this.velocidadGiro = this.velocidadGiroMaxima;
 		}
+		else
+			if (this.accionaDerecha)
+			{
+				if (this.velocidadGiro > -this.velocidadGiroMaxima)
+					this.velocidadGiro -= variacion;
+				else
+					this.velocidadGiro = -this.velocidadGiroMaxima;
+			}
+			else
+			{// no acciona a derecha ni a izquierda y entonces desacelera
+		
+				if (this.velocidadGiro > 0.0)
+					this.velocidadGiro -= variacion/2;
+				else
+					this.velocidadGiro += variacion/2;
+			}
+		
+		if (this.velocidadGiro >= -variacion * 4 && this.velocidadGiro < variacion * 4 && !this.accionaIzquierda && !this.accionaDerecha)
+			this.velocidadGiro = 0.0;
+		else
+			this.anguloActual = (this.anguloActual + this.velocidadGiro) % 360;
+		
+		//cc.log(this.velocidadGiro, this.anguloActual, dt, this.velocidadGiroMaxima, this.aceleracionGiro);
+		
+		this.node.rotation = this.anguloActual;
 	},
 });

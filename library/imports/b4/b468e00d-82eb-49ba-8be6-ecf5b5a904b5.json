@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "animaciones_tex",
+    "texture": "a6735225-082d-4971-94bc-77502fd08bcd",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      968,
+      999
+    ],
+    "offset": [
+      -27,
+      11.5
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ]
+  }
+}

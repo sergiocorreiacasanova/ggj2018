@@ -2,7 +2,7 @@
 cc._RF.push(module, '02941jM40RFl57r1Ags29M9', 'jugador', __filename);
 // jugador.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/class.html
@@ -15,31 +15,78 @@ cc._RF.push(module, '02941jM40RFl57r1Ags29M9', 'jugador', __filename);
 //  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/life-cycle-callbacks/index.html
 
 cc.Class({
-    extends: cc.Component,
+				extends: cc.Component,
 
-    properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
-    },
+				properties: {
+								pantalla: {
+												default: null,
+												type: cc.Node,
+												serializable: true
+								}
+				},
 
-    // LIFE-CYCLE CALLBACKS:
+				// LIFE-CYCLE CALLBACKS:
 
-    onLoad: function onLoad() {},
+				onLoad: function onLoad() {
+								var self = this;
 
-    start: function start() {}
+								cc.eventManager.addListener({
+												event: cc.EventListener.TOUCH_ONE_BY_ONE,
+												swallowTouches: false,
+												onTouchBegan: function onTouchBegan(touch, event) {
+
+																cc.log('onTouchBegan');
+
+																var locationInNode = touch.getLocation();
+
+																self.node.position = locationInNode;
+
+																//var target = event.getCurrentTarget();	
+
+																//var locationInNode = target.convertToNodeSpace(touch.getLocation());	
+																//		var locationInNode = touch.getLocation();	
+
+
+																//		var s = target.getContentSize();
+																//		var rect = cc.rect(0, 0, s.width, s.height);
+
+																//Check the click area
+																//		if (cc.rectContainsPoint(rect, locationInNode)) {		
+																//			cc.log("sprite began... x = " + locationInNode.x + ", y = " + locationInNode.y);
+																//			target.opacity = 180;
+																//			return true;
+																//		}
+																return false;
+												},
+												//Trigger when moving touch
+												onTouchMoved: function onTouchMoved(touch, event) {
+
+																cc.log('onTouchMoved');
+
+																/*		//Move the position of current button sprite
+                		var target = event.getCurrentTarget();
+                		var delta = touch.getDelta();
+                		target.x += delta.x;
+                		target.y += delta.y;*/
+												},
+												//Process the touch end event
+												onTouchEnded: function onTouchEnded(touch, event) {
+
+																cc.log('onTouchEnded');
+
+																//var target = event.getCurrentTarget();
+																//Reset zOrder and the display sequence will change
+
+																//if (target == sprite2) {					
+																//	sprite1.setLocalZOrder(100);
+																//} else if (target == sprite1) {
+																//	sprite1.setLocalZOrder(0);
+																//}
+												}
+								}, self.pantalla);
+				},
+
+				start: function start() {}
 });
 
 cc._RF.pop();
