@@ -441,8 +441,8 @@
     },
     "velocidad": 100,
     "velocidadAngularMaxima": 1,
-    "aceleracionAngular": 0.25,
-    "radioVacilacion": 5,
+    "aceleracionAngular": 0.2,
+    "radioOrbitacion": 50,
     "radioCentro": 40
   },
   {

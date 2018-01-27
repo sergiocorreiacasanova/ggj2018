@@ -29,7 +29,7 @@ cc.Class({
 			 default: 1.0,
 			 serializable: true,
 		 },
-		 radioVacilacion:{
+		 radioOrbitacion:{
 			 default: 20.0,
 			 serializable: true,
 		 },
@@ -46,6 +46,7 @@ cc.Class({
 	deltaAnguloDesaceleracionDestino:0,
 	velocidadDestinoX:0,
 	velocidadDestinoY:0,
+	orbitando: false,
 	
     // LIFE-CYCLE CALLBACKS:
 	distanciaPosicion (a, b){
@@ -57,6 +58,7 @@ cc.Class({
 		
 		self.destino = self.node.position;
 		self.anguloDestino = self.node.rotationX;
+		self.orbitando = true;
 		
         cc.eventManager.addListener({
             event: cc.EventListener.TOUCH_ONE_BY_ONE,
@@ -65,6 +67,8 @@ cc.Class({
 				
 				if (isNaN(self.velocidadAngularDestino) ) 
 					self.velocidadAngularDestino = 0;
+				
+				self.orbitando = false;
 				
 				self.destino = touch.getLocation();
 				
@@ -89,16 +93,17 @@ cc.Class({
 					nodo = 270
 					Destino - nodo < -180 - gira reloj
  				*/
-				
-				if (self.node.rotationX % 360 + 360 - self.anguloDestino > 180)
+				var diffA = ((self.anguloDestino + 180) - (self.node.rotationX + 180)) % 180; 
+
+				if (diffA > 0)
 				{
 					self.aceleracionAngularDestino = self.aceleracionAngular;
-					self.deltaAnguloDesaceleracionDestino = (self.anguloDestino - self.node.rotationX % 360)/2
+					self.deltaAnguloDesaceleracionDestino = Math.abs(diffA)/2;
 				}
 				else
 				{
 					self.aceleracionAngularDestino = -self.aceleracionAngular;
-					self.deltaAnguloDesaceleracionDestino = (self.node.rotationX % 360 + 360 - self.anguloDestino)/2
+					self.deltaAnguloDesaceleracionDestino = Math.abs(diffA)/2;
 				}
 				
 				// calcula el angulo contra la vertical x+
@@ -153,11 +158,32 @@ cc.Class({
 			
 			this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
 			
-			if (this.distanciaPosicion(this.node.position, this.destino) > this.radioVacilacion)
-				this.node.setPosition(this.node.position.x + this.velocidadDestinoX * dt, this.node.position.y + this.velocidadDestinoY * dt);
+			if (this.distanciaPosicion(this.node.position, this.destino) < this.radioOrbitacion/5 || this.orbitando === true)
+			{
+				if (this.orbitando !== true)
+				{
+					this.velocidadDestinoX = 0;
+					this.velocidadDestinoY = 0;
+					this.orbitando = true;
+				}
+				
+				if (this.velocidadDestinoX > this.velocidadDestinoY)
+				{
+					this.velocidadDestinoX = this.velocidadDestinoY;
+				}
+				else
+				{
+					this.velocidadDestinoY = this.velocidadDestinoX;
+				}
+				
+				this.velocidadDestinoX = this.velocidadDestinoX *.5 + (this.destino.x - this.node.position.x)*.5 + this.radioOrbitacion * (Math.random() -.5);
+										
+				this.velocidadDestinoY = this.velocidadDestinoY *.5 + (this.destino.y - this.node.position.y)*.5 + this.radioOrbitacion * (Math.random() -.5);
+				
+			}
 			
-			cc.log(this.velocidadAngularDestino);
-			cc.log(this.velocidadDestinoY);
+			this.node.setPosition(this.node.position.x + this.velocidadDestinoX * dt, this.node.position.y + this.velocidadDestinoY * dt);
+			
 		}
 	},
 });

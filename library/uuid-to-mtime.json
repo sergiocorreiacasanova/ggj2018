@@ -225,8 +225,8 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517068988581,
-    "meta": 1517068988705,
+    "asset": 1517074130712,
+    "meta": 1517074130773,
     "relativePath": "prueba.fire"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
@@ -315,8 +315,8 @@
     "relativePath": "imagenes\\basesita 2.png"
   },
   "029418cc-e344-4597-9eeb-d4082cdbd33d": {
-    "asset": 1517069614422,
-    "meta": 1517069616987,
+    "asset": 1517075846328,
+    "meta": 1517075850459,
     "relativePath": "jugador.js"
   }
 }

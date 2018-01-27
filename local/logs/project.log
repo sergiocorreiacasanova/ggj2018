@@ -352,3 +352,21 @@ Missing uuid: "492eab19-1367-451e-96bc-acd69d905fc3"
     at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
     at Parser.pp$3.parseExprListItem (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
     at Parser.pp$3.parseCallExpressionArguments (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)
+2018-01-27T17:43:21.751Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\astronauta\assets\jugador.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/astronauta/assets/jugador.js: Unexpected token, expected , (169:121)
+  167 | 					this.orbitando = true;
+  168 | 				}
+> 169 | 				this.velocidadDestinoX = this.velocidadDestinoX + ((this.destino.x - this.node.position.x) * dt * (Math.random() -.5);
+      | 				                                                                                                                     ^
+  170 | 				this.velocidadDestinoY = this.velocidadDestinoY + ((this.destino.y - this.node.position.y) * dt * (Math.random() -.5);
+  171 | 				
+  172 | 			}
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseParenAndDistinguishExpression (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3814:12)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3709:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOp (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3435:42)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3408:17)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
