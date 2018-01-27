@@ -251,8 +251,8 @@
     "_scaleY": 0.8,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 487,
-      "y": 436
+      "x": 488,
+      "y": 455
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -439,9 +439,10 @@
     "fondo": {
       "__id__": 6
     },
-    "velocidad": 1000,
-    "velocidadAngular": 5,
-    "radioVacilacion": 20,
+    "velocidad": 100,
+    "velocidadAngularMaxima": 1,
+    "aceleracionAngular": 0.25,
+    "radioVacilacion": 5,
     "radioCentro": 40
   },
   {

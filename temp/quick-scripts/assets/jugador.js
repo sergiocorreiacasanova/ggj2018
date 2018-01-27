@@ -27,7 +27,11 @@ cc.Class({
 			default: 1.0,
 			serializable: true
 		},
-		velocidadAngular: {
+		velocidadAngularMaxima: {
+			default: 1.0,
+			serializable: true
+		},
+		aceleracionAngular: {
 			default: 1.0,
 			serializable: true
 		},
@@ -44,7 +48,8 @@ cc.Class({
 	destino: null,
 	anguloDestino: 0,
 	velocidadAngularDestino: 0,
-
+	aceleracionAngularDestino: 0,
+	deltaAnguloDesaceleracionDestino: 0,
 	velocidadDestinoX: 0,
 	velocidadDestinoY: 0,
 
@@ -57,32 +62,52 @@ cc.Class({
 	onLoad: function onLoad() {
 		var self = this;
 
-		this.destino = this.node.position;
-		this.anguloDestino = this.node.rotationX;
+		self.destino = self.node.position;
+		self.anguloDestino = self.node.rotationX;
 
 		cc.eventManager.addListener({
 			event: cc.EventListener.TOUCH_ONE_BY_ONE,
 			swallowTouches: false,
 			onTouchBegan: function onTouchBegan(touch, event) {
 
+				if (isNaN(self.velocidadAngularDestino)) self.velocidadAngularDestino = 0;
+
 				self.destino = touch.getLocation();
 
 				if (isNaN(self.node.rotation)) self.node.rotation = 0;
 
-				self.node.rotation = self.node.rotationX % 360;
+				self.node.rotation = (self.node.rotationX + 360) % 360;
 
-				var anguloRad = Math.atan2(self.destino.y - self.fondo.y, self.destino.x - self.fondo.x);
+				// calcula el angulo contra la vertical x+
+				var anguloRad = (Math.PI / 2 - Math.atan2(self.destino.y - self.fondo.position.y, self.destino.x - self.fondo.position.x) + Math.PI * 2) % (Math.PI * 2);
 
 				self.anguloDestino = anguloRad / Math.PI * 180;
 
-				if (self.node.rotationX < self.anguloDestino) self.node.rotationX += 360;
+				// intento determinar hacia qué lado girar
+				/*
+    	Ej 1 
+    	destino = 270
+    	nodo = 30
+    	destino - nodo >180 -> gira contrareloj
+    	Ej 2
+    	Destino = 30
+    	nodo = 270
+    	Destino - nodo < -180 - gira reloj
+    	*/
 
-				if (self.node.rotationX - self.anguloDestino > self.anguloDestino + 360 - self.node.rotationX) self.velocidadAngularDestino = self.velocidadAngular;else self.velocidadAngularDestino = -self.velocidadAngular;
+				if (self.node.rotationX % 360 + 360 - self.anguloDestino > 180) {
+					self.aceleracionAngularDestino = self.aceleracionAngular;
+					self.deltaAnguloDesaceleracionDestino = (self.anguloDestino - self.node.rotationX % 360) / 2;
+				} else {
+					self.aceleracionAngularDestino = -self.aceleracionAngular;
+					self.deltaAnguloDesaceleracionDestino = (self.node.rotationX % 360 + 360 - self.anguloDestino) / 2;
+				}
 
-				self.velocidadDestinoX = Math.cos(anguloRad) * self.velocidad;
-				self.velocidadDestinoY = Math.sin(anguloRad) * self.velocidad;
+				// calcula el angulo contra la vertical x+
+				var anguloVelocidad = Math.atan2(self.destino.y - self.node.position.y, self.destino.x - self.node.position.x);
 
-				if (self.distanciaPosicion(self.destino, self.fondo.position) < self.radioCentro) self.velocidadAngularDestino = 0;
+				self.velocidadDestinoX = Math.cos(anguloVelocidad) * self.velocidad;
+				self.velocidadDestinoY = Math.sin(anguloVelocidad) * self.velocidad;
 
 				cc.log(self.destino, self.anguloDestino, self.velocidadDestinoX, self.velocidadDestinoY);
 
@@ -103,14 +128,26 @@ cc.Class({
 
 	start: function start() {},
 	update: function update(dt) {
+		if (isNaN(this.velocidadAngularDestino) || isNaN(this.velocidadDestinoX) || isNaN(this.velocidadDestinoY)) {} else {
+			if (Math.abs(((this.node.rotationX + 360) % 360 + 360) % 540 - ((this.anguloDestino + 360) % 360 + 360) % 540) < this.deltaAnguloDesaceleracionDestino) {
+				this.aceleracionAngularDestino = -this.aceleracionAngularDestino;
+				this.deltaAnguloDesaceleracionDestino = -1; // queda deshabilitado
+			}
 
-		this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
+			this.velocidadAngularDestino += this.aceleracionAngularDestino;
 
-		this.node.position.x = 0.0 + this.node.position.x + this.velocidadDestinoX * dt;
-		this.node.position.y = 0.0 + this.node.position.y + this.velocidadDestinoY * dt;
+			if (Math.abs((this.node.rotation + 360) % 540 - (this.anguloDestino + 360) % 540) < 5) {
+				this.aceleracionAngularDestino = 0;
+				this.velocidadAngularDestino = 0;
+			}
 
-		cc.log(this.velocidadAngularDestino);
-		cc.log(this.velocidadDestinoY);
+			this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
+
+			if (this.distanciaPosicion(this.node.position, this.destino) > this.radioVacilacion) this.node.setPosition(this.node.position.x + this.velocidadDestinoX * dt, this.node.position.y + this.velocidadDestinoY * dt);
+
+			cc.log(this.velocidadAngularDestino);
+			cc.log(this.velocidadDestinoY);
+		}
 	}
 });
 

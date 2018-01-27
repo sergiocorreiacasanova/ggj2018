@@ -336,3 +336,19 @@ Missing uuid: "492eab19-1367-451e-96bc-acd69d905fc3"
     at Parser.pp$1.parseBlock (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
     at Parser.pp$3.parseFunctionBody (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4235:22)
     at Parser.pp$1.parseFunction (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2386:8)
+2018-01-27T16:11:32.719Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\astronauta\assets\jugador.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/astronauta/assets/jugador.js: Unexpected token (161:0)
+  159 | 		}
+  160 | 	},
+> 161 | });
+      | ^
+  162 | 
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseExprListItem (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
+    at Parser.pp$3.parseCallExpressionArguments (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)

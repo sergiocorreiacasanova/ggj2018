@@ -225,19 +225,14 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517055190176,
-    "meta": 1517055190396,
+    "asset": 1517068988581,
+    "meta": 1517068988705,
     "relativePath": "prueba.fire"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
     "asset": 1517021929738,
     "meta": 1517021929736,
     "relativePath": "imagenes"
-  },
-  "b3614e75-cf29-42d6-9e50-fbf7f677a8d0": {
-    "asset": 1517021926878,
-    "meta": 1517021930047,
-    "relativePath": "imagenes\\fondo.jpg"
   },
   "07276d05-08ad-432a-9d17-7b3f3459b503": {
     "asset": 1517022241909,
@@ -309,9 +304,19 @@
     "meta": 1517049071270,
     "relativePath": "particle_texture.plist"
   },
+  "b3614e75-cf29-42d6-9e50-fbf7f677a8d0": {
+    "asset": 1517068697242,
+    "meta": 1517068718454,
+    "relativePath": "imagenes\\fondo.jpg"
+  },
+  "2aba95f6-c52f-4a8d-a087-61ff8665f12c": {
+    "asset": 1516981928000,
+    "meta": 1517068718609,
+    "relativePath": "imagenes\\basesita 2.png"
+  },
   "029418cc-e344-4597-9eeb-d4082cdbd33d": {
-    "asset": 1517056046217,
-    "meta": 1517056046966,
+    "asset": 1517069614422,
+    "meta": 1517069616987,
     "relativePath": "jugador.js"
   }
 }
