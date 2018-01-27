@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "07276d05-08ad-432a-9d17-7b3f3459b503",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "astronauta": {
+      "ver": "1.0.3",
+      "uuid": "e4dda4ad-4320-4001-9f7d-affe3db99668",
+      "rawTextureUuid": "07276d05-08ad-432a-9d17-7b3f3459b503",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 217,
+      "height": 353,
+      "rawWidth": 217,
+      "rawHeight": 353,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
