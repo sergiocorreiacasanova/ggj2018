@@ -10,47 +10,81 @@
 
 cc.Class({
     extends: cc.Component,
-
+	
     properties: {
-        pantalla: {
+        fondo: {
              default: null, 
              type: cc.Node, 
              serializable: true,  
          },
+		 velocidad: {
+			 default: 1.0,
+			 serializable: true,
+		 },
+		 velocidadAngular: {
+			 default: 1.0,
+			 serializable: true,
+		 },
+		 radioVacilacion:{
+			 default: 20.0,
+			 serializable: true,
+		 },
+		 radioCentro:{
+			 default:40,
+			 serializable: true,
+		 }
     },
 	
-
+	destino: null,
+	anguloDestino: 0,
+	velocidadAngularDestino: 0,
+	
+	velocidadDestinoX:0,
+	velocidadDestinoY:0,
+	
     // LIFE-CYCLE CALLBACKS:
-
+	distanciaPosicion (a, b){
+		return Math.sqrt((a.x-b.x)*(a.x-b.x) + (a.y-b.y)*(a.y-b.y));
+	},
+	
     onLoad: function () {
         var self = this;
+		
+		this.destino = this.node.position;
+		this.anguloDestino = this.node.rotationX;
 		
         cc.eventManager.addListener({
             event: cc.EventListener.TOUCH_ONE_BY_ONE,
 			swallowTouches: false,
             onTouchBegan: function (touch, event) {	
-			
-				cc.log('onTouchBegan');
-			
-				var locationInNode = touch.getLocation();	
 				
-				self.node.position = locationInNode;
+				self.destino = touch.getLocation();
 				
-				//var target = event.getCurrentTarget();	
+				if (isNaN(self.node.rotation))
+					self.node.rotation = 0;
 				
-				//var locationInNode = target.convertToNodeSpace(touch.getLocation());	
-		//		var locationInNode = touch.getLocation();	
+				self.node.rotation = self.node.rotationX % 360;
 				
+				var anguloRad = Math.atan2(self.destino.y - self.fondo.y, self.destino.x - self.fondo.x);
 				
-		//		var s = target.getContentSize();
-		//		var rect = cc.rect(0, 0, s.width, s.height);
+				self.anguloDestino = anguloRad / Math.PI * 180;
 				
-				//Check the click area
-		//		if (cc.rectContainsPoint(rect, locationInNode)) {		
-		//			cc.log("sprite began... x = " + locationInNode.x + ", y = " + locationInNode.y);
-		//			target.opacity = 180;
-		//			return true;
-		//		}
+				if (self.node.rotationX < self.anguloDestino)
+					self.node.rotationX +=360;
+				
+				if (self.node.rotationX - self.anguloDestino>self.anguloDestino + 360 - self.node.rotationX)
+					self.velocidadAngularDestino = self.velocidadAngular;
+				else
+					self.velocidadAngularDestino = -self.velocidadAngular;
+				
+				self.velocidadDestinoX = Math.cos(anguloRad) * self.velocidad;
+				self.velocidadDestinoY = Math.sin(anguloRad) * self.velocidad;
+				
+				if (self.distanciaPosicion(self.destino, self.fondo.position) < self.radioCentro)
+					self.velocidadAngularDestino = 0;
+				
+				cc.log(self.destino, self.anguloDestino, self.velocidadDestinoX, self.velocidadDestinoY);
+				
 				return false;
 			},
 			//Trigger when moving touch
@@ -58,31 +92,29 @@ cc.Class({
 
 				cc.log('onTouchMoved');
 				
-		/*		//Move the position of current button sprite
-				var target = event.getCurrentTarget();
-				var delta = touch.getDelta();
-				target.x += delta.x;
-				target.y += delta.y;*/
 			},
 			//Process the touch end event
 			onTouchEnded: function (touch, event) {
 
 				cc.log('onTouchEnded');
 				
-				//var target = event.getCurrentTarget();
-				//Reset zOrder and the display sequence will change
-				
-				//if (target == sprite2) {					
-				//	sprite1.setLocalZOrder(100);
-				//} else if (target == sprite1) {
-				//	sprite1.setLocalZOrder(0);
-				//}
 			}
-        }, self.pantalla);
+        }, self.node);
     },
 	
     start () {
 
     },
 	
+	update (dt){
+		
+		this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
+		
+		this.node.position.x = 0.0 + this.node.position.x + this.velocidadDestinoX * dt;
+		this.node.position.y = 0.0 + this.node.position.y + this.velocidadDestinoY * dt;
+		
+		cc.log(this.velocidadAngularDestino);
+		cc.log(this.velocidadDestinoY);
+		
+	},
 });

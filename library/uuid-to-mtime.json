@@ -225,8 +225,8 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517038215358,
-    "meta": 1517038215460,
+    "asset": 1517055190176,
+    "meta": 1517055190396,
     "relativePath": "prueba.fire"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
@@ -248,11 +248,6 @@
     "asset": 1517035003221,
     "meta": 1517035008737,
     "relativePath": "fondo.js"
-  },
-  "029418cc-e344-4597-9eeb-d4082cdbd33d": {
-    "asset": 1517035113927,
-    "meta": 1517035119224,
-    "relativePath": "jugador.js"
   },
   "08e0d7ec-2850-40fb-a151-d40bcb062449": {
     "asset": 1517035338991,
@@ -308,5 +303,15 @@
     "asset": 1517037217638,
     "meta": 1517037245918,
     "relativePath": "animaciones\\animaciones_tex.json"
+  },
+  "3844b0dd-6207-4eb5-9ef8-72357fbd64eb": {
+    "asset": 1517049768801,
+    "meta": 1517049071270,
+    "relativePath": "particle_texture.plist"
+  },
+  "029418cc-e344-4597-9eeb-d4082cdbd33d": {
+    "asset": 1517056046217,
+    "meta": 1517056046966,
+    "relativePath": "jugador.js"
   }
 }
