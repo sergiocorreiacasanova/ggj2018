@@ -1,54 +1,91 @@
-2018-01-28T20:25:18.275Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-28T20:25:18.275Z - normal: checking language setting...
-2018-01-28T20:25:18.275Z - normal: Language: en
-2018-01-28T20:25:20.218Z - success: protocol editor-framework registered
-2018-01-28T20:25:20.218Z - success: protocol app registered
-2018-01-28T20:25:20.218Z - success: protocol theme registered
-2018-01-28T20:25:20.218Z - success: protocol packages registered
-2018-01-28T20:25:20.218Z - success: protocol unpack registerred
-2018-01-28T20:25:20.218Z - success: protocol disable-commonjs registerred
-2018-01-28T20:25:22.155Z - normal: connected!
-2018-01-28T20:25:22.155Z - normal: Check project D:\GGJ
-2018-01-28T20:25:22.171Z - normal: Initializing Cocos2d
-2018-01-28T20:25:22.405Z - normal: Initializing Asset Database
-2018-01-28T20:25:22.437Z - success: protocol uuid registerred
-2018-01-28T20:25:22.437Z - success: protocol db registerred
-2018-01-28T20:25:22.437Z - success: protocol thumbnail registerred
-2018-01-28T20:25:22.437Z - normal: Loading editor/builtin packages
-2018-01-28T20:25:22.468Z - success: anysdk loaded
-2018-01-28T20:25:22.609Z - success: assets loaded
-2018-01-28T20:25:22.609Z - success: builder loaded
-2018-01-28T20:25:22.609Z - success: cocos-analytics loaded
-2018-01-28T20:25:22.624Z - success: console loaded
-2018-01-28T20:25:22.624Z - success: hierarchy loaded
-2018-01-28T20:25:22.624Z - success: inspector loaded
-2018-01-28T20:25:22.624Z - success: keystore loaded
-2018-01-28T20:25:22.624Z - success: node-library loaded
-2018-01-28T20:25:22.640Z - success: package-asset loaded
-2018-01-28T20:25:22.640Z - success: preferences loaded
-2018-01-28T20:25:22.640Z - success: project-exporter loaded
-2018-01-28T20:25:22.655Z - success: project-importer loaded
-2018-01-28T20:25:22.655Z - success: project-settings loaded
-2018-01-28T20:25:22.671Z - success: ui-kit loaded
-2018-01-28T20:25:22.671Z - success: ui-grid loaded
-2018-01-28T20:25:22.671Z - success: scene loaded
-2018-01-28T20:25:22.671Z - success: sprite-editor loaded
-2018-01-28T20:25:22.671Z - success: store loaded
-2018-01-28T20:25:22.687Z - success: timeline loaded
-2018-01-28T20:25:22.687Z - normal: Loading builtin packages
-2018-01-28T20:25:22.687Z - success: asset-db-debugger loaded
-2018-01-28T20:25:22.687Z - success: code-editor loaded
-2018-01-28T20:25:22.687Z - success: color-picker loaded
-2018-01-28T20:25:22.687Z - success: package-manager loaded
-2018-01-28T20:25:22.687Z - success: sdkbox loaded
-2018-01-28T20:25:22.702Z - success: tester loaded
-2018-01-28T20:25:22.702Z - success: ui-kit-preview-extra loaded
-2018-01-28T20:25:22.702Z - success: ui-kit-preview loaded
-2018-01-28T20:25:22.702Z - success: ui-tree loaded
-2018-01-28T20:25:23.937Z - normal: Initializing project D:\GGJ
-2018-01-28T20:25:23.952Z - normal: Loading packages
-2018-01-28T20:25:23.952Z - normal: Watching packages
-2018-01-28T20:25:23.968Z - normal: Run Application
-2018-01-28T20:25:24.929Z - success: preview server running at http://localhost:7456
-2018-01-28T20:25:30.350Z - normal: 1.8.1
-2018-01-28T20:25:53.404Z - info: shutdown preview server
+2018-01-28T20:34:28.379Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-28T20:34:28.392Z - normal: checking language setting...
+2018-01-28T20:34:28.393Z - normal: Language: en
+2018-01-28T20:34:31.348Z - success: protocol editor-framework registered
+2018-01-28T20:34:31.348Z - success: protocol app registered
+2018-01-28T20:34:31.348Z - success: protocol theme registered
+2018-01-28T20:34:31.349Z - success: protocol packages registered
+2018-01-28T20:34:31.349Z - success: protocol unpack registerred
+2018-01-28T20:34:31.349Z - success: protocol disable-commonjs registerred
+2018-01-28T20:34:33.228Z - normal: connected!
+2018-01-28T20:34:33.238Z - normal: Check project C:\Users\ser\Documents\astronauta
+2018-01-28T20:34:33.245Z - normal: Initializing Cocos2d
+2018-01-28T20:34:33.746Z - normal: Initializing Asset Database
+2018-01-28T20:34:33.850Z - success: protocol uuid registerred
+2018-01-28T20:34:33.850Z - success: protocol db registerred
+2018-01-28T20:34:33.851Z - success: protocol thumbnail registerred
+2018-01-28T20:34:33.851Z - normal: Loading editor/builtin packages
+2018-01-28T20:34:33.900Z - success: anysdk loaded
+2018-01-28T20:34:34.187Z - success: assets loaded
+2018-01-28T20:34:34.192Z - success: builder loaded
+2018-01-28T20:34:34.198Z - success: cocos-analytics loaded
+2018-01-28T20:34:34.207Z - success: console loaded
+2018-01-28T20:34:34.215Z - success: hierarchy loaded
+2018-01-28T20:34:34.222Z - success: inspector loaded
+2018-01-28T20:34:34.225Z - success: keystore loaded
+2018-01-28T20:34:34.232Z - success: node-library loaded
+2018-01-28T20:34:34.236Z - success: package-asset loaded
+2018-01-28T20:34:34.241Z - success: preferences loaded
+2018-01-28T20:34:34.245Z - success: project-exporter loaded
+2018-01-28T20:34:34.281Z - success: project-importer loaded
+2018-01-28T20:34:34.285Z - success: project-settings loaded
+2018-01-28T20:34:34.289Z - success: ui-kit loaded
+2018-01-28T20:34:34.292Z - success: ui-grid loaded
+2018-01-28T20:34:34.298Z - success: scene loaded
+2018-01-28T20:34:34.300Z - success: sprite-editor loaded
+2018-01-28T20:34:34.306Z - success: store loaded
+2018-01-28T20:34:34.315Z - success: timeline loaded
+2018-01-28T20:34:34.315Z - normal: Loading builtin packages
+2018-01-28T20:34:34.319Z - success: asset-db-debugger loaded
+2018-01-28T20:34:34.322Z - success: code-editor loaded
+2018-01-28T20:34:34.323Z - success: color-picker loaded
+2018-01-28T20:34:34.326Z - success: package-manager loaded
+2018-01-28T20:34:34.335Z - success: sdkbox loaded
+2018-01-28T20:34:34.345Z - success: tester loaded
+2018-01-28T20:34:34.348Z - success: ui-kit-preview-extra loaded
+2018-01-28T20:34:34.351Z - success: ui-kit-preview loaded
+2018-01-28T20:34:34.354Z - success: ui-tree loaded
+2018-01-28T20:34:36.972Z - normal: Initializing project C:\Users\ser\Documents\astronauta
+2018-01-28T20:34:36.982Z - normal: Loading packages
+2018-01-28T20:34:36.991Z - normal: Watching packages
+2018-01-28T20:34:37.020Z - normal: Run Application
+2018-01-28T20:34:43.768Z - success: preview server running at http://localhost:7456
+2018-01-28T20:34:55.382Z - normal: 1.8.1
+2018-01-28T21:10:54.472Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\astronauta\assets\jugador.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/astronauta/assets/jugador.js: Unexpected token, expected , (59:25)
+  57 | 	orbitando: false,
+  58 | 	
+> 59 | 	estadoActual: 'estatico';
+     | 	                        ^
+  60 | 	
+  61 |     // LIFE-CYCLE CALLBACKS:
+  62 | 	distanciaPosicion (a, b){
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-01-28T21:11:23.187Z - error: Unknown type of jugador.estadoActual, property should be defined in 'properties' or 'ctor'
+    at Object.errorID (C:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\cocos2d\core\platform\preprocess-class.js:310:20)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:968:25)
+    at __define (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\jugador.js:17:4)
+    at C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\jugador.js:209:13
+    at Object.<anonymous> (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\jugador.js:216:11)
+    at Object.<anonymous> (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\jugador.js:219:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2018-01-28T21:11:52.509Z - error: Unknown type of jugador.estadoActual, property should be defined in 'properties' or 'ctor'
+    at Object.errorID (C:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\cocos2d\core\platform\preprocess-class.js:310:20)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:968:25)
+    at __define (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\jugador.js:17:4)
+    at C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\jugador.js:209:13
+    at Object.<anonymous> (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\jugador.js:216:11)
+    at Object.<anonymous> (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\jugador.js:219:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)

@@ -56,6 +56,8 @@ cc.Class({
 	velocidadDestinoY:0,
 	orbitando: false,
 	
+	estadoActual: null,
+	
     // LIFE-CYCLE CALLBACKS:
 	distanciaPosicion (a, b){
 		return Math.sqrt((a.x-b.x)*(a.x-b.x) + (a.y-b.y)*(a.y-b.y));
@@ -88,6 +90,8 @@ cc.Class({
 						var anguloRad = (Math.PI/2 - Math.atan2(self.destino.y - self.fondo.position.y, self.destino.x - self.fondo.position.x) + Math.PI*2) % (Math.PI*2);
 						
 						self.anguloDestino = anguloRad / Math.PI * 180;
+						
+						
 					}
 					// intento determinar hacia qué lado girar
 					/*
@@ -113,6 +117,13 @@ cc.Class({
 						self.deltaAnguloDesaceleracionDestino = Math.abs(diffA)/2;
 					}
 					
+					if (Math.abs(diffA) > 60)
+					{
+						self.setEstado('giro');
+						setTimeout(function(){
+							self.setEstado('estatico');
+						}, 5000);
+					}
 					self.distanciaDestino = self.distanciaPosicion(self.node.position, self.destino);
 					self.orbitando = false;
 					
@@ -147,9 +158,26 @@ cc.Class({
 		self.velocidadDestinoY = 0;
 		self.velocidadAngularDestino = 0;
 		
+		self.estadoActual = '';
+		
     },
-	
+	setEstado(estado){
+
+		if (estado !== this.estadoActual)
+		{
+			if (this.node.getChildByName(this.estadoActual))
+				this.node.getChildByName(this.estadoActual).active = false;
+		
+			this.estadoActual = estado;
+			
+			this.node.getChildByName(estado).active = true;
+			
+			console.log (this.node.getChildByName(estado));
+			
+		}
+	},
     start () {
+		this.setEstado('estatico');
     },
 	
 	update (dt){
