@@ -1,148 +1,116 @@
-2018-01-28T20:42:49.426Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-28T20:42:49.441Z - normal: checking language setting...
-2018-01-28T20:42:49.441Z - normal: Language: en
-2018-01-28T20:42:51.426Z - success: protocol editor-framework registered
-2018-01-28T20:42:51.426Z - success: protocol app registered
-2018-01-28T20:42:51.426Z - success: protocol theme registered
-2018-01-28T20:42:51.426Z - success: protocol packages registered
-2018-01-28T20:42:51.426Z - success: protocol unpack registerred
-2018-01-28T20:42:51.426Z - success: protocol disable-commonjs registerred
-2018-01-28T20:42:53.801Z - normal: connected!
-2018-01-28T20:42:53.801Z - normal: Check project D:\GGJ
-2018-01-28T20:42:53.816Z - normal: Initializing Cocos2d
-2018-01-28T20:42:54.051Z - normal: Initializing Asset Database
-2018-01-28T20:42:54.098Z - success: protocol uuid registerred
-2018-01-28T20:42:54.098Z - success: protocol db registerred
-2018-01-28T20:42:54.098Z - success: protocol thumbnail registerred
-2018-01-28T20:42:54.098Z - normal: Loading editor/builtin packages
-2018-01-28T20:42:54.113Z - success: anysdk loaded
-2018-01-28T20:42:54.270Z - success: assets loaded
-2018-01-28T20:42:54.270Z - success: builder loaded
-2018-01-28T20:42:54.270Z - success: cocos-analytics loaded
-2018-01-28T20:42:54.270Z - success: console loaded
-2018-01-28T20:42:54.270Z - success: hierarchy loaded
-2018-01-28T20:42:54.285Z - success: inspector loaded
-2018-01-28T20:42:54.285Z - success: keystore loaded
-2018-01-28T20:42:54.285Z - success: node-library loaded
-2018-01-28T20:42:54.285Z - success: package-asset loaded
-2018-01-28T20:42:54.285Z - success: preferences loaded
-2018-01-28T20:42:54.285Z - success: project-exporter loaded
-2018-01-28T20:42:54.301Z - success: project-importer loaded
-2018-01-28T20:42:54.316Z - success: project-settings loaded
-2018-01-28T20:42:54.316Z - success: ui-kit loaded
-2018-01-28T20:42:54.316Z - success: ui-grid loaded
-2018-01-28T20:42:54.316Z - success: scene loaded
-2018-01-28T20:42:54.332Z - success: sprite-editor loaded
-2018-01-28T20:42:54.332Z - success: store loaded
-2018-01-28T20:42:54.332Z - success: timeline loaded
-2018-01-28T20:42:54.332Z - normal: Loading builtin packages
-2018-01-28T20:42:54.332Z - success: asset-db-debugger loaded
-2018-01-28T20:42:54.332Z - success: code-editor loaded
-2018-01-28T20:42:54.332Z - success: color-picker loaded
-2018-01-28T20:42:54.348Z - success: package-manager loaded
-2018-01-28T20:42:54.348Z - success: sdkbox loaded
-2018-01-28T20:42:54.348Z - success: tester loaded
-2018-01-28T20:42:54.348Z - success: ui-kit-preview-extra loaded
-2018-01-28T20:42:54.348Z - success: ui-kit-preview loaded
-2018-01-28T20:42:54.348Z - success: ui-tree loaded
-2018-01-28T20:42:55.775Z - normal: Initializing project D:\GGJ
-2018-01-28T20:42:55.790Z - normal: Loading packages
-2018-01-28T20:42:55.798Z - normal: Watching packages
-2018-01-28T20:42:55.820Z - normal: Run Application
-2018-01-28T20:42:56.761Z - success: preview server running at http://localhost:7456
-2018-01-28T20:43:03.298Z - normal: 1.8.1
-2018-01-28T20:52:39.082Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T20:52:47.721Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T20:53:51.782Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\TrancicionDeEscenas.js, message: Compile error: SyntaxError: D:/GGJ/assets/TrancicionDeEscenas.js: Unexpected token, expected , (36:0)
-  34 |          cc.director.loadScene('xxx');
-  35 |     })
-> 36 | }
-     | ^
-  37 | ));
-  38 | 
-  39 |     // update (dt) {},
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseCallExpressionArguments (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3564:12)
-    at Parser.pp$3.parseSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T20:54:08.063Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\TrancicionDeEscenas.js, message: Compile error: SyntaxError: D:/GGJ/assets/TrancicionDeEscenas.js: Unexpected token, expected , (39:1)
-  37 | 
-  38 |     // update (dt) {},
-> 39 | });
-     |  ^
-  40 | 
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T20:54:33.118Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\TrancicionDeEscenas.js, message: Compile error: SyntaxError: D:/GGJ/assets/TrancicionDeEscenas.js: Unexpected token, expected , (36:0)
-  34 |          cc.director.loadScene('xxx');
-  35 |     })
-> 36 | }
-     | ^
-  37 | 
-  38 |     // update (dt) {},
-  39 | });
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseCallExpressionArguments (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3564:12)
-    at Parser.pp$3.parseSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T20:54:39.399Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\TrancicionDeEscenas.js, message: Compile error: SyntaxError: D:/GGJ/assets/TrancicionDeEscenas.js: Unexpected token, expected , (36:0)
-  34 |          cc.director.loadScene('xxx');
-  35 |     })
-> 36 | }
-     | ^
-  37 | 
-  38 |     // update (dt) {},
-  39 | });
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseCallExpressionArguments (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3564:12)
-    at Parser.pp$3.parseSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T20:55:54.984Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\TrancicionDeEscenas.js, message: Compile error: SyntaxError: D:/GGJ/assets/TrancicionDeEscenas.js: Unexpected token, expected , (30:7)
-  28 |     },
-  29 | 
-> 30 | 	canvas.runAction(cc.sequence( 
-     | 	      ^
-  31 |     cc.fadeOut(), 
-  32 |     cc.callFunc(function () {
-  33 |          cc.director.loadScene('xxx');
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T20:56:26.967Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T21:01:16.349Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T21:04:14.155Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T21:04:50.680Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T21:37:03.119Z - info: shutdown preview server
+2018-01-28T21:43:06.675Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-28T21:43:06.675Z - normal: checking language setting...
+2018-01-28T21:43:06.690Z - normal: Language: en
+2018-01-28T21:43:08.722Z - success: protocol editor-framework registered
+2018-01-28T21:43:08.722Z - success: protocol app registered
+2018-01-28T21:43:08.722Z - success: protocol theme registered
+2018-01-28T21:43:08.722Z - success: protocol packages registered
+2018-01-28T21:43:08.722Z - success: protocol unpack registerred
+2018-01-28T21:43:08.722Z - success: protocol disable-commonjs registerred
+2018-01-28T21:43:10.550Z - normal: connected!
+2018-01-28T21:43:10.565Z - normal: Check project D:\GGJ
+2018-01-28T21:43:10.565Z - normal: Initializing Cocos2d
+2018-01-28T21:43:10.800Z - normal: Initializing Asset Database
+2018-01-28T21:43:10.847Z - success: protocol uuid registerred
+2018-01-28T21:43:10.847Z - success: protocol db registerred
+2018-01-28T21:43:10.847Z - success: protocol thumbnail registerred
+2018-01-28T21:43:10.847Z - normal: Loading editor/builtin packages
+2018-01-28T21:43:10.862Z - success: anysdk loaded
+2018-01-28T21:43:11.003Z - success: assets loaded
+2018-01-28T21:43:11.003Z - success: builder loaded
+2018-01-28T21:43:11.019Z - success: cocos-analytics loaded
+2018-01-28T21:43:11.019Z - success: console loaded
+2018-01-28T21:43:11.019Z - success: hierarchy loaded
+2018-01-28T21:43:11.019Z - success: inspector loaded
+2018-01-28T21:43:11.019Z - success: keystore loaded
+2018-01-28T21:43:11.034Z - success: node-library loaded
+2018-01-28T21:43:11.034Z - success: package-asset loaded
+2018-01-28T21:43:11.034Z - success: preferences loaded
+2018-01-28T21:43:11.034Z - success: project-exporter loaded
+2018-01-28T21:43:11.050Z - success: project-importer loaded
+2018-01-28T21:43:11.065Z - success: project-settings loaded
+2018-01-28T21:43:11.065Z - success: ui-kit loaded
+2018-01-28T21:43:11.065Z - success: ui-grid loaded
+2018-01-28T21:43:11.065Z - success: scene loaded
+2018-01-28T21:43:11.065Z - success: sprite-editor loaded
+2018-01-28T21:43:11.065Z - success: store loaded
+2018-01-28T21:43:11.081Z - success: timeline loaded
+2018-01-28T21:43:11.081Z - normal: Loading builtin packages
+2018-01-28T21:43:11.081Z - success: asset-db-debugger loaded
+2018-01-28T21:43:11.081Z - success: code-editor loaded
+2018-01-28T21:43:11.081Z - success: color-picker loaded
+2018-01-28T21:43:11.081Z - success: package-manager loaded
+2018-01-28T21:43:11.081Z - success: sdkbox loaded
+2018-01-28T21:43:11.097Z - success: tester loaded
+2018-01-28T21:43:11.097Z - success: ui-kit-preview-extra loaded
+2018-01-28T21:43:11.097Z - success: ui-kit-preview loaded
+2018-01-28T21:43:11.097Z - success: ui-tree loaded
+2018-01-28T21:43:12.362Z - normal: Initializing project D:\GGJ
+2018-01-28T21:43:12.362Z - normal: Loading packages
+2018-01-28T21:43:12.378Z - normal: Watching packages
+2018-01-28T21:43:12.378Z - normal: Run Application
+2018-01-28T21:43:15.389Z - success: preview server running at http://localhost:7456
+2018-01-28T21:43:20.851Z - normal: 1.8.1
+2018-01-28T21:43:21.593Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T21:53:56.054Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T21:56:15.162Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T21:57:20.364Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\GGJ\\build",
+  "debug": false,
+  "dest": "D:\\GGJ\\build\\web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.astronauta",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "renderMode": "1",
+  "scenes": [
+    "789a80c2-941a-4bc4-b8c6-90d335a3c279",
+    "a2d884b6-4014-4e86-9ed5-18df67bc5f82",
+    "168b073f-c4d6-42a6-949e-bc946bacb4b1",
+    "e95e1942-1fb2-4e5c-b505-3f9af56b0d7c"
+  ],
+  "sourceMaps": false,
+  "startScene": "789a80c2-941a-4bc4-b8c6-90d335a3c279",
+  "template": "link",
+  "title": "astronauta",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "b8342e4a-f757-40",
+  "zipCompressJs": true,
+  "project": "D:\\GGJ",
+  "projectName": "astronauta",
+  "debugBuildWorker": false
+}
+2018-01-28T21:57:20.366Z - normal: Building D:\GGJ
+2018-01-28T21:57:20.366Z - normal: Destination D:\GGJ\build\web-mobile
+2018-01-28T21:57:21.400Z - normal: Delete D:\GGJ\build\web-mobile\**\*
