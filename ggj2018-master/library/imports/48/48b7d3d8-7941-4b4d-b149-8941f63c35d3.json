@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tierraFondo",
+    "texture": "69b99408-4e06-4811-81af-6c351a33b2b3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      373,
+      390
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      373,
+      390
+    ]
+  }
+}
