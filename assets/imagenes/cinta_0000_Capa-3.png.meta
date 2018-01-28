@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9adcf4c6-6fb9-4008-9154-1364b12e15ff",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "cinta_0000_Capa-3": {
+      "ver": "1.0.3",
+      "uuid": "dcfad266-c344-4f1b-8b86-2d5ae4b0a22b",
+      "rawTextureUuid": "9adcf4c6-6fb9-4008-9154-1364b12e15ff",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 204,
+      "height": 218,
+      "rawWidth": 204,
+      "rawHeight": 218,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "a9e87943-ac2b-4b2b-ba15-18a458c8580b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "astronauta_v1_LOOPESTACT_tex": {
+      "ver": "1.0.3",
+      "uuid": "268327b6-2df1-47f4-86fe-d6e7b6fa1bed",
+      "rawTextureUuid": "a9e87943-ac2b-4b2b-ba15-18a458c8580b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -188.5,
+      "offsetY": 16.5,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 645,
+      "height": 989,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

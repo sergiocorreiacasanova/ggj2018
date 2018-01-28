@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Tapa",
+    "texture": "a39df124-adf4-44bc-9d67-061ce6390df0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      24,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      24,
+      45
+    ]
+  }
+}

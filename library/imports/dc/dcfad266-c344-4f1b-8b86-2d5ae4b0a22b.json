@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cinta_0000_Capa-3",
+    "texture": "9adcf4c6-6fb9-4008-9154-1364b12e15ff",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      204,
+      218
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      204,
+      218
+    ]
+  }
+}

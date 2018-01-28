@@ -206,6 +206,7 @@ cc.Class({
 				self.AccionGeneralJuego(Componente);
 				self.node.getChildByName('nave').color = new cc.color(255,255,255,255);
 				self.Astronauta.getChildByName('animado').color = new cc.color(255,255,255,255);
+                self.node.getChildByName('nave').getChildByName('Cinta').color = new cc.color(255,255,255,255);
 			},
 
 			Computadora: function(Componente){
@@ -229,6 +230,7 @@ cc.Class({
 				if(self.bCinta){
 					cc.log('Tiene la cinta');
 					self.Final++;
+                    Componente.node.getComponent(cc.Sprite).enabled = true;
 				}
 				else{
 					//Chispas
@@ -238,16 +240,22 @@ cc.Class({
 			Libro1: function(Componente){
 				//Mostrar Hoja Codigo Morse
 				self.AccionGeneralJuego(Componente);
+                Componente.ActivaObjeto1.node.PostionX = -137;
+                Componente.ActivaObjeto1.node.PostionX = -43;
 			},
 
 			Libro2: function(Componente){
 				//Mostrar Hoja Extra
 				self.AccionGeneralJuego(Componente);
+                Componente.ActivaObjeto1.node.PostionX = -137;
+                Componente.ActivaObjeto1.node.PostionX = -43;
 			},
 
 			Libro3: function(Componente){
 				//Mostrar Hoja Frecuencias
 				self.AccionGeneralJuego(Componente);
+                Componente.ActivaObjeto1.node.PostionX = -137;
+                Componente.ActivaObjeto1.node.PostionX = -43;
 			}
 
 
@@ -256,7 +264,7 @@ cc.Class({
 		
         var manager = cc.director.getCollisionManager();
         manager.enabled = true;
-        manager.enabledDebugDraw = true; // DEBUG
+       // manager.enabledDebugDraw = true; // DEBUG
     },
 
 	AccionGeneralJuego(Componente)
@@ -298,6 +306,7 @@ cc.Class({
     start () {
 		this.node.getChildByName('nave').color = new cc.color(20,20,20,255);
 		this.Astronauta.getChildByName('animado').color = new cc.color(20,20,20,255);
+        this.node.getChildByName('nave').getChildByName('Cinta').color = new cc.color(20,20,20,255);
     },
 
     RetoCompletado(Componente){		

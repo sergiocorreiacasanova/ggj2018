@@ -275,8 +275,8 @@
     "relativePath": "cohete.plist"
   },
   "803bf989-6d67-458f-803f-51263cacfc02": {
-    "asset": 1517149564166,
-    "meta": 1517157766032,
+    "asset": 1517166227200,
+    "meta": 1517166268025,
     "relativePath": "fondo.js"
   },
   "c035718c-2a40-46db-83e6-899bc6070125": {
@@ -285,7 +285,7 @@
     "relativePath": "animaciones\\efectoluz_tex.json"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
-    "asset": 1517150814007,
+    "asset": 1517166227215,
     "meta": 1517028397635,
     "relativePath": "imagenes"
   },
@@ -350,8 +350,8 @@
     "relativePath": "imagenes\\tierraFondo.jpg"
   },
   "567fd8ca-6c45-48c6-8ff0-19e848a2ae76": {
-    "asset": 1517149564202,
-    "meta": 1517157766251,
+    "asset": 1517166227211,
+    "meta": 1517166269697,
     "relativePath": "imagenes\\fondo.png"
   },
   "1d2a0a60-1c35-470d-bbb2-29ecc75f0f01": {
@@ -375,8 +375,8 @@
     "relativePath": "PrefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517165729277,
-    "meta": 1517165729303,
+    "asset": 1517170602942,
+    "meta": 1517170602977,
     "relativePath": "prueba.fire"
   },
   "415c2191-4aab-4c7e-aedd-101489a6838b": {
@@ -384,9 +384,129 @@
     "meta": 1517161506933,
     "relativePath": "CerrarVentana.js"
   },
+  "bfdec5dc-40d9-4e7b-b148-b3071cd8da31": {
+    "asset": 1517166227195,
+    "meta": 1517166227151,
+    "relativePath": "audio"
+  },
+  "3638f5c4-2f1b-48b2-a0a4-2575ae8af653": {
+    "asset": 1517166227191,
+    "meta": 1517166227196,
+    "relativePath": "audio\\fondo.mp3"
+  },
+  "a39df124-adf4-44bc-9d67-061ce6390df0": {
+    "asset": 1517166633326,
+    "meta": 1517166633417,
+    "relativePath": "imagenes\\Tapa.png"
+  },
+  "4ba3964a-761d-41f3-bfdf-667ff05a04cc": {
+    "asset": 1517166633328,
+    "meta": 1517166633421,
+    "relativePath": "imagenes\\Cruz.jpg"
+  },
+  "9adcf4c6-6fb9-4008-9154-1364b12e15ff": {
+    "asset": 1517166928647,
+    "meta": 1517166928687,
+    "relativePath": "imagenes\\cinta_0000_Capa-3.png"
+  },
+  "f581ccc7-6af8-4d46-87d8-7e1b9d1738d5": {
+    "asset": 1517166987188,
+    "meta": 1517166987212,
+    "relativePath": "imagenes\\panel arreglado.png"
+  },
+  "a6c6023d-b1d0-40a7-9694-1265264efa92": {
+    "asset": 1517168042084,
+    "meta": 1517168042072,
+    "relativePath": "animaciones\\GIRO"
+  },
+  "49346ea7-2eda-4a05-82d0-282249d58c24": {
+    "asset": 1517168041932,
+    "meta": 1517168042504,
+    "relativePath": "animaciones\\GIRO\\astronauta_v1_GIRO_tex.json"
+  },
+  "bc18f182-db6e-4d2d-81c8-41a09cae7567": {
+    "asset": 1517168041947,
+    "meta": 1517168042225,
+    "relativePath": "animaciones\\GIRO\\astronauta_v1_GIRO_ske.json"
+  },
+  "7c6fcba4-9476-444f-b016-079405437521": {
+    "asset": 1517168042103,
+    "meta": 1517168042093,
+    "relativePath": "animaciones\\LOOP_ESTATICO"
+  },
+  "2ca20909-fb09-45a9-8744-a4171a33afe1": {
+    "asset": 1517168041938,
+    "meta": 1517168042248,
+    "relativePath": "animaciones\\LOOP_ESTATICO\\astronauta_v1_LOOPESTACT_ske.json"
+  },
+  "0a5a6ccd-baec-4b98-945c-beb69d2f6002": {
+    "asset": 1517168041935,
+    "meta": 1517168042514,
+    "relativePath": "animaciones\\LOOP_ESTATICO\\astronauta_v1_LOOPESTACT_tex.json"
+  },
+  "e5995eca-514f-4d05-8742-f62ddb3daf59": {
+    "asset": 1517168042047,
+    "meta": 1517168042299,
+    "relativePath": "animaciones\\GIRO\\astronauta_v1_GIRO_tex.png"
+  },
+  "48718165-d222-4ecc-881c-2fee2ea2e3b6": {
+    "asset": 1517168042123,
+    "meta": 1517168042112,
+    "relativePath": "animaciones\\AGARRAR"
+  },
+  "223bbcfc-03cd-4a36-bf20-56163ea780ab": {
+    "asset": 1517168041944,
+    "meta": 1517168042321,
+    "relativePath": "animaciones\\AGARRAR\\astronauta_v1_AGARRAR_ske.json"
+  },
+  "7c319ed0-27c3-4861-af5b-3d302d85d2fe": {
+    "asset": 1517168041942,
+    "meta": 1517168042524,
+    "relativePath": "animaciones\\AGARRAR\\astronauta_v1_AGARRAR_tex.json"
+  },
+  "a9e87943-ac2b-4b2b-ba15-18a458c8580b": {
+    "asset": 1517168042051,
+    "meta": 1517168042370,
+    "relativePath": "animaciones\\LOOP_ESTATICO\\astronauta_v1_LOOPESTACT_tex.png"
+  },
+  "a7ce7ae0-6e37-44f7-a23c-1f1c89a4dc1b": {
+    "asset": 1517168042192,
+    "meta": 1517168042132,
+    "relativePath": "animaciones\\ASFIXIA"
+  },
+  "5c5f3991-62ac-45a2-94a4-ff14853e8ff8": {
+    "asset": 1517168041950,
+    "meta": 1517168042136,
+    "relativePath": "animaciones\\ASFIXIA\\ASFIXIA.dbani"
+  },
+  "630bdbcb-cac1-4e9f-9304-3c453c8f0ab8": {
+    "asset": 1517168041941,
+    "meta": 1517168042393,
+    "relativePath": "animaciones\\ASFIXIA\\astronauta_v1_ASFIXIA_ske.json"
+  },
+  "01c68e91-d89b-461e-9960-9f057337c9c3": {
+    "asset": 1517168041939,
+    "meta": 1517168042533,
+    "relativePath": "animaciones\\ASFIXIA\\astronauta_v1_ASFIXIA_tex.json"
+  },
+  "9c6b721e-cd98-41cc-a79e-ffae1d16a25d": {
+    "asset": 1517168042054,
+    "meta": 1517168042433,
+    "relativePath": "animaciones\\AGARRAR\\astronauta_v1_AGARRAR_tex.png"
+  },
+  "d9fe0bca-b23f-4561-b1f1-0e52ed6a3b2c": {
+    "asset": 1517168042058,
+    "meta": 1517168042491,
+    "relativePath": "animaciones\\ASFIXIA\\astronauta_v1_ASFIXIA_tex.png"
+  },
+  "d31ee74f-dd7e-4047-864f-296c50f7febb": {
+    "asset": 1517169043521,
+    "meta": 1517169045258,
+    "relativePath": "ReiniciarHoja.js"
+  },
   "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517165724143,
-    "meta": 1517165725388,
+    "asset": 1517170186962,
+    "meta": 1517170189567,
     "relativePath": "GameFlow.js"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronauta_v1_ASFIXIA_tex",
+    "texture": "d9fe0bca-b23f-4561-b1f1-0e52ed6a3b2c",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      594,
+      1022
+    ],
+    "offset": [
+      -214,
+      0
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ]
+  }
+}

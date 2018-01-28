@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "panel arreglado",
+    "texture": "f581ccc7-6af8-4d46-87d8-7e1b9d1738d5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      189,
+      198
+    ],
+    "offset": [
+      0,
+      1.5
+    ],
+    "originalSize": [
+      189,
+      201
+    ]
+  }
+}

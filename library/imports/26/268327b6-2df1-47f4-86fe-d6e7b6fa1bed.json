@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronauta_v1_LOOPESTACT_tex",
+    "texture": "a9e87943-ac2b-4b2b-ba15-18a458c8580b",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      645,
+      989
+    ],
+    "offset": [
+      -188.5,
+      16.5
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ]
+  }
+}

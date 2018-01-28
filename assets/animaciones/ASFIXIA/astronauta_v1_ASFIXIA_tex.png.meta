@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d9fe0bca-b23f-4561-b1f1-0e52ed6a3b2c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "astronauta_v1_ASFIXIA_tex": {
+      "ver": "1.0.3",
+      "uuid": "bf4a3d03-8ae1-4219-8d29-05fd446b49e2",
+      "rawTextureUuid": "d9fe0bca-b23f-4561-b1f1-0e52ed6a3b2c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -214,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 594,
+      "height": 1022,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
