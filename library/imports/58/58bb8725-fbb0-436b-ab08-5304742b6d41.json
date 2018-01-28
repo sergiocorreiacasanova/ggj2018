@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "menu solo",
+    "texture": "4fb7e703-aabe-4832-b191-c15651a12cd2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1366,
+      768
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1366,
+      768
+    ]
+  }
+}

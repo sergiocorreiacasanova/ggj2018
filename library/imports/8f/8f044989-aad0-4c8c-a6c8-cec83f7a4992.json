@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nave sola",
+    "texture": "36809f5d-0da4-4fc5-a7e6-b4198c30fa43",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      290,
+      178
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      290,
+      178
+    ]
+  }
+}

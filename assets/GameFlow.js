@@ -240,8 +240,8 @@ cc.Class({
 			Libro1: function(Componente){
 				//Mostrar Hoja Codigo Morse
 				self.AccionGeneralJuego(Componente);
-                Componente.ActivaObjeto1.node.PostionX = -137;
-                Componente.ActivaObjeto1.node.PostionX = -43;
+                Componente.ActivaObjeto1.setPosition(Vec2(-137, -43));
+                Componente.ActivaObjeto1.setPosition(Vec2(-137, -43));
 			},
 
 			Libro2: function(Componente){

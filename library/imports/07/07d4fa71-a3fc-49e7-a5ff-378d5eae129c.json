@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sos 1",
+    "texture": "751f5ca0-9227-4310-90fe-3000ccd0b1bd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      690,
+      315
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      690,
+      315
+    ]
+  }
+}

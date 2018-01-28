@@ -23,7 +23,7 @@ cc.Class({
 
     // onLoad () {},
     Cerrar(){
-        Ventana.active = false;
+        Ventana.Node.active = false;
     },
         
     start () {

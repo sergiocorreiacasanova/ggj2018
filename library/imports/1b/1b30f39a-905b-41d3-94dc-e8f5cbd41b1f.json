@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Navecita que flota",
+    "texture": "9801bb6c-f9d0-423d-8acc-2ef8bdc070f5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      290,
+      241
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      290,
+      241
+    ]
+  }
+}

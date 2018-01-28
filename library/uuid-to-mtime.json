@@ -285,7 +285,7 @@
     "relativePath": "animaciones\\efectoluz_tex.json"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
-    "asset": 1517166987190,
+    "asset": 1517171933373,
     "meta": 1517028397635,
     "relativePath": "imagenes"
   },
@@ -375,17 +375,12 @@
     "relativePath": "PrefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517170602942,
-    "meta": 1517170602977,
+    "asset": 1517175304556,
+    "meta": 1517175304579,
     "relativePath": "prueba.fire"
   },
-  "415c2191-4aab-4c7e-aedd-101489a6838b": {
-    "asset": 1517161505345,
-    "meta": 1517161506933,
-    "relativePath": "CerrarVentana.js"
-  },
   "bfdec5dc-40d9-4e7b-b148-b3071cd8da31": {
-    "asset": 1517166227195,
+    "asset": 1517171306695,
     "meta": 1517166227151,
     "relativePath": "audio"
   },
@@ -504,9 +499,209 @@
     "meta": 1517169045258,
     "relativePath": "ReiniciarHoja.js"
   },
+  "17eddc67-9496-4adf-8cdc-37b70021ed82": {
+    "asset": 1517171306606,
+    "meta": 1517171306610,
+    "relativePath": "audio\\Chispas.mp3"
+  },
+  "d14abd5a-3152-4c5d-a73c-e4accff82f6f": {
+    "asset": 1517171306682,
+    "meta": 1517171306686,
+    "relativePath": "audio\\explosion.mp3"
+  },
+  "3c28609e-e802-475f-8276-8b591975e15b": {
+    "asset": 1517171306640,
+    "meta": 1517171306644,
+    "relativePath": "audio\\MusicaEspera.mp3"
+  },
+  "b835b3cf-364f-4641-9edb-d9f9de68dbb2": {
+    "asset": 1517171306651,
+    "meta": 1517171306655,
+    "relativePath": "audio\\MusicaFinal.mp3"
+  },
+  "ed0d0793-6027-4bbd-acd0-80e59d2ca062": {
+    "asset": 1517171306661,
+    "meta": 1517171306665,
+    "relativePath": "audio\\PuertaAbierta.mp3"
+  },
+  "9a0795a4-456a-412f-bd3c-dcc762074c8b": {
+    "asset": 1517171306671,
+    "meta": 1517171306676,
+    "relativePath": "audio\\PuertaCerrada.mp3"
+  },
+  "95192fa2-cf90-4147-ae86-97bb3b736242": {
+    "asset": 1517171306691,
+    "meta": 1517171306695,
+    "relativePath": "audio\\succion.mp3"
+  },
+  "3fa57e51-b141-4c2b-84b2-c5c0c97d6b57": {
+    "asset": 1517171933369,
+    "meta": 1517171933420,
+    "relativePath": "imagenes\\easteregg.png"
+  },
+  "d1003a6b-2b52-4110-b0ad-4b28cbc15323": {
+    "asset": 1517172008364,
+    "meta": 1517172008325,
+    "relativePath": "Menu principal"
+  },
+  "328ed387-24ef-4b20-9b04-4de803938d55": {
+    "asset": 1517172008348,
+    "meta": 1517172008329,
+    "relativePath": "Menu principal\\animacion logo 1"
+  },
+  "9801bb6c-f9d0-423d-8acc-2ef8bdc070f5": {
+    "asset": 1517172008310,
+    "meta": 1517172008395,
+    "relativePath": "Menu principal\\animacion logo 1\\Navecita que flota.png"
+  },
+  "4fb7e703-aabe-4832-b191-c15651a12cd2": {
+    "asset": 1517172008315,
+    "meta": 1517172008417,
+    "relativePath": "Menu principal\\animacion logo 1\\menu solo.jpg"
+  },
+  "ca5ac2cb-b7c3-42a0-b910-20ad35c615ae": {
+    "asset": 1517172008311,
+    "meta": 1517172008426,
+    "relativePath": "Menu principal\\animacion logo 1\\sos 1.png"
+  },
+  "25fff432-8f00-4d39-afb9-f41528a8630d": {
+    "asset": 1517172008314,
+    "meta": 1517172008451,
+    "relativePath": "Menu principal\\animacion logo 1\\sos 3.png"
+  },
+  "845c103e-1257-4994-9bdc-aa5cd17cc1c4": {
+    "asset": 1517172008313,
+    "meta": 1517172008463,
+    "relativePath": "Menu principal\\animacion logo 1\\sos 2.png"
+  },
+  "e7c15873-6956-4539-911b-65bff0413fe8": {
+    "asset": 1517172008306,
+    "meta": 1517172008480,
+    "relativePath": "Menu principal\\menu_ske.json"
+  },
+  "c4a293f4-84df-464f-b913-4206d11bdf33": {
+    "asset": 1517172008307,
+    "meta": 1517172008617,
+    "relativePath": "Menu principal\\menu_tex.json"
+  },
+  "755b430b-aa6f-43f9-837f-d3084f47ebc0": {
+    "asset": 1517172008316,
+    "meta": 1517172008604,
+    "relativePath": "Menu principal\\menu_tex.png"
+  },
+  "168b073f-c4d6-42a6-949e-bc946bacb4b1": {
+    "asset": 1517173558181,
+    "meta": 1517173558198,
+    "relativePath": "MenuPrincipal.fire"
+  },
+  "44dab9fc-3f1b-41da-b526-2971ace7fc71": {
+    "asset": 1517173488484,
+    "meta": 1517173490318,
+    "relativePath": "TrancicionDeEscenas.js"
+  },
+  "e95e1942-1fb2-4e5c-b505-3f9af56b0d7c": {
+    "asset": 1517173714102,
+    "meta": 1517173714120,
+    "relativePath": "Creditos.fire"
+  },
+  "a83d2d2d-5a7b-4077-86dc-88d8cc7804df": {
+    "asset": 1517173653611,
+    "meta": 1517173653615,
+    "relativePath": "Creditos"
+  },
+  "97ecefc0-014e-4d19-86a8-23a8cb4b72d3": {
+    "asset": 1517173667693,
+    "meta": 1517173668146,
+    "relativePath": "Creditos\\creditos.dbproj"
+  },
+  "dbd8a674-8c67-4130-b1ce-95d0fd4be34c": {
+    "asset": 1517173667692,
+    "meta": 1517173668219,
+    "relativePath": "Creditos\\creditos_ske.json"
+  },
+  "54d9939b-3d9a-4adb-ab4d-c2f45e185b3a": {
+    "asset": 1517173667694,
+    "meta": 1517173668568,
+    "relativePath": "Creditos\\creditos_tex.json"
+  },
+  "c9045a2b-317f-436e-99d8-7ff190989160": {
+    "asset": 1517173668198,
+    "meta": 1517173668162,
+    "relativePath": "Creditos\\library"
+  },
+  "43e35ce8-a07b-4838-bf2c-94f317acfb39": {
+    "asset": 1517173668130,
+    "meta": 1517173668327,
+    "relativePath": "Creditos\\creditos_tex.png"
+  },
+  "f1e72717-4c6e-4a86-892e-5117e3e64397": {
+    "asset": 1517173668129,
+    "meta": 1517173668338,
+    "relativePath": "Creditos\\library\\fondito.png"
+  },
+  "198948dc-2a3e-446a-b173-5ce8c9782947": {
+    "asset": 1517173668128,
+    "meta": 1517173668454,
+    "relativePath": "Creditos\\library\\iupi.png"
+  },
+  "b6de4ff8-c647-45e5-8ae7-56064a4eda8d": {
+    "asset": 1517173668131,
+    "meta": 1517173668465,
+    "relativePath": "Creditos\\library\\fondito1.png"
+  },
+  "36809f5d-0da4-4fc5-a7e6-b4198c30fa43": {
+    "asset": 1517173667911,
+    "meta": 1517173668488,
+    "relativePath": "Creditos\\library\\nave sola.png"
+  },
+  "eabf4611-e3e3-4936-bcb5-d896d051e5f3": {
+    "asset": 1517173668126,
+    "meta": 1517173668500,
+    "relativePath": "Creditos\\library\\menu solo.jpg"
+  },
+  "751f5ca0-9227-4310-90fe-3000ccd0b1bd": {
+    "asset": 1517173668119,
+    "meta": 1517173668520,
+    "relativePath": "Creditos\\library\\sos 1.png"
+  },
+  "6b70c338-ddda-4f8d-97a8-ed82d74b76c3": {
+    "asset": 1517173668126,
+    "meta": 1517173668532,
+    "relativePath": "Creditos\\library\\sos 2.png"
+  },
+  "8ad1cbda-e44e-4166-85a5-a5ef5451b7eb": {
+    "asset": 1517173668132,
+    "meta": 1517173668548,
+    "relativePath": "Creditos\\library\\sos 3.png"
+  },
+  "62db3cf2-ad1c-4149-9919-f968b46455cb": {
+    "asset": 1517173668118,
+    "meta": 1517173668557,
+    "relativePath": "Creditos\\library\\tipito.png"
+  },
   "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517170186962,
-    "meta": 1517170189567,
+    "asset": 1517174329949,
+    "meta": 1517174338426,
     "relativePath": "GameFlow.js"
+  },
+  "415c2191-4aab-4c7e-aedd-101489a6838b": {
+    "asset": 1517174832383,
+    "meta": 1517174833348,
+    "relativePath": "CerrarVentana.js"
+  },
+  "56183c51-de22-43c5-a128-1dd01c3f17db": {
+    "asset": 1517175258931,
+    "meta": 1517175266368,
+    "relativePath": "Final1.anim"
+  },
+  "868bf335-fb41-40a9-803a-a29d227ca792": {
+    "asset": 1517175276075,
+    "meta": 1517175276079,
+    "relativePath": "Finales"
+  },
+  "a2d884b6-4014-4e86-9ed5-18df67bc5f82": {
+    "asset": 1517175422607,
+    "meta": 1517175422639,
+    "relativePath": "Finales\\Final1.fire"
   }
 }
