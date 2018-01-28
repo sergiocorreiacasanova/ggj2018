@@ -1,379 +1,62 @@
-2018-01-28T14:48:02.761Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-28T14:48:02.777Z - normal: checking language setting...
-2018-01-28T14:48:02.777Z - normal: Language: en
-2018-01-28T14:48:04.839Z - success: protocol editor-framework registered
-2018-01-28T14:48:04.839Z - success: protocol app registered
-2018-01-28T14:48:04.839Z - success: protocol theme registered
-2018-01-28T14:48:04.839Z - success: protocol packages registered
-2018-01-28T14:48:04.839Z - success: protocol unpack registerred
-2018-01-28T14:48:04.839Z - success: protocol disable-commonjs registerred
-2018-01-28T14:48:07.715Z - normal: connected!
-2018-01-28T14:48:07.715Z - normal: Check project D:\GGJ
-2018-01-28T14:48:07.715Z - normal: Initializing Cocos2d
-2018-01-28T14:48:07.965Z - normal: Initializing Asset Database
-2018-01-28T14:48:08.011Z - success: protocol uuid registerred
-2018-01-28T14:48:08.011Z - success: protocol db registerred
-2018-01-28T14:48:08.011Z - success: protocol thumbnail registerred
-2018-01-28T14:48:08.011Z - normal: Loading editor/builtin packages
-2018-01-28T14:48:08.043Z - success: anysdk loaded
-2018-01-28T14:48:08.183Z - success: assets loaded
-2018-01-28T14:48:08.183Z - success: builder loaded
-2018-01-28T14:48:08.183Z - success: cocos-analytics loaded
-2018-01-28T14:48:08.183Z - success: console loaded
-2018-01-28T14:48:08.199Z - success: hierarchy loaded
-2018-01-28T14:48:08.199Z - success: inspector loaded
-2018-01-28T14:48:08.199Z - success: keystore loaded
-2018-01-28T14:48:08.199Z - success: node-library loaded
-2018-01-28T14:48:08.199Z - success: package-asset loaded
-2018-01-28T14:48:08.199Z - success: preferences loaded
-2018-01-28T14:48:08.215Z - success: project-exporter loaded
-2018-01-28T14:48:08.230Z - success: project-importer loaded
-2018-01-28T14:48:08.230Z - success: project-settings loaded
-2018-01-28T14:48:08.230Z - success: ui-kit loaded
-2018-01-28T14:48:08.246Z - success: ui-grid loaded
-2018-01-28T14:48:08.246Z - success: scene loaded
-2018-01-28T14:48:08.246Z - success: sprite-editor loaded
-2018-01-28T14:48:08.246Z - success: store loaded
-2018-01-28T14:48:08.246Z - success: timeline loaded
-2018-01-28T14:48:08.246Z - normal: Loading builtin packages
-2018-01-28T14:48:08.261Z - success: asset-db-debugger loaded
-2018-01-28T14:48:08.261Z - success: code-editor loaded
-2018-01-28T14:48:08.261Z - success: color-picker loaded
-2018-01-28T14:48:08.261Z - success: package-manager loaded
-2018-01-28T14:48:08.261Z - success: sdkbox loaded
-2018-01-28T14:48:08.261Z - success: tester loaded
-2018-01-28T14:48:08.277Z - success: ui-kit-preview-extra loaded
-2018-01-28T14:48:08.277Z - success: ui-kit-preview loaded
-2018-01-28T14:48:08.277Z - success: ui-tree loaded
-2018-01-28T14:48:09.574Z - normal: Initializing project D:\GGJ
-2018-01-28T14:48:09.574Z - normal: Loading packages
-2018-01-28T14:48:09.574Z - normal: Watching packages
-2018-01-28T14:48:09.590Z - normal: Run Application
-2018-01-28T14:48:11.881Z - success: preview server running at http://localhost:7456
-2018-01-28T14:48:17.313Z - normal: 1.8.1
-2018-01-28T15:00:55.599Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\InteractivoGenerico.js, message: Compile error: SyntaxError: D:/GGJ/assets/InteractivoGenerico.js: Unexpected token, expected , (72:4)
-  70 |     }
-  71 | 
-> 72 |     onCollisionEnd: function(Other, self){
-     |     ^
-  73 |          var manager = cc.director.getCollisionManager();
-  74 | 
-  75 |         manager.enabled = false;
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T15:11:19.105Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:11:19.108Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:14:57.998Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\InteractivoGenerico.js, message: Compile error: SyntaxError: D:/GGJ/assets/InteractivoGenerico.js: Unexpected token, expected , (72:4)
-  70 |     }
-  71 | 
-> 72 |     onCollisionEnter: function (other, self) {
-     |     ^
-  73 | 		
-  74 |         this.GameFlow.getComponent('GameFlow').RetoCompletado(this);
-  75 |     },
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T15:15:32.611Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:16:42.230Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:17:49.250Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:20:46.910Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:20:46.912Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:21:54.383Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:22:11.607Z - error: Reference "GameFlow" of "Luz<InteractivoGenerico>" to external scene object "fondo" can not be saved in prefab asset.
-    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4424
-    at t (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:563)
-    at visitObjTypeProperties (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:614)
-    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4187
-    at visitNode (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:197)
-    at Object.PrefabUtils.getDumpableNode (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4163)
-    at Object.PrefabUtils.createPrefabFrom (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4749)
-    at Object.createPrefab (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\index.js:1:15260)
-    at HTMLElement.scene:create-prefab (file:///D:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:10470)
-2018-01-28T15:22:11.608Z - error: Reference "DesactivaObjeto2" of "Luz<InteractivoGenerico>" to external scene object "efectoluz_ske" can not be saved in prefab asset.
-    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4424
-    at t (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:563)
-    at visitObjTypeProperties (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:614)
-    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4187
-    at visitNode (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:197)
-    at Object.PrefabUtils.getDumpableNode (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4163)
-    at Object.PrefabUtils.createPrefabFrom (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4749)
-    at Object.createPrefab (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\index.js:1:15260)
-    at HTMLElement.scene:create-prefab (file:///D:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:10470)
-2018-01-28T15:22:38.119Z - error: Reference "GameFlow" of "Luz<InteractivoGenerico>" to external scene object "fondo" can not be saved in prefab asset.
-    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4424
-    at t (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:563)
-    at visitObjTypeProperties (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:614)
-    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4187
-    at visitNode (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:197)
-    at Object.PrefabUtils.getDumpableNode (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4163)
-    at Object.PrefabUtils.createPrefabFrom (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4749)
-    at Object.createPrefab (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\index.js:1:15260)
-    at HTMLElement.scene:create-prefab (file:///D:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:10470)
-2018-01-28T15:22:38.120Z - error: Reference "DesactivaObjeto2" of "Luz<InteractivoGenerico>" to external scene object "efectoluz_ske" can not be saved in prefab asset.
-    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4424
-    at t (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:563)
-    at visitObjTypeProperties (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:614)
-    at D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4187
-    at visitNode (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:197)
-    at Object.PrefabUtils.getDumpableNode (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4163)
-    at Object.PrefabUtils.createPrefabFrom (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4749)
-    at Object.createPrefab (D:\CocosCreator\resources\app.asar\editor\page\scene-utils\index.js:1:15260)
-    at HTMLElement.scene:create-prefab (file:///D:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:10470)
-2018-01-28T15:23:10.296Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:25:14.997Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:28:41.198Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:29:03.536Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:29:07.379Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:29:12.522Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:29:58.885Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:30:11.467Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:31:48.856Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:32:06.221Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:32:38.075Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:33:16.432Z - warn: The Node referenced by component "GameFlow" is invalid. Detailed information:
-Node path: "fondo"
-
-2018-01-28T15:33:16.432Z - warn: The Node referenced by component "GameFlow" is invalid. Detailed information:
-Node path: "fondo"
-
-2018-01-28T15:33:16.433Z - warn: The Node referenced by component "GameFlow" is invalid. Detailed information:
-Node path: "fondo"
-
-2018-01-28T15:33:16.433Z - warn: The Node referenced by component "GameFlow" is invalid. Detailed information:
-Node path: "fondo"
-
-2018-01-28T15:34:21.762Z - warn: The Asset used by component "cc.BoxCollider" is missing. Detailed information:
-Node path: "test1"
-Missing uuid: "fde6093c-3432-4e56-841e-b47c93a0782a"
-
-2018-01-28T15:34:21.765Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "fde6093c-3432-4e56-841e-b47c93a0782a"
-
-2018-01-28T15:34:21.771Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "fde6093c-3432-4e56-841e-b47c93a0782a"
-
-2018-01-28T15:34:21.778Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "fde6093c-3432-4e56-841e-b47c93a0782a"
-
-2018-01-28T15:34:21.855Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:21.856Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:21.856Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:21.856Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:21.856Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:21.856Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:21.858Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:22.006Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:22.034Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:22.089Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:26.929Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:26.963Z - warn: [timeline] - update dump failed
-2018-01-28T15:34:27.077Z - warn: [object Object]
-2018-01-28T15:34:27.187Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:31.927Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:32.179Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:62139
-2018-01-28T15:34:32.287Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:36.930Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:37.280Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:62191
-2018-01-28T15:34:37.389Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:41.930Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:42.382Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:62242
-2018-01-28T15:34:42.491Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:46.932Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:47.484Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:62294
-2018-01-28T15:34:47.594Z - error: RangeError: Maximum call stack size exceeded
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:120:30)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-    at GameFlow.get [as bCinta] (D:\GGJ\temp\quick-scripts\assets\GameFlow.js:121:32)
-2018-01-28T15:34:51.757Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:51.757Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:51.757Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:51.758Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:51.758Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:51.758Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:34:51.758Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:37:53.644Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:37:53.646Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:37:53.646Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:37:53.647Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:37:53.647Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:37:53.647Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:37:53.647Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:43:17.676Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:43:17.679Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:43:17.680Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:43:17.680Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:43:17.680Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:43:17.680Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:43:17.681Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:44:25.100Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:44:25.101Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:44:25.101Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:44:25.101Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:44:25.102Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:44:25.103Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:44:25.103Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:45:38.834Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:45:38.834Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:45:38.835Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:45:38.835Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:45:38.835Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:45:38.836Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:45:38.836Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:18.834Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:18.834Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:18.835Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:18.835Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:18.835Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:18.835Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:18.836Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:42.040Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:42.040Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:42.040Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:42.040Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:42.041Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:42.041Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:42.041Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T15:46:43.853Z - info: shutdown preview server
+2018-01-28T15:51:49.018Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-28T15:51:49.024Z - normal: checking language setting...
+2018-01-28T15:51:49.024Z - normal: Language: en
+2018-01-28T15:51:51.084Z - success: protocol editor-framework registered
+2018-01-28T15:51:51.084Z - success: protocol app registered
+2018-01-28T15:51:51.085Z - success: protocol theme registered
+2018-01-28T15:51:51.085Z - success: protocol packages registered
+2018-01-28T15:51:51.085Z - success: protocol unpack registerred
+2018-01-28T15:51:51.085Z - success: protocol disable-commonjs registerred
+2018-01-28T15:51:53.550Z - normal: connected!
+2018-01-28T15:51:53.552Z - normal: Check project D:\GGJ
+2018-01-28T15:51:53.553Z - normal: Initializing Cocos2d
+2018-01-28T15:51:53.797Z - normal: Initializing Asset Database
+2018-01-28T15:51:53.844Z - warn: Failed to parse D:\GGJ\library\uuid-to-mtime.json: Unexpected token < in JSON at position 7104.
+2018-01-28T15:51:53.845Z - success: protocol uuid registerred
+2018-01-28T15:51:53.845Z - success: protocol db registerred
+2018-01-28T15:51:53.845Z - success: protocol thumbnail registerred
+2018-01-28T15:51:53.845Z - normal: Loading editor/builtin packages
+2018-01-28T15:51:53.871Z - success: anysdk loaded
+2018-01-28T15:51:54.014Z - success: assets loaded
+2018-01-28T15:51:54.017Z - success: builder loaded
+2018-01-28T15:51:54.019Z - success: cocos-analytics loaded
+2018-01-28T15:51:54.024Z - success: console loaded
+2018-01-28T15:51:54.027Z - success: hierarchy loaded
+2018-01-28T15:51:54.030Z - success: inspector loaded
+2018-01-28T15:51:54.031Z - success: keystore loaded
+2018-01-28T15:51:54.034Z - success: node-library loaded
+2018-01-28T15:51:54.036Z - success: package-asset loaded
+2018-01-28T15:51:54.044Z - success: preferences loaded
+2018-01-28T15:51:54.046Z - success: project-exporter loaded
+2018-01-28T15:51:54.065Z - success: project-importer loaded
+2018-01-28T15:51:54.068Z - success: project-settings loaded
+2018-01-28T15:51:54.070Z - success: ui-kit loaded
+2018-01-28T15:51:54.072Z - success: ui-grid loaded
+2018-01-28T15:51:54.076Z - success: scene loaded
+2018-01-28T15:51:54.077Z - success: sprite-editor loaded
+2018-01-28T15:51:54.081Z - success: store loaded
+2018-01-28T15:51:54.086Z - success: timeline loaded
+2018-01-28T15:51:54.087Z - normal: Loading builtin packages
+2018-01-28T15:51:54.089Z - success: asset-db-debugger loaded
+2018-01-28T15:51:54.091Z - success: code-editor loaded
+2018-01-28T15:51:54.092Z - success: color-picker loaded
+2018-01-28T15:51:54.094Z - success: package-manager loaded
+2018-01-28T15:51:54.098Z - success: sdkbox loaded
+2018-01-28T15:51:54.102Z - success: tester loaded
+2018-01-28T15:51:54.105Z - success: ui-kit-preview-extra loaded
+2018-01-28T15:51:54.106Z - success: ui-kit-preview loaded
+2018-01-28T15:51:54.108Z - success: ui-tree loaded
+2018-01-28T15:51:55.426Z - normal: Initializing project D:\GGJ
+2018-01-28T15:51:55.440Z - normal: Loading packages
+2018-01-28T15:51:55.445Z - normal: Watching packages
+2018-01-28T15:51:55.460Z - normal: Run Application
+2018-01-28T15:51:57.925Z - success: preview server running at http://localhost:7456
+2018-01-28T15:52:03.457Z - normal: 1.8.1
+2018-01-28T15:52:04.180Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.181Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.181Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.182Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.182Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.182Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.183Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:55:54.888Z - info: shutdown preview server

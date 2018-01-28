@@ -172,8 +172,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 509,
-      "y": 480
+      "x": 470.7,
+      "y": 405.1
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -257,14 +257,14 @@
       "width": 1500,
       "height": 1500
     },
-    "_rotationX": 300,
-    "_rotationY": 300,
-    "_scaleX": 0.7,
-    "_scaleY": 0.7,
+    "_rotationX": 270,
+    "_rotationY": 270,
+    "_scaleX": 0.8,
+    "_scaleY": 0.8,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 488,
-      "y": 455
+      "x": 485,
+      "y": 396
     },
     "_skewX": 0,
     "_skewY": 0,
