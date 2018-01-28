@@ -1,0 +1,62 @@
+2018-01-28T15:51:49.018Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-28T15:51:49.024Z - normal: checking language setting...
+2018-01-28T15:51:49.024Z - normal: Language: en
+2018-01-28T15:51:51.084Z - success: protocol editor-framework registered
+2018-01-28T15:51:51.084Z - success: protocol app registered
+2018-01-28T15:51:51.085Z - success: protocol theme registered
+2018-01-28T15:51:51.085Z - success: protocol packages registered
+2018-01-28T15:51:51.085Z - success: protocol unpack registerred
+2018-01-28T15:51:51.085Z - success: protocol disable-commonjs registerred
+2018-01-28T15:51:53.550Z - normal: connected!
+2018-01-28T15:51:53.552Z - normal: Check project D:\GGJ
+2018-01-28T15:51:53.553Z - normal: Initializing Cocos2d
+2018-01-28T15:51:53.797Z - normal: Initializing Asset Database
+2018-01-28T15:51:53.844Z - warn: Failed to parse D:\GGJ\library\uuid-to-mtime.json: Unexpected token < in JSON at position 7104.
+2018-01-28T15:51:53.845Z - success: protocol uuid registerred
+2018-01-28T15:51:53.845Z - success: protocol db registerred
+2018-01-28T15:51:53.845Z - success: protocol thumbnail registerred
+2018-01-28T15:51:53.845Z - normal: Loading editor/builtin packages
+2018-01-28T15:51:53.871Z - success: anysdk loaded
+2018-01-28T15:51:54.014Z - success: assets loaded
+2018-01-28T15:51:54.017Z - success: builder loaded
+2018-01-28T15:51:54.019Z - success: cocos-analytics loaded
+2018-01-28T15:51:54.024Z - success: console loaded
+2018-01-28T15:51:54.027Z - success: hierarchy loaded
+2018-01-28T15:51:54.030Z - success: inspector loaded
+2018-01-28T15:51:54.031Z - success: keystore loaded
+2018-01-28T15:51:54.034Z - success: node-library loaded
+2018-01-28T15:51:54.036Z - success: package-asset loaded
+2018-01-28T15:51:54.044Z - success: preferences loaded
+2018-01-28T15:51:54.046Z - success: project-exporter loaded
+2018-01-28T15:51:54.065Z - success: project-importer loaded
+2018-01-28T15:51:54.068Z - success: project-settings loaded
+2018-01-28T15:51:54.070Z - success: ui-kit loaded
+2018-01-28T15:51:54.072Z - success: ui-grid loaded
+2018-01-28T15:51:54.076Z - success: scene loaded
+2018-01-28T15:51:54.077Z - success: sprite-editor loaded
+2018-01-28T15:51:54.081Z - success: store loaded
+2018-01-28T15:51:54.086Z - success: timeline loaded
+2018-01-28T15:51:54.087Z - normal: Loading builtin packages
+2018-01-28T15:51:54.089Z - success: asset-db-debugger loaded
+2018-01-28T15:51:54.091Z - success: code-editor loaded
+2018-01-28T15:51:54.092Z - success: color-picker loaded
+2018-01-28T15:51:54.094Z - success: package-manager loaded
+2018-01-28T15:51:54.098Z - success: sdkbox loaded
+2018-01-28T15:51:54.102Z - success: tester loaded
+2018-01-28T15:51:54.105Z - success: ui-kit-preview-extra loaded
+2018-01-28T15:51:54.106Z - success: ui-kit-preview loaded
+2018-01-28T15:51:54.108Z - success: ui-tree loaded
+2018-01-28T15:51:55.426Z - normal: Initializing project D:\GGJ
+2018-01-28T15:51:55.440Z - normal: Loading packages
+2018-01-28T15:51:55.445Z - normal: Watching packages
+2018-01-28T15:51:55.460Z - normal: Run Application
+2018-01-28T15:51:57.925Z - success: preview server running at http://localhost:7456
+2018-01-28T15:52:03.457Z - normal: 1.8.1
+2018-01-28T15:52:04.180Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.181Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.181Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.182Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.182Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.182Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:52:04.183Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T15:55:54.888Z - info: shutdown preview server
