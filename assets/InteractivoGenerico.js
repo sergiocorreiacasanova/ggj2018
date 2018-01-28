@@ -17,6 +17,36 @@ cc.Class({
          	type: cc.Node, 
             serializable: true,
          },
+         ActivaObjeto1:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
+         },
+         ActivaObjeto2:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
+         },
+         ActivaObjeto3:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
+         },
+         DesactivaObjeto1:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
+         },
+         DesactivaObjeto2:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
+         },
+         DesactivaObjeto3:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
+         },
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -36,9 +66,7 @@ cc.Class({
 
     onCollisionEnter: function (other, self) {
 		
-		
-        var Gamemode = this.GameFlow;
-        Gamemode.getComponent('GameFlow').RetoCompletado(self);
+        this.GameFlow.getComponent('GameFlow').RetoCompletado(this);
     }
     // update (dt) {},
 });

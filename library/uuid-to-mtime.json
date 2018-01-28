@@ -225,8 +225,8 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517139599770,
-    "meta": 1517139600243,
+    "asset": 1517143294796,
+    "meta": 1517143295046,
     "relativePath": "prueba.fire"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
@@ -365,13 +365,23 @@
     "relativePath": "jugador.js"
   },
   "b9ac6e4f-e49d-4622-88c6-490c54e8dd67": {
-    "asset": 1517139182884,
-    "meta": 1517139189470,
+    "asset": 1517141881018,
+    "meta": 1517141893132,
     "relativePath": "RetodeLuz.js"
   },
+  "1d2a0a60-1c35-470d-bbb2-29ecc75f0f01": {
+    "asset": 1517142824473,
+    "meta": 1517142833382,
+    "relativePath": "InteractivoGenerico.js"
+  },
+  "fde6093c-3432-4e56-841e-b47c93a0782a": {
+    "asset": 1517142915685,
+    "meta": 1517142928491,
+    "relativePath": "prefabInteractivo.prefab"
+  },
   "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517139492250,
-    "meta": 1517139496092,
+    "asset": 1517143199895,
+    "meta": 1517143207147,
     "relativePath": "GameFlow.js"
   }
 }

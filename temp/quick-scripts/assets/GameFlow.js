@@ -19,6 +19,12 @@ cc.Class({
 
     properties: {
 
+        Astronauta: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+
         Capa: {
             default: null,
             type: cc.Node,
@@ -148,12 +154,23 @@ cc.Class({
         Luces.active = true;
 
         this.AccionesJuego = {
-            Luz: function Luz(ItemInteractivo) {
-                self.Computadora.active = true;
-                self.Boton.active = false;
-                self.CambiarEstado();
+            Luz: function Luz(Componente) {
+                self.AccionGeneralJuego(Componente);
+                self.node.color = new cc.color(255, 255, 255, 255);
+                self.Astronauta.getChildByName('animado').color = new cc.color(255, 255, 255, 255);
             }
         };
+    },
+    AccionGeneralJuego: function AccionGeneralJuego(Componente) {
+        console.log(Componente.ActivaObjeto1);
+
+        if (Componente.ActivaObjeto1) Componente.ActivaObjeto1.active = true;
+        if (Componente.ActivaObjeto2) Componente.ActivaObjeto2.active = true;
+        if (Componente.ActivaObjeto3) Componente.ActivaObjeto3.active = true;
+
+        if (Componente.DesactivaObjeto1) Componente.DesactivaObjeto1.active = false;
+        if (Componente.DesactivaObjeto2) Componente.DesactivaObjeto2.active = false;
+        if (Componente.DesactivaObjeto3) Componente.DesactivaObjeto3.active = false;
     },
 
 
@@ -161,17 +178,16 @@ cc.Class({
         this.Estado = this.Estado + 1;
     },
 
-    start: function start() {},
+    start: function start() {
+        this.node.color = new cc.color(46, 46, 46, 255);
+        this.Astronauta.getChildByName('animado').color = new cc.color(46, 46, 46, 255);
+    },
     RetoCompletado: function RetoCompletado(Componente) {
         //cc.log('LA REPUTICIMAMADRE QUELO REMIL PARIO AL QUE INVENTO ESTE LENGUAJE');
 
-        var ItemInteractivo = null;
-
-        if (Componente.getComponent('ScripdeColision')) ItemInteractivo = Componente.getComponent('ScripdeColision').ItemInteractivo;
-
         console.log(Componente);
-        cc.log('Dispara accion ', Componente.name);
-        if (this.AccionesJuego[Componente.name]) this.AccionesJuego[Componente.name](ItemInteractivo);
+        cc.log('Dispara accion ', Componente.node.name);
+        if (this.AccionesJuego[Componente.node.name]) this.AccionesJuego[Componente.node.name](Componente);else this.AccionGeneralJuego(Componente);
 
         /*
               switch(this.Estado){

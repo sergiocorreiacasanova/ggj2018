@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'RetodeLuz');
-// RetodeLuz.js
+cc._RF.push(module, '1d2a0pgHDVHDbuyKezHXw8B', 'InteractivoGenerico');
+// InteractivoGenerico.js
 
 'use strict';
 
@@ -22,6 +22,36 @@ cc.Class({
             default: null,
             type: cc.Node,
             serializable: true
+        },
+        ActivaObjeto1: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+        ActivaObjeto2: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+        ActivaObjeto3: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+        DesactivaObjeto1: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+        DesactivaObjeto2: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+        DesactivaObjeto3: {
+            default: null,
+            type: cc.Node,
+            serializable: true
         }
     },
 
@@ -39,8 +69,7 @@ cc.Class({
 
     onCollisionEnter: function onCollisionEnter(other, self) {
 
-        var Gamemode = this.GameFlow;
-        Gamemode.getComponent('GameFlow').RetoCompletado(self);
+        this.GameFlow.getComponent('GameFlow').RetoCompletado(this);
     }
     // update (dt) {},
 });

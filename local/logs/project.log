@@ -99,3 +99,15 @@
     at Object.<anonymous> (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\GameFlow.js:227:3)
     at Module._compile (module.js:571:32)
     at Object.Module._extensions..js (module.js:580:10)
+2018-01-28T12:35:15.616Z - error: Reference "GameFlow" of "Luz<InteractivoGenerico>" to external scene object "fondo" can not be saved in prefab asset.
+    at C:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4424
+    at t (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:563)
+    at visitObjTypeProperties (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:614)
+    at C:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4187
+    at visitNode (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:197)
+    at Object.PrefabUtils.getDumpableNode (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4163)
+    at Object.PrefabUtils.createPrefabFrom (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\prefab-utils.js:1:4749)
+    at Object.createPrefab (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\index.js:1:15260)
+    at HTMLElement.scene:create-prefab (file:///C:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:10470)
+2018-01-28T12:40:08.293Z - normal: Introduced global variable while editing: i
+2018-01-28T12:40:08.296Z - normal: Introduced global variable while editing: l
