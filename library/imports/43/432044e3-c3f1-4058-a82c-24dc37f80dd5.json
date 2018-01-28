@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PC",
+    "texture": "a66c5320-c50b-4399-84fc-e52407e7d8d8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      624,
+      382
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      624,
+      382
+    ]
+  }
+}

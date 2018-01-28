@@ -12,11 +12,19 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-         Papel:{
-             default: null, 
-             type: cc.Node, 
-             serializable: true,   
+         GameFlow:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
+         },
+
+         ItemInteractivo:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
          }
+
+
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -27,6 +35,7 @@ cc.Class({
         manager.enabled = true;
 
         manager.enabledDebugDraw = true; // DEBUG
+
     },
 
     start () {
@@ -34,12 +43,9 @@ cc.Class({
     },
 
     onCollisionEnter: function (other, self) {
-        
-        var self = this;
-        
-        cc.log('on collision enter');
-
-        self.Papel.getComponent(cc.Sprite).enabled = true;
+    	cc.log('Hola');
+        var Gamemode = this.GameFlow;
+        Gamemode.getComponent('GameFlow').Colisiono(self);
     }
     // update (dt) {},
 });

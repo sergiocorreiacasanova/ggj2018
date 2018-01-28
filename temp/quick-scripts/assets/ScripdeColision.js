@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/Panel.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'Panel', __filename);
-// Panel.js
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/ScripdeColision.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'ScripdeColision', __filename);
+// ScripdeColision.js
 
 'use strict';
 
@@ -18,11 +18,18 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        Papel: {
+        GameFlow: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+
+        ItemInteractivo: {
             default: null,
             type: cc.Node,
             serializable: true
         }
+
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -38,12 +45,9 @@ cc.Class({
 
 
     onCollisionEnter: function onCollisionEnter(other, self) {
-
-        var self = this;
-
-        cc.log('on collision enter');
-
-        self.Papel.getComponent(cc.Sprite).enabled = true;
+        cc.log('Hola');
+        var Gamemode = this.GameFlow;
+        Gamemode.getComponent('GameFlow').Colisiono(self);
     }
     // update (dt) {},
 });
@@ -59,5 +63,5 @@ cc._RF.pop();
             });
         }
         })();
-        //# sourceMappingURL=Panel.js.map
+        //# sourceMappingURL=ScripdeColision.js.map
         
