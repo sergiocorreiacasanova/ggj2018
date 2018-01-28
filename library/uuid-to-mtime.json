@@ -284,11 +284,6 @@
     "meta": 1517155355394,
     "relativePath": "CerrarVentana.js"
   },
-  "803bf989-6d67-458f-803f-51263cacfc02": {
-    "asset": 1517147131873,
-    "meta": 1517155355892,
-    "relativePath": "fondo.js"
-  },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
     "asset": 1517150240458,
     "meta": 1517021929736,
@@ -354,11 +349,6 @@
     "meta": 1517155356617,
     "relativePath": "imagenes\\tierraFondo.jpg"
   },
-  "567fd8ca-6c45-48c6-8ff0-19e848a2ae76": {
-    "asset": 1517145156561,
-    "meta": 1517155356503,
-    "relativePath": "imagenes\\fondo.png"
-  },
   "3844b0dd-6207-4eb5-9ef8-72357fbd64eb": {
     "asset": 1517049768801,
     "meta": 1517049071270,
@@ -375,8 +365,8 @@
     "relativePath": "prefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517156839414,
-    "meta": 1517156839517,
+    "asset": 1517165944732,
+    "meta": 1517165944852,
     "relativePath": "prueba.fire"
   },
   "5978a990-1507-4293-9662-66ba942f3430": {
@@ -388,5 +378,25 @@
     "asset": 1517156387827,
     "meta": 1517156392516,
     "relativePath": "InteractivoGenerico.js"
+  },
+  "bfdec5dc-40d9-4e7b-b148-b3071cd8da31": {
+    "asset": 1517160867722,
+    "meta": 1517160867719,
+    "relativePath": "audio"
+  },
+  "3638f5c4-2f1b-48b2-a0a4-2575ae8af653": {
+    "asset": 1517160752409,
+    "meta": 1517160867735,
+    "relativePath": "audio\\fondo.mp3"
+  },
+  "803bf989-6d67-458f-803f-51263cacfc02": {
+    "asset": 1517162171227,
+    "meta": 1517162173910,
+    "relativePath": "fondo.js"
+  },
+  "567fd8ca-6c45-48c6-8ff0-19e848a2ae76": {
+    "asset": 1517165928698,
+    "meta": 1517165929208,
+    "relativePath": "imagenes\\fondo.png"
   }
 }

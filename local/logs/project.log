@@ -72,3 +72,55 @@
 2018-01-28T16:19:54.669Z - normal: ScaleX != ScaleY. Don't know which one to return
 2018-01-28T16:19:54.669Z - normal: ScaleX != ScaleY. Don't know which one to return
 2018-01-28T16:19:54.670Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:34:38.802Z - failed: Failed to drop asset 3638f5c4-2f1b-48b2-a0a4-2575ae8af653, message: Error: Can not create node from cc.AudioClip
+    at C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils.js:1:383
+    at C:\CocosCreator\resources\engine\cocos2d\core\platform\CCAssetLibrary.js:130:25
+    at EventEmitter.ipcRenderer.on.n (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-01-28T17:34:51.075Z - failed: Failed to drop asset 3638f5c4-2f1b-48b2-a0a4-2575ae8af653, message: Error: Can not create node from cc.AudioClip
+    at C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils.js:1:383
+    at C:\CocosCreator\resources\engine\cocos2d\core\platform\CCAssetLibrary.js:130:25
+    at EventEmitter.ipcRenderer.on.n (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-01-28T17:54:27.123Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\astronauta\assets\fondo.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/astronauta/assets/fondo.js: Unexpected token, expected ; (97:20)
+   95 | 		self.controlesActivos= true;
+   96 | 		self.anguloActual = self.node.rotationX;
+>  97 | 		self.velocidadGiro: 10.0;
+      | 		                  ^
+   98 | 		self.anguloActual: 0.0;
+   99 | 	},
+  100 | 	
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseBlock (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4235:22)
+    at Parser.pp$3.parseMethod (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4180:8)
+    at Parser.pp$3.parseObjectMethod (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4097:10)
+2018-01-28T17:54:58.992Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:54:58.997Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:54:58.998Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:54:58.998Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:54:58.999Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:54:59.000Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:54:59.000Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:55:36.896Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:55:36.896Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:55:36.897Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:55:36.897Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:55:36.897Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:55:36.898Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:55:36.898Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:56:15.544Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:56:15.545Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:56:15.546Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:56:15.546Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:56:15.547Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:56:15.547Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T17:56:15.547Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-28T19:00:27.977Z - info: shutdown preview server

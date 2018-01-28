@@ -258,8 +258,8 @@
       "width": 1500,
       "height": 1500
     },
-    "_rotationX": 270,
-    "_rotationY": 270,
+    "_rotationX": 300,
+    "_rotationY": 300,
     "_scaleX": 0.8,
     "_scaleY": 0.8,
     "_position": {
@@ -1656,7 +1656,7 @@
       "__uuid__": "c856ed3b-4b57-400d-9fd9-e652d63fc3c2"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
