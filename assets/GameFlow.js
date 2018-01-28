@@ -165,7 +165,7 @@ cc.Class({
 		this.AccionesJuego = {
 			Luz: function(Componente){
 				self.AccionGeneralJuego(Componente);
-				self.node.color = new cc.color(255,255,255,255);
+				self.node.getChildByName('nave').color = new cc.color(255,255,255,255);
 				self.Astronauta.getChildByName('animado').color = new cc.color(255,255,255,255);
 			}
 		}
@@ -195,7 +195,7 @@ cc.Class({
     },
 
     start () {
-		this.node.color = new cc.color(46,46,46,255);
+		this.node.getChildByName('nave').color = new cc.color(46,46,46,255);
 		this.Astronauta.getChildByName('animado').color = new cc.color(46,46,46,255);
     },
 
