@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'Panel');
-// Panel.js
+cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'RetodeLuz');
+// RetodeLuz.js
 
 'use strict';
 
@@ -18,7 +18,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        Papel: {
+        GameFlow: {
             default: null,
             type: cc.Node,
             serializable: true
@@ -38,12 +38,8 @@ cc.Class({
 
 
     onCollisionEnter: function onCollisionEnter(other, self) {
-
-        var self = this;
-
-        cc.log('on collision enter');
-
-        self.Papel.getComponent(cc.Sprite).enabled = true;
+        var Gamemode = this.GameFlow;
+        Gamemode.getComponent('GameFlow').RetoCompletado(self);
     }
     // update (dt) {},
 });
