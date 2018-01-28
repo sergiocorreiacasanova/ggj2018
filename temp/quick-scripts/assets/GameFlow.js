@@ -133,7 +133,7 @@ cc.Class({
 
         //Parte actual del juego ("nivel actual")
         Estado: {
-            default: 1
+            default: 0
         },
 
         //Final que se presenta al jugador
@@ -153,81 +153,29 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
-
-        /*this.bBoton = true;
-          this.bComputadora = true;*/
-
-        this.CambiarEstado();
+        var Luces = this.Boton;
+        Luces.active = true;
     },
 
 
     CambiarEstado: function CambiarEstado() {
         this.Estado = this.Estado + 1;
-        switch (this.Estado) {
-            case 1:
-                {
-                    var Luces = this.Boton;
-                    var Compu = this.Computadora;
-                    Luces.active = true;
-                    Compu.active = true;
-                    break;
-                }
-
-            case 2:
-                {
-                    var Luces = this.Boton;
-                    var Radio = this.Tablero;
-                    Radio.active = true;
-                    Luces.active = false;
-                    break;
-                }
-
-            case 3:
-                {
-                    var Libro = this.Libros;
-                    Libro.active = true;
-                    break;
-                }
-
-            case 4:
-                {
-                    var Libro = this.Libros;
-                    Libro.active = false;
-                    break;
-                }
-
-            case 5:
-                {
-                    var Radio = this.Tablero;
-                    Radio.active = false;
-                    break;
-                }
-
-            default:
-                {
-                    this.Estado = 0;
-                }
-        }
     },
 
     start: function start() {},
-    Colisiono: function Colisiono(Componente) {
+    RetoCompletado: function RetoCompletado(Componente) {
         //cc.log('LA REPUTICIMAMADRE QUELO REMIL PARIO AL QUE INVENTO ESTE LENGUAJE');
         var local = Componente.getComponent('ScripdeColision').ItemInteractivo;
-        if (local) {
-            cc.log('AHHHHHHHHHHHHHHHHHHHHHHHHHH!!');
-        }
         switch (this.Estado) {
-            case 1:
+            case 0:
                 {
-                    var Luces = this.Boton;
                     var Compu = this.Computadora;
-                    Luces.active = true;
                     Compu.active = true;
+                    this.CambiarEstado();
                     break;
                 }
 
-            case 2:
+            case 1:
                 {
                     var Luces = this.Boton;
                     var Radio = this.Tablero;
@@ -236,21 +184,21 @@ cc.Class({
                     break;
                 }
 
-            case 3:
+            case 2:
                 {
                     var Libro = this.Libros;
                     Libro.active = true;
                     break;
                 }
 
-            case 4:
+            case 3:
                 {
                     var Libro = this.Libros;
                     Libro.active = false;
                     break;
                 }
 
-            case 5:
+            case 4:
                 {
                     var Radio = this.Tablero;
                     Radio.active = false;

@@ -91,13 +91,13 @@
         "type": "dock-h"
       },
       "panels": [
+        "node-library",
         "console",
         "inspector",
         "hierarchy",
         "assets",
         "scene",
-        "timeline",
-        "node-library"
+        "timeline"
       ]
     }
   },

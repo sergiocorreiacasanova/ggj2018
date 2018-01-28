@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/ScripdeColision.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'ScripdeColision', __filename);
-// ScripdeColision.js
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/RetodeLuz.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'RetodeLuz', __filename);
+// RetodeLuz.js
 
 'use strict';
 
@@ -22,14 +22,7 @@ cc.Class({
             default: null,
             type: cc.Node,
             serializable: true
-        },
-
-        ItemInteractivo: {
-            default: null,
-            type: cc.Node,
-            serializable: true
         }
-
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -45,9 +38,8 @@ cc.Class({
 
 
     onCollisionEnter: function onCollisionEnter(other, self) {
-        cc.log('Hola');
         var Gamemode = this.GameFlow;
-        Gamemode.getComponent('GameFlow').Colisiono(self);
+        Gamemode.getComponent('GameFlow').RetoCompletado(self);
     }
     // update (dt) {},
 });
@@ -63,5 +55,5 @@ cc._RF.pop();
             });
         }
         })();
-        //# sourceMappingURL=ScripdeColision.js.map
+        //# sourceMappingURL=RetodeLuz.js.map
         

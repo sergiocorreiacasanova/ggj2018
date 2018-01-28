@@ -225,12 +225,12 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517107940544,
-    "meta": 1517107940587,
+    "asset": 1517121234744,
+    "meta": 1517121234811,
     "relativePath": "prueba.fire"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
-    "asset": 1517078799056,
+    "asset": 1517098566998,
     "meta": 1517028397635,
     "relativePath": "imagenes"
   },
@@ -339,14 +339,19 @@
     "meta": 1517098568857,
     "relativePath": "imagenes\\radioayuda_0001s_0000_Capa-6.png"
   },
-  "b9ac6e4f-e49d-4622-88c6-490c54e8dd67": {
-    "asset": 1517102235981,
-    "meta": 1517102239120,
-    "relativePath": "ScripdeColision.js"
-  },
   "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517107798189,
-    "meta": 1517107801213,
+    "asset": 1517116679405,
+    "meta": 1517116681805,
     "relativePath": "GameFlow.js"
+  },
+  "b9ac6e4f-e49d-4622-88c6-490c54e8dd67": {
+    "asset": 1517120425484,
+    "meta": 1517120426427,
+    "relativePath": "RetodeLuz.js"
+  },
+  "f9827cdb-d574-4529-afa5-1491cfe335c9": {
+    "asset": 1517120491010,
+    "meta": 1517120503495,
+    "relativePath": "ScriptdeColision.js"
   }
 }

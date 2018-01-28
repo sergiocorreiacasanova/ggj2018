@@ -17,14 +17,6 @@ cc.Class({
          	type: cc.Node, 
             serializable: true,
          },
-
-         ItemInteractivo:{
-         	default: null,
-         	type: cc.Node, 
-            serializable: true,
-         }
-
-
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -43,9 +35,8 @@ cc.Class({
     },
 
     onCollisionEnter: function (other, self) {
-    	cc.log('Hola');
         var Gamemode = this.GameFlow;
-        Gamemode.getComponent('GameFlow').Colisiono(self);
+        Gamemode.getComponent('GameFlow').RetoCompletado(self);
     }
     // update (dt) {},
 });
