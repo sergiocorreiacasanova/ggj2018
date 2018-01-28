@@ -375,8 +375,8 @@
     "relativePath": "prefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517167735230,
-    "meta": 1517167735339,
+    "asset": 1517170549280,
+    "meta": 1517170549343,
     "relativePath": "prueba.fire"
   },
   "415c2191-4aab-4c7e-aedd-101489a6838b": {
@@ -409,11 +409,6 @@
     "meta": 1517169347017,
     "relativePath": "audio\\explosion.mp3"
   },
-  "3c28609e-e802-475f-8276-8b591975e15b": {
-    "asset": 1517168429663,
-    "meta": 1517169347149,
-    "relativePath": "audio\\MusicaEspera.mp3"
-  },
   "ed0d0793-6027-4bbd-acd0-80e59d2ca062": {
     "asset": 1517168503440,
     "meta": 1517169347193,
@@ -428,5 +423,15 @@
     "asset": 1517169103463,
     "meta": 1517169347282,
     "relativePath": "audio\\succion.mp3"
+  },
+  "3c28609e-e802-475f-8276-8b591975e15b": {
+    "asset": 1517170216557,
+    "meta": 1517169347149,
+    "relativePath": "audio\\MusicaEspera.mp3"
+  },
+  "b835b3cf-364f-4641-9edb-d9f9de68dbb2": {
+    "asset": 1517170364144,
+    "meta": 1517170472533,
+    "relativePath": "audio\\MusicaFinal.mp3"
   }
 }
