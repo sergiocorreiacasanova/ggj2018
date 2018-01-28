@@ -1,216 +1,53 @@
-2018-01-28T17:30:20.645Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-28T17:30:20.660Z - normal: checking language setting...
-2018-01-28T17:30:20.660Z - normal: Language: en
-2018-01-28T17:30:30.815Z - success: protocol editor-framework registered
-2018-01-28T17:30:30.815Z - success: protocol app registered
-2018-01-28T17:30:30.815Z - success: protocol theme registered
-2018-01-28T17:30:30.815Z - success: protocol packages registered
-2018-01-28T17:30:30.815Z - success: protocol unpack registerred
-2018-01-28T17:30:30.815Z - success: protocol disable-commonjs registerred
-2018-01-28T17:30:33.831Z - normal: failed to connect login server due to request timeout
-2018-01-28T17:30:33.831Z - normal: Check project D:\GGJ
-2018-01-28T17:30:33.831Z - normal: Initializing Cocos2d
-2018-01-28T17:30:38.112Z - normal: Initializing Asset Database
-2018-01-28T17:30:38.237Z - success: protocol uuid registerred
-2018-01-28T17:30:38.237Z - success: protocol db registerred
-2018-01-28T17:30:38.237Z - success: protocol thumbnail registerred
-2018-01-28T17:30:38.237Z - normal: Loading editor/builtin packages
-2018-01-28T17:30:38.300Z - success: anysdk loaded
-2018-01-28T17:30:38.518Z - success: assets loaded
-2018-01-28T17:30:38.518Z - success: builder loaded
-2018-01-28T17:30:38.534Z - success: cocos-analytics loaded
-2018-01-28T17:30:38.534Z - success: console loaded
-2018-01-28T17:30:38.534Z - success: hierarchy loaded
-2018-01-28T17:30:38.534Z - success: inspector loaded
-2018-01-28T17:30:38.534Z - success: keystore loaded
-2018-01-28T17:30:38.550Z - success: node-library loaded
-2018-01-28T17:30:38.550Z - success: package-asset loaded
-2018-01-28T17:30:38.581Z - success: preferences loaded
-2018-01-28T17:30:38.581Z - success: project-exporter loaded
-2018-01-28T17:30:38.596Z - success: project-importer loaded
-2018-01-28T17:30:38.596Z - success: project-settings loaded
-2018-01-28T17:30:38.596Z - success: ui-kit loaded
-2018-01-28T17:30:38.643Z - success: ui-grid loaded
-2018-01-28T17:30:38.643Z - success: scene loaded
-2018-01-28T17:30:38.643Z - success: sprite-editor loaded
-2018-01-28T17:30:38.643Z - success: store loaded
-2018-01-28T17:30:38.659Z - success: timeline loaded
-2018-01-28T17:30:38.659Z - normal: Loading builtin packages
-2018-01-28T17:30:38.659Z - success: asset-db-debugger loaded
-2018-01-28T17:30:38.659Z - success: code-editor loaded
-2018-01-28T17:30:38.675Z - success: color-picker loaded
-2018-01-28T17:30:38.675Z - success: package-manager loaded
-2018-01-28T17:30:38.690Z - success: sdkbox loaded
-2018-01-28T17:30:38.690Z - success: tester loaded
-2018-01-28T17:30:38.690Z - success: ui-kit-preview-extra loaded
-2018-01-28T17:30:38.690Z - success: ui-kit-preview loaded
-2018-01-28T17:30:38.690Z - success: ui-tree loaded
-2018-01-28T17:30:41.081Z - normal: Initializing project D:\GGJ
-2018-01-28T17:30:41.143Z - normal: Loading packages
-2018-01-28T17:30:41.159Z - normal: Watching packages
-2018-01-28T17:30:41.206Z - normal: Run Application
-2018-01-28T17:30:44.726Z - success: preview server running at http://localhost:7456
-2018-01-28T17:31:00.967Z - normal: 1.8.1
-2018-01-28T17:56:02.317Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token, expected , (211:3)
-  209 | 			}
-  210 | 
-> 211 | 			Computadora: function(Componente){
-      | 			^
-  212 | 				
-  213 | 			}
-  214 | 		};
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T18:51:15.342Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token (286:10)
-  284 |         		//Explocion;
-  285 |         		break;
-> 286 |         	},
-      |         	 ^
-  287 | 
-  288 |         	case 2:{
-  289 |         		//Sin Aire;
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-    at Parser.pp$1.parseStatement (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
-2018-01-28T18:51:22.533Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token (286:10)
-  284 |         		//Explocion;
-  285 |         		break;
-> 286 |         	},
-      |         	 ^
-  287 | 
-  288 |         	case 2:{
-  289 |         		//Sin Aire;
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-    at Parser.pp$1.parseStatement (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
-2018-01-28T18:51:51.924Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token (302:9)
-  300 |         		break;
-  301 |         	}
-> 302 |         },
-      |          ^
-  303 |     },
-  304 | 
-  305 |     start () {
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-    at Parser.pp$1.parseStatement (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
-2018-01-28T18:52:07.000Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token (286:10)
-  284 |         		//Explocion;
-  285 |         		break;
-> 286 |         	},
-      |         	 ^
-  287 | 
-  288 |         	case 2:{
-  289 |         		//Sin Aire;
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-    at Parser.pp$1.parseStatement (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
-2018-01-28T18:53:13.466Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token (286:10)
-  284 |         		//Explocion;
-  285 |         		break;
-> 286 |         	},
-      |         	 ^
-  287 | 
-  288 |         	case 2:{
-  289 |         		//Sin Aire;
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-    at Parser.pp$1.parseStatement (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
-2018-01-28T18:53:35.043Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token (286:10)
-  284 |         		//Explocion;
-  285 |         		break;
-> 286 |         	},
-      |         	 ^
-  287 | 
-  288 |         	case 2:{
-  289 |         		//Sin Aire;
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-    at Parser.pp$1.parseStatement (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
-2018-01-28T18:54:31.035Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token (298:9)
-  296 |         		//Final Real, Creditos
-  297 |         		break;
-> 298 |         },
-      |          ^
-  299 |     },
-  300 | 
-  301 |     start () {
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-    at Parser.pp$1.parseStatement (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
-2018-01-28T18:55:03.237Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\GameFlow.js, message: Compile error: SyntaxError: D:/GGJ/assets/GameFlow.js: Unexpected token (295:9)
-  293 |         		//Final Real, Creditos
-  294 |         		break;
-> 295 |         },
-      |          ^
-  296 |     },
-  297 | 
-  298 |     start () {
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-    at Parser.pp$1.parseStatement (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1906:19)
-2018-01-28T18:55:32.529Z - info: shutdown preview server
+2018-01-28T19:03:20.044Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-28T19:03:20.066Z - normal: checking language setting...
+2018-01-28T19:03:20.067Z - normal: Language: en
+2018-01-28T19:03:22.999Z - success: protocol editor-framework registered
+2018-01-28T19:03:23.000Z - success: protocol app registered
+2018-01-28T19:03:23.000Z - success: protocol theme registered
+2018-01-28T19:03:23.000Z - success: protocol packages registered
+2018-01-28T19:03:23.000Z - success: protocol unpack registerred
+2018-01-28T19:03:23.000Z - success: protocol disable-commonjs registerred
+2018-01-28T19:03:25.529Z - normal: connected!
+2018-01-28T19:03:25.532Z - normal: Check project C:\Users\ser\Documents\astronauta
+2018-01-28T19:03:25.535Z - normal: Initializing Cocos2d
+2018-01-28T19:03:26.077Z - normal: Initializing Asset Database
+2018-01-28T19:03:26.204Z - success: protocol uuid registerred
+2018-01-28T19:03:26.204Z - success: protocol db registerred
+2018-01-28T19:03:26.204Z - success: protocol thumbnail registerred
+2018-01-28T19:03:26.205Z - normal: Loading editor/builtin packages
+2018-01-28T19:03:26.262Z - success: anysdk loaded
+2018-01-28T19:03:26.545Z - success: assets loaded
+2018-01-28T19:03:26.550Z - success: builder loaded
+2018-01-28T19:03:26.554Z - success: cocos-analytics loaded
+2018-01-28T19:03:26.561Z - success: console loaded
+2018-01-28T19:03:26.567Z - success: hierarchy loaded
+2018-01-28T19:03:26.572Z - success: inspector loaded
+2018-01-28T19:03:26.575Z - success: keystore loaded
+2018-01-28T19:03:26.580Z - success: node-library loaded
+2018-01-28T19:03:26.584Z - success: package-asset loaded
+2018-01-28T19:03:26.589Z - success: preferences loaded
+2018-01-28T19:03:26.592Z - success: project-exporter loaded
+2018-01-28T19:03:26.627Z - success: project-importer loaded
+2018-01-28T19:03:26.632Z - success: project-settings loaded
+2018-01-28T19:03:26.637Z - success: ui-kit loaded
+2018-01-28T19:03:26.640Z - success: ui-grid loaded
+2018-01-28T19:03:26.646Z - success: scene loaded
+2018-01-28T19:03:26.650Z - success: sprite-editor loaded
+2018-01-28T19:03:26.656Z - success: store loaded
+2018-01-28T19:03:26.666Z - success: timeline loaded
+2018-01-28T19:03:26.666Z - normal: Loading builtin packages
+2018-01-28T19:03:26.671Z - success: asset-db-debugger loaded
+2018-01-28T19:03:26.674Z - success: code-editor loaded
+2018-01-28T19:03:26.675Z - success: color-picker loaded
+2018-01-28T19:03:26.680Z - success: package-manager loaded
+2018-01-28T19:03:26.688Z - success: sdkbox loaded
+2018-01-28T19:03:26.696Z - success: tester loaded
+2018-01-28T19:03:26.699Z - success: ui-kit-preview-extra loaded
+2018-01-28T19:03:26.702Z - success: ui-kit-preview loaded
+2018-01-28T19:03:26.704Z - success: ui-tree loaded
+2018-01-28T19:03:29.379Z - normal: Initializing project C:\Users\ser\Documents\astronauta
+2018-01-28T19:03:29.394Z - normal: Loading packages
+2018-01-28T19:03:29.403Z - normal: Watching packages
+2018-01-28T19:03:29.433Z - normal: Run Application
+2018-01-28T19:03:34.225Z - success: preview server running at http://localhost:7456
+2018-01-28T19:03:45.670Z - normal: 1.8.1

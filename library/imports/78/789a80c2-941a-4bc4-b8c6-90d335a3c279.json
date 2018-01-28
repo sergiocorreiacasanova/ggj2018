@@ -27,7 +27,7 @@
         "__id__": 66
       },
       {
-        "__id__": 71
+        "__id__": 72
       },
       {
         "__id__": 43
@@ -128,7 +128,7 @@
       "width": 960,
       "height": 640
     },
-    "_fitWidth": false,
+    "_fitWidth": true,
     "_fitHeight": true
   },
   {
@@ -235,6 +235,9 @@
       },
       {
         "__id__": 65
+      },
+      {
+        "__id__": 71
       }
     ],
     "_prefab": null,
@@ -2285,6 +2288,23 @@
     }
   },
   {
+    "__type__": "cc.AudioSource",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 6
+    },
+    "_enabled": true,
+    "_clip": {
+      "__uuid__": "3638f5c4-2f1b-48b2-a0a4-2575ae8af653"
+    },
+    "_volume": 0.2,
+    "_mute": false,
+    "_loop": true,
+    "playOnLoad": true,
+    "preload": true
+  },
+  {
     "__type__": "cc.Node",
     "_name": "polvillo",
     "_objFlags": 0,
@@ -2296,7 +2316,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 72
+        "__id__": 73
       }
     ],
     "_prefab": null,
@@ -2341,7 +2361,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 71
+      "__id__": 72
     },
     "_enabled": true,
     "_custom": false,
