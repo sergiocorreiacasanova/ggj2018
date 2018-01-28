@@ -36,7 +36,12 @@ cc.Class({
 		aceleracionGiro: {
 			default: 1.0,
 			serializable: true
-		}
+		},
+		 
+		 controlesActivos:{
+			 default:true,
+			 serializable: true,
+		 }
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -58,19 +63,22 @@ cc.Class({
             event: cc.EventListener.KEYBOARD,
             // When there is a key being pressed down, judge if it's the designated directional button and set up acceleration in the corresponding direction
             onKeyPressed: function(keyCode, event) {
-                switch(keyCode) {
-                    case cc.KEY.a:
-                        self.accionaIzquierda = true;
-                        self.accionaDerecha = false;
-						//cc.log('gira izquierda');
-						
-                        break;
-                    case cc.KEY.d:
-                        self.accionaIzquierda = false;
-                        self.accionaDerecha = true;
-						//cc.log('gira derecha');
-                        break;
-                }
+				if (self.controlesActivos)
+				{
+					switch(keyCode) {
+						case cc.KEY.a:
+							self.accionaIzquierda = true;
+							self.accionaDerecha = false;
+							//cc.log('gira izquierda');
+							
+							break;
+						case cc.KEY.d:
+							self.accionaIzquierda = false;
+							self.accionaDerecha = true;
+							//cc.log('gira derecha');
+							break;
+					}
+				}
             },
             // when releasing the button, stop acceleration in this direction
             onKeyReleased: function(keyCode, event) {
@@ -84,6 +92,7 @@ cc.Class({
                 }
             }
         }, self.node);
+		self.controlesActivos= true;
 	},
 	
     update (dt) {

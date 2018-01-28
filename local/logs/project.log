@@ -1,0 +1,101 @@
+2018-01-28T10:25:20.563Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-28T10:25:20.579Z - normal: checking language setting...
+2018-01-28T10:25:20.579Z - normal: Language: en
+2018-01-28T10:25:24.607Z - success: protocol editor-framework registered
+2018-01-28T10:25:24.607Z - success: protocol app registered
+2018-01-28T10:25:24.607Z - success: protocol theme registered
+2018-01-28T10:25:24.607Z - success: protocol packages registered
+2018-01-28T10:25:24.608Z - success: protocol unpack registerred
+2018-01-28T10:25:24.608Z - success: protocol disable-commonjs registerred
+2018-01-28T10:25:27.521Z - normal: connected!
+2018-01-28T10:25:27.523Z - normal: Check project C:\Users\ser\Documents\astronauta
+2018-01-28T10:25:27.528Z - normal: Initializing Cocos2d
+2018-01-28T10:25:28.225Z - normal: Initializing Asset Database
+2018-01-28T10:25:28.355Z - success: protocol uuid registerred
+2018-01-28T10:25:28.356Z - success: protocol db registerred
+2018-01-28T10:25:28.356Z - success: protocol thumbnail registerred
+2018-01-28T10:25:28.357Z - normal: Loading editor/builtin packages
+2018-01-28T10:25:28.418Z - success: anysdk loaded
+2018-01-28T10:25:28.792Z - success: assets loaded
+2018-01-28T10:25:28.796Z - success: builder loaded
+2018-01-28T10:25:28.801Z - success: cocos-analytics loaded
+2018-01-28T10:25:28.808Z - success: console loaded
+2018-01-28T10:25:28.815Z - success: hierarchy loaded
+2018-01-28T10:25:28.821Z - success: inspector loaded
+2018-01-28T10:25:28.824Z - success: keystore loaded
+2018-01-28T10:25:28.836Z - success: node-library loaded
+2018-01-28T10:25:28.841Z - success: package-asset loaded
+2018-01-28T10:25:28.846Z - success: preferences loaded
+2018-01-28T10:25:28.849Z - success: project-exporter loaded
+2018-01-28T10:25:28.921Z - success: project-importer loaded
+2018-01-28T10:25:28.927Z - success: project-settings loaded
+2018-01-28T10:25:28.936Z - success: ui-kit loaded
+2018-01-28T10:25:28.955Z - success: ui-grid loaded
+2018-01-28T10:25:28.963Z - success: scene loaded
+2018-01-28T10:25:28.966Z - success: sprite-editor loaded
+2018-01-28T10:25:28.978Z - success: store loaded
+2018-01-28T10:25:28.990Z - success: timeline loaded
+2018-01-28T10:25:28.990Z - normal: Loading builtin packages
+2018-01-28T10:25:28.996Z - success: asset-db-debugger loaded
+2018-01-28T10:25:28.999Z - success: code-editor loaded
+2018-01-28T10:25:29.012Z - success: color-picker loaded
+2018-01-28T10:25:29.018Z - success: package-manager loaded
+2018-01-28T10:25:29.028Z - success: sdkbox loaded
+2018-01-28T10:25:29.043Z - success: tester loaded
+2018-01-28T10:25:29.053Z - success: ui-kit-preview-extra loaded
+2018-01-28T10:25:29.057Z - success: ui-kit-preview loaded
+2018-01-28T10:25:29.061Z - success: ui-tree loaded
+2018-01-28T10:25:32.756Z - normal: Initializing project C:\Users\ser\Documents\astronauta
+2018-01-28T10:25:32.805Z - normal: Loading packages
+2018-01-28T10:25:32.819Z - normal: Watching packages
+2018-01-28T10:25:32.906Z - normal: Run Application
+2018-01-28T10:25:42.410Z - success: preview server running at http://localhost:7456
+2018-01-28T10:25:59.106Z - normal: 1.8.1
+2018-01-28T10:52:30.758Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\astronauta\assets\ScriptdeColision.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/astronauta/assets/ScriptdeColision.js: Unexpected token, expected ; (41:13)
+  39 |         manager.enabledDebugDraw = true; // DEBUG},
+  40 | 
+> 41 |     start () {
+     |              ^
+  42 | 
+  43 |     },
+  44 | 
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseBlock (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4235:22)
+    at Parser.pp$3.parseMethod (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4180:8)
+    at Parser.pp$3.parseObjectMethod (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4097:10)
+2018-01-28T11:14:27.182Z - normal: Introduced global variable while editing: i
+2018-01-28T11:14:27.186Z - normal: Introduced global variable while editing: l
+2018-01-28T11:16:04.652Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\astronauta\assets\GameFlow.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/astronauta/assets/GameFlow.js: Unsyntactic break (156:3)
+  154 | 			Compu.active = true;
+  155 | 			this.CambiarEstado();
+> 156 | 			break;
+      | 			^
+  157 | 		}
+  158 | 	},
+  159 | 
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp$1.parseBreakContinueStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1970:44)
+    at Parser.pp$1.parseStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1830:19)
+    at Parser.pp$1.parseBlockBody (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseBlock (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
+    at Parser.pp$3.parseFunctionBody (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4235:22)
+    at Parser.pp$1.parseFunction (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2386:8)
+    at Parser.pp$3.parseFunctionExpression (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3760:17)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3722:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+2018-01-28T11:16:52.434Z - error: Unknown type of GameFlow.AccionesJuego, property should be defined in 'properties' or 'ctor'
+    at Object.errorID (C:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\cocos2d\core\platform\preprocess-class.js:310:20)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:968:25)
+    at __define (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\GameFlow.js:17:4)
+    at C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\GameFlow.js:217:13
+    at Object.<anonymous> (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\GameFlow.js:224:11)
+    at Object.<anonymous> (C:\Users\ser\Documents\astronauta\temp\quick-scripts\assets\GameFlow.js:227:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)

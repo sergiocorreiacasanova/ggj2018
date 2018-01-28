@@ -1,9 +1,3 @@
-"use strict";
-cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'RetodeLuz');
-// RetodeLuz.js
-
-'use strict';
-
 // Learn cc.Class:
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/class.html
 //  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/class/index.html
@@ -18,31 +12,33 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        GameFlow: {
-            default: null,
-            type: cc.Node,
-            serializable: true
-        }
+         GameFlow:{
+         	default: null,
+         	type: cc.Node, 
+            serializable: true,
+         },
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad: function onLoad() {
+    onLoad () {
         var manager = cc.director.getCollisionManager();
 
         manager.enabled = true;
 
         manager.enabledDebugDraw = true; // DEBUG
+
     },
-    start: function start() {},
 
+    start () {
 
-    onCollisionEnter: function onCollisionEnter(other, self) {
+    },
 
+    onCollisionEnter: function (other, self) {
+		
+		
         var Gamemode = this.GameFlow;
         Gamemode.getComponent('GameFlow').RetoCompletado(self.node);
     }
     // update (dt) {},
 });
-
-cc._RF.pop();

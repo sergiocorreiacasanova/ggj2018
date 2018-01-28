@@ -42,6 +42,11 @@ cc.Class({
 		radioCentro: {
 			default: 40,
 			serializable: true
+		},
+
+		controlesActivos: {
+			default: true,
+			serializable: true
 		}
 	},
 
@@ -63,59 +68,53 @@ cc.Class({
 	onLoad: function onLoad() {
 		var self = this;
 
-		self.destino = self.node.position;
-		self.anguloDestino = self.node.rotationX;
-		self.orbitando = true;
-
 		cc.eventManager.addListener({
 			event: cc.EventListener.TOUCH_ONE_BY_ONE,
 			swallowTouches: false,
 			onTouchBegan: function onTouchBegan(touch, event) {
+				if (self.controlesActivos) {
+					if (isNaN(self.velocidadAngularDestino)) self.velocidadAngularDestino = 0;
 
-				if (isNaN(self.velocidadAngularDestino)) self.velocidadAngularDestino = 0;
+					self.orbitando = false;
 
-				self.orbitando = false;
+					self.destino = touch.getLocation();
 
-				self.destino = touch.getLocation();
+					if (isNaN(self.node.rotation)) self.node.rotation = 0;
 
-				if (isNaN(self.node.rotation)) self.node.rotation = 0;
+					self.node.rotation = (self.node.rotationX + 360) % 360;
 
-				self.node.rotation = (self.node.rotationX + 360) % 360;
+					// calcula el angulo contra la vertical x+
+					var anguloRad = (Math.PI / 2 - Math.atan2(self.destino.y - self.fondo.position.y, self.destino.x - self.fondo.position.x) + Math.PI * 2) % (Math.PI * 2);
 
-				// calcula el angulo contra la vertical x+
-				var anguloRad = (Math.PI / 2 - Math.atan2(self.destino.y - self.fondo.position.y, self.destino.x - self.fondo.position.x) + Math.PI * 2) % (Math.PI * 2);
+					self.anguloDestino = anguloRad / Math.PI * 180;
 
-				self.anguloDestino = anguloRad / Math.PI * 180;
+					// intento determinar hacia qué lado girar
+					/*
+     	Ej 1 
+     	destino = 270
+     	nodo = 30
+     	destino - nodo >180 -> gira contrareloj
+     	Ej 2
+     	Destino = 30
+     	nodo = 270
+     	Destino - nodo < -180 - gira reloj
+     */
+					var diffA = (self.anguloDestino + 180 - (self.node.rotationX + 180)) % 180;
 
-				// intento determinar hacia qué lado girar
-				/*
-    	Ej 1 
-    	destino = 270
-    	nodo = 30
-    	destino - nodo >180 -> gira contrareloj
-    	Ej 2
-    	Destino = 30
-    	nodo = 270
-    	Destino - nodo < -180 - gira reloj
-    	*/
-				var diffA = (self.anguloDestino + 180 - (self.node.rotationX + 180)) % 180;
+					if (diffA > 0) {
+						self.aceleracionAngularDestino = self.aceleracionAngular;
+						self.deltaAnguloDesaceleracionDestino = Math.abs(diffA) / 2;
+					} else {
+						self.aceleracionAngularDestino = -self.aceleracionAngular;
+						self.deltaAnguloDesaceleracionDestino = Math.abs(diffA) / 2;
+					}
 
-				if (diffA > 0) {
-					self.aceleracionAngularDestino = self.aceleracionAngular;
-					self.deltaAnguloDesaceleracionDestino = Math.abs(diffA) / 2;
-				} else {
-					self.aceleracionAngularDestino = -self.aceleracionAngular;
-					self.deltaAnguloDesaceleracionDestino = Math.abs(diffA) / 2;
+					// calcula el angulo contra la vertical x+
+					var anguloVelocidad = Math.atan2(self.destino.y - self.node.position.y, self.destino.x - self.node.position.x);
+
+					self.velocidadDestinoX = Math.cos(anguloVelocidad) * self.velocidad;
+					self.velocidadDestinoY = Math.sin(anguloVelocidad) * self.velocidad;
 				}
-
-				// calcula el angulo contra la vertical x+
-				var anguloVelocidad = Math.atan2(self.destino.y - self.node.position.y, self.destino.x - self.node.position.x);
-
-				self.velocidadDestinoX = Math.cos(anguloVelocidad) * self.velocidad;
-				self.velocidadDestinoY = Math.sin(anguloVelocidad) * self.velocidad;
-
-				cc.log(self.destino, self.anguloDestino, self.velocidadDestinoX, self.velocidadDestinoY);
-
 				return false;
 			},
 			//Trigger when moving touch
@@ -129,6 +128,11 @@ cc.Class({
 				cc.log('onTouchEnded');
 			}
 		}, self.node);
+
+		self.destino = self.node.position;
+		self.anguloDestino = self.node.rotationX;
+		self.orbitando = true;
+		self.controlesActivos = true;
 	},
 
 	start: function start() {},
@@ -148,7 +152,7 @@ cc.Class({
 
 			this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
 
-			if (this.distanciaPosicion(this.node.position, this.destino) < this.radioOrbitacion / 5 || this.orbitando === true) {
+			if (this.distanciaPosicion(this.node.position, this.destino) < this.radioOrbitacion / 10 || this.orbitando === true) {
 				if (this.orbitando !== true) {
 					this.velocidadDestinoX = 0;
 					this.velocidadDestinoY = 0;

@@ -752,7 +752,8 @@
     },
     "_enabled": true,
     "velocidadGiroMaxima": 3,
-    "aceleracionGiro": 1
+    "aceleracionGiro": 1,
+    "controlesActivos": true
   },
   {
     "__type__": "5978amQFQdCk5ZiZrqULzQw",
@@ -1008,8 +1009,8 @@
     "_scaleY": 0.8,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": -5.8,
+      "y": 3.6
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -1055,7 +1056,8 @@
     "velocidadAngularMaxima": 1,
     "aceleracionAngular": 0.2,
     "radioOrbitacion": 50,
-    "radioCentro": 40
+    "radioCentro": 100,
+    "controlesActivos": true
   },
   {
     "__type__": "cc.BoxCollider",
@@ -1068,18 +1070,18 @@
     "tag": 0,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": -5,
-      "y": -6.5
+      "x": 0,
+      "y": 0
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 5,
-      "height": 5
+      "width": 6,
+      "height": 6
     }
   },
   {
     "__type__": "cc.Node",
-    "_name": "particlesystem",
+    "_name": "polvillo",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1

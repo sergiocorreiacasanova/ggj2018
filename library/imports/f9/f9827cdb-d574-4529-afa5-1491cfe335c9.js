@@ -1,8 +1,8 @@
 "use strict";
-cc._RF.push(module, 'b9ac65P5J1GIojGSQxU6N1n', 'RetodeLuz');
-// RetodeLuz.js
+cc._RF.push(module, 'f9827zb1XRFKa+lFJHP4zXJ', 'ScriptdeColision');
+// ScriptdeColision.js
 
-'use strict';
+"use strict";
 
 // Learn cc.Class:
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/class.html
@@ -18,11 +18,21 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        GameFlow: {
-            default: null,
-            type: cc.Node,
-            serializable: true
-        }
+        // foo: {
+        //     // ATTRIBUTES:
+        //     default: null,        // The default value will be used only when the component attaching
+        //                           // to a node for the first time
+        //     type: cc.SpriteFrame, // optional, default is typeof default
+        //     serializable: true,   // optional, default is true
+        // },
+        // bar: {
+        //     get () {
+        //         return this._bar;
+        //     },
+        //     set (value) {
+        //         this._bar = value;
+        //     }
+        // },
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -32,17 +42,12 @@ cc.Class({
 
         manager.enabled = true;
 
-        manager.enabledDebugDraw = true; // DEBUG
+        manager.enabledDebugDraw = true;
     },
-    start: function start() {},
+    start: function start() {}
+}
 
-
-    onCollisionEnter: function onCollisionEnter(other, self) {
-
-        var Gamemode = this.GameFlow;
-        Gamemode.getComponent('GameFlow').RetoCompletado(self.node);
-    }
-    // update (dt) {},
-});
+// update (dt) {},
+);
 
 cc._RF.pop();
