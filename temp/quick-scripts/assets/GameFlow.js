@@ -180,6 +180,8 @@ cc.Class({
     bTablero: false,
     bCinta: false,
 
+    ColiderActivo: null,
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
@@ -194,6 +196,10 @@ cc.Class({
                 self.Astronauta.getChildByName('animado').color = new cc.color(255, 255, 255, 255);
             }
         };
+
+        var manager = cc.director.getCollisionManager();
+        manager.enabled = true;
+        manager.enabledDebugDraw = true; // DEBUG
     },
     AccionGeneralJuego: function AccionGeneralJuego(Componente) {
         console.log(Componente.ActivaObjeto1);

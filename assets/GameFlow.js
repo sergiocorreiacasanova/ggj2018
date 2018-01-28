@@ -192,6 +192,7 @@ cc.Class({
     bTablero: false,
     bCinta: false,
    
+	ColiderActivo: null,
 
     // LIFE-CYCLE CALLBACKS:
 
@@ -206,7 +207,11 @@ cc.Class({
 				self.node.getChildByName('nave').color = new cc.color(255,255,255,255);
 				self.Astronauta.getChildByName('animado').color = new cc.color(255,255,255,255);
 			}
-		}
+		};
+		
+        var manager = cc.director.getCollisionManager();
+        manager.enabled = true;
+        manager.enabledDebugDraw = true; // DEBUG
     },
 
 	AccionGeneralJuego(Componente)

@@ -57,26 +57,26 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad: function onLoad() {
-        var manager = cc.director.getCollisionManager();
+    //onLoad () {
+    //},
 
-        manager.enabled = true;
-
-        manager.enabledDebugDraw = true; // DEBUG
-    },
-    start: function start() {},
-
+    //start () {
+    //},
 
     ActivarColision: function ActivarColision() {
         if (!this.getComponent(cc.BoxCollider).enabled) {
 
             var self = this;
+
+            if (this.GameFlow.getComponent('GameFlow').ColiderActivo !== self.getComponent(cc.BoxCollider)) if (this.GameFlow.getComponent('GameFlow').ColiderActivo) this.GameFlow.getComponent('GameFlow').ColiderActivo.enabled = false;
+
+            this.GameFlow.getComponent('GameFlow').ColiderActivo = self.getComponent(cc.BoxCollider);
+
             setTimeout(function () {
                 self.getComponent(cc.BoxCollider).enabled = false;
             }, 10000);
 
             this.getComponent(cc.BoxCollider).enabled = true;
-            cc.log('lksdgn');
         }
     },
 
