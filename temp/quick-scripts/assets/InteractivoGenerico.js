@@ -67,9 +67,27 @@ cc.Class({
     start: function start() {},
 
 
+    ActivarColision: function ActivarColision() {
+        if (!this.getComponent(cc.BoxCollider).enabled) {
+
+            var self = this;
+            setTimeout(function () {
+                self.getComponent(cc.BoxCollider).enabled = false;
+            }, 10000);
+
+            this.getComponent(cc.BoxCollider).enabled = true;
+            cc.log('lksdgn');
+        }
+    },
+
     onCollisionEnter: function onCollisionEnter(other, self) {
 
         this.GameFlow.getComponent('GameFlow').RetoCompletado(this);
+    },
+
+    onCollisionExit: function onCollisionExit(Other, self) {
+
+        self.getComponent(cc.BoxCollider).enabled = false;
     }
     // update (dt) {},
 });

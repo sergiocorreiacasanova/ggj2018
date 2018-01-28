@@ -59,20 +59,54 @@ cc.Class({
             }
         },
 
-        Libros: {
+        Libro1: {
             default: null,
             type: cc.Node,
             serializable: true
         },
 
-        bLibros: {
+        bLibro1: {
             get: function get() {
-                if (typeof this._bLibros === "undefined") this._bLibros = false;
+                if (typeof this._bLibro1 === "undefined") this._bLibro1 = false;
 
-                return this._bLibros;
+                return this._bLibro1;
             },
             set: function set(value) {
-                this._bLibros = value;
+                this._bLibro1 = value;
+            }
+        },
+
+        Libro2: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+
+        bLibro2: {
+            get: function get() {
+                if (typeof this._bLibro2 === "undefined") this._bLibro2 = false;
+
+                return this._bLibro2;
+            },
+            set: function set(value) {
+                this._bLibro2 = value;
+            }
+        },
+
+        Libro3: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+
+        bLibro3: {
+            get: function get() {
+                if (typeof this._bLibro3 === "undefined") this._bLibro3 = false;
+
+                return this._bLibro3;
+            },
+            set: function set(value) {
+                this._bLibro3 = value;
             }
         },
 
@@ -110,20 +144,20 @@ cc.Class({
             }
         },
 
-        Escotilla: {
+        Cinta: {
             default: null,
             type: cc.Node,
             serializable: true
         },
 
-        bEscotilla: {
+        bCinta: {
             get: function get() {
-                if (typeof this._bEscotilla === "undefined") this._bEscotilla = false;
+                if (typeof this._bCinta === "undefined") this._bCinta = false;
 
-                return this._bEscotilla;
+                return this._bCinta;
             },
             set: function set(value) {
-                this._bEscotilla = value;
+                this._bCinta = value;
             }
         },
 
@@ -144,7 +178,7 @@ cc.Class({
     bComputadora: false,
     bLibros: false,
     bTablero: false,
-    bEscotilla: false,
+    bCinta: false,
 
     // LIFE-CYCLE CALLBACKS:
 
