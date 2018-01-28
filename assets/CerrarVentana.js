@@ -31,23 +31,13 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
-                cc.eventManager.addListener({
-            event: cc.EventListener.KEYBOARD,
-            // When there is a key being pressed down, judge if it's the designated directional button and set up acceleration in the corresponding direction
-            onKeyPressed: function(keyCode, event) {
-                switch(keyCode) {
-                    case cc.KEY.escape:
-                        self.getComponent(cc.Sprite).enabled = true;                        
-                        break;
-                }
-            },
-        }, self.node);
-    },
+    // onLoad () {},
+    Cerrar(){
 
+    },
+        
     start () {
 
-    },
-
+    }
     // update (dt) {},
 });

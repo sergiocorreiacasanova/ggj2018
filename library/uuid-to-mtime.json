@@ -279,11 +279,6 @@
     "meta": 1517154717561,
     "relativePath": "animaciones\\efectoluz_tex.json"
   },
-  "b02669dd-926d-4980-ac59-0b54d8e5b291": {
-    "asset": 1517149529136,
-    "meta": 1517154716871,
-    "relativePath": "CerrarVentana.js"
-  },
   "803bf989-6d67-458f-803f-51263cacfc02": {
     "asset": 1517149564166,
     "meta": 1517154717036,
@@ -385,8 +380,8 @@
     "relativePath": "PrefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517154952774,
-    "meta": 1517154952809,
+    "asset": 1517156600058,
+    "meta": 1517156600097,
     "relativePath": "prueba.fire"
   },
   "b9ac6e4f-e49d-4622-88c6-490c54e8dd67": {
@@ -398,5 +393,10 @@
     "asset": 1517140240377,
     "meta": 1517154717537,
     "relativePath": "ScriptdeColision.js"
+  },
+  "415c2191-4aab-4c7e-aedd-101489a6838b": {
+    "asset": 1517155888273,
+    "meta": 1517155889611,
+    "relativePath": "CerrarVentana.js"
   }
 }

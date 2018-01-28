@@ -1,5 +1,5 @@
 "use strict";
-cc._RF.push(module, 'b0266ndkm1JgKxZC1TY5bKR', 'CerrarVentana');
+cc._RF.push(module, '415c2GRSqtMfq7dEBSJpoOL', 'CerrarVentana');
 // CerrarVentana.js
 
 "use strict";
@@ -37,23 +37,11 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad: function onLoad() {
-        cc.eventManager.addListener({
-            event: cc.EventListener.KEYBOARD,
-            // When there is a key being pressed down, judge if it's the designated directional button and set up acceleration in the corresponding direction
-            onKeyPressed: function onKeyPressed(keyCode, event) {
-                switch (keyCode) {
-                    case cc.KEY.escape:
-                        self.getComponent(cc.Sprite).enabled = true;
-                        break;
-                }
-            }
-        }, self.node);
-    },
+    // onLoad () {},
+    Cerrar: function Cerrar() {},
     start: function start() {}
-}
+    // update (dt) {},
 
-// update (dt) {},
-);
+});
 
 cc._RF.pop();
