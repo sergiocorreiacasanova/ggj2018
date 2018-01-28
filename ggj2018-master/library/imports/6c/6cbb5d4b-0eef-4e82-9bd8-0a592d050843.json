@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronaut_0001_CARA",
+    "texture": "f956fa01-561e-4d9c-8385-fed515035857",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      214,
+      301
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      214,
+      301
+    ]
+  }
+}

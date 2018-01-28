@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronauta_v1_LOOPPRUEV_tex",
+    "texture": "4f9416bb-9ab8-4459-ab7d-19a39e1f042c",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      645,
+      989
+    ],
+    "offset": [
+      -188.5,
+      16.5
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ]
+  }
+}

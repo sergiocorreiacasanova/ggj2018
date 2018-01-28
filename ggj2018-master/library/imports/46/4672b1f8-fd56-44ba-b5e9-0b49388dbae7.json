@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronaut_0002_TORSO",
+    "texture": "c0eab326-c8a1-49b3-80ee-16de0dcab0d3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      386,
+      719
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      386,
+      719
+    ]
+  }
+}

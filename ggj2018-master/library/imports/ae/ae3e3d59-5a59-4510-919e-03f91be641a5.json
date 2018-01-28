@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "efectoluzboton",
+    "texture": "874f358b-3b32-45d4-9e60-3b4f8a687b3a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      55,
+      57
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      55,
+      57
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronaut_0003_BRAZ_DERECHO",
+    "texture": "ad06db1f-3253-42c4-ab3f-d8456a4b5850",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      121,
+      489
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      121,
+      489
+    ]
+  }
+}

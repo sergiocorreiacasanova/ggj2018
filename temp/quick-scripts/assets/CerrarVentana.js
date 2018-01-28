@@ -1,5 +1,5 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/CerrarVentana.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, 'b0266ndkm1JgKxZC1TY5bKR', 'CerrarVentana', __filename);
+cc._RF.push(module, '415c2GRSqtMfq7dEBSJpoOL', 'CerrarVentana', __filename);
 // CerrarVentana.js
 
 "use strict";
@@ -18,43 +18,23 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        Ventana: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        }
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad: function onLoad() {
-        cc.eventManager.addListener({
-            event: cc.EventListener.KEYBOARD,
-            // When there is a key being pressed down, judge if it's the designated directional button and set up acceleration in the corresponding direction
-            onKeyPressed: function onKeyPressed(keyCode, event) {
-                switch (keyCode) {
-                    case cc.KEY.escape:
-                        self.getComponent(cc.Sprite).enabled = true;
-                        break;
-                }
-            }
-        }, self.node);
+    // onLoad () {},
+    Cerrar: function Cerrar() {
+        Ventana.active = false;
     },
     start: function start() {}
-}
+    // update (dt) {},
 
-// update (dt) {},
-);
+});
 
 cc._RF.pop();
         }

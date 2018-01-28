@@ -114,22 +114,22 @@ cc.Class({
                 },
             },
 
-            Tablero:{
+            Panel:{
              default: null, 
              type: cc.Node, 
              serializable: true,   
             },
 
-            bTablero:{
+            bPanel:{
                 get () {
-                    if(typeof this._bTablero === "undefined")
-						this._bTablero = false;
+                    if(typeof this._bPanel === "undefined")
+						this._bPanel = false;
 					
-                    return this._bTablero;                    
+                    return this._bPanel;                    
                 },
 
                 set (value) {
-                        this._bTablero = value;
+                        this._bPanel = value;
                 },
             },
 
@@ -206,7 +206,52 @@ cc.Class({
 				self.AccionGeneralJuego(Componente);
 				self.node.getChildByName('nave').color = new cc.color(255,255,255,255);
 				self.Astronauta.getChildByName('animado').color = new cc.color(255,255,255,255);
+			},
+
+			Computadora: function(Componente){
+				self.AccionGeneralJuego(Componente);
+				if(self.bComputadora){
+					//Ya ingreso el codigo magico
+				}
+				else{
+					//Todavia no ingreso codigo magico
+				}
+			},
+
+			Cinta: function(Componente){
+				self.AccionGeneralJuego(Componente);
+				self.bCinta = true;
+			},
+
+			Panel: function(Componente){
+				self.AccionGeneralJuego(Componente);
+				cc.log(self.bCinta);
+				if(self.bCinta){
+					cc.log('Tiene la cinta');
+					self.Final++;
+				}
+				else{
+					//Chispas
+				}
+			},
+
+			Libro1: function(Componente){
+				//Mostrar Hoja Codigo Morse
+				self.AccionGeneralJuego(Componente);
+			},
+
+			Libro2: function(Componente){
+				//Mostrar Hoja Extra
+				self.AccionGeneralJuego(Componente);
+			},
+
+			Libro3: function(Componente){
+				//Mostrar Hoja Frecuencias
+				self.AccionGeneralJuego(Componente);
 			}
+
+
+
 		};
 		
         var manager = cc.director.getCollisionManager();
@@ -233,8 +278,21 @@ cc.Class({
 			Componente.DesactivaObjeto3.active = false;
 	},
 	
-    CambiarEstado: function(){
-        this.Estado = this.Estado + 1;
+    MostrarFinal: function(){
+        switch(self.Final) {
+        	case 1:
+        		//Explocion;
+        		break;
+        	case 2:
+        		//Sin Aire;
+        		break;
+        	case 3:
+        		//???
+        		break;
+        	case 4:
+        		//Final Real, Creditos
+        		break;
+        }
     },
 
     start () {
@@ -242,55 +300,13 @@ cc.Class({
 		this.Astronauta.getChildByName('animado').color = new cc.color(20,20,20,255);
     },
 
-    RetoCompletado(Componente){
-        //cc.log('LA REPUTICIMAMADRE QUELO REMIL PARIO AL QUE INVENTO ESTE LENGUAJE');
-		
+    RetoCompletado(Componente){		
 		console.log(Componente);
 		cc.log('Dispara accion ', Componente.node.name)
 		if (this.AccionesJuego[Componente.node.name])
 			this.AccionesJuego[Componente.node.name](Componente);
 		else
 			this.AccionGeneralJuego(Componente);
-		
-		/*
-        switch(this.Estado){
-            case 0:{
-                var Compu = this.Computadora
-                Compu.active = true;
-                this.CambiarEstado();
-                break;
-            }
-            
-            case 1:{
-                var Luces = this.Boton;
-                var Radio = this.Tablero;
-                Radio.active = true;
-                Luces.active = false;
-                break; 
-            }
-
-            case 2:{
-                var Libro = this.Libros;
-                Libro.active = true;
-                break;
-            }
-
-            case 3:{
-                var Libro = this.Libros;
-                Libro.active = false;
-                break;
-            }
-
-            case 4:{
-                var Radio = this.Tablero;
-                Radio.active = false;
-                break;
-            }
-
-            default:{
-                this.Estado = 0;
-            }
-        }*/
     }    
 
     // update (dt) {},
