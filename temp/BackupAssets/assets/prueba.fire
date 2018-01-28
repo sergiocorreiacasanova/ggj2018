@@ -339,8 +339,8 @@
     },
     "_rotationX": 75,
     "_rotationY": 75,
-    "_scaleX": 1,
-    "_scaleY": 1,
+    "_scaleX": 0.8,
+    "_scaleY": 0.8,
     "_position": {
       "__type__": "cc.Vec2",
       "x": 865,
@@ -355,7 +355,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "animaciones_ske",
+    "_name": "astronauta",
     "_objFlags": 0,
     "_parent": {
       "__id__": 9
@@ -369,7 +369,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "20tk+dMKtJE4Rw3lH+HcDt",
+    "_id": "e8/jFewn1Ph4ZisMfllZ50",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -391,12 +391,12 @@
     },
     "_rotationX": 0,
     "_rotationY": 0,
-    "_scaleX": 0.5,
-    "_scaleY": 0.5,
+    "_scaleX": 0.8,
+    "_scaleY": 0.8,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -5,
-      "y": -8
+      "x": 0,
+      "y": 0
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -414,16 +414,16 @@
     },
     "_enabled": true,
     "_armatureName": "Armature",
-    "_animationName": "",
+    "_animationName": "animtion0",
     "playTimes": -1,
     "_N$dragonAsset": {
-      "__uuid__": "a260183c-0127-45a0-aeff-021889cddb13"
+      "__uuid__": "14579aad-4287-4c26-a8df-50dcca7778d3"
     },
     "_N$dragonAtlasAsset": {
-      "__uuid__": "84fd202a-cea3-41a7-b631-ef57ebfb363d"
+      "__uuid__": "aead1427-7a92-43ad-b586-9d44a21e29dd"
     },
     "_N$_defaultArmatureIndex": 0,
-    "_N$_animationIndex": 0,
+    "_N$_animationIndex": 1,
     "_N$timeScale": 1,
     "_N$debugBones": false
   },

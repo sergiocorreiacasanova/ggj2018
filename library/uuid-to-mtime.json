@@ -225,8 +225,8 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517074130712,
-    "meta": 1517074130773,
+    "asset": 1517096112299,
+    "meta": 1517096112598,
     "relativePath": "prueba.fire"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
@@ -284,21 +284,6 @@
     "meta": 1517037005152,
     "relativePath": "animaciones"
   },
-  "a260183c-0127-45a0-aeff-021889cddb13": {
-    "asset": 1517037217631,
-    "meta": 1517037245805,
-    "relativePath": "animaciones\\animaciones_ske.json"
-  },
-  "a6735225-082d-4971-94bc-77502fd08bcd": {
-    "asset": 1517037217641,
-    "meta": 1517037245893,
-    "relativePath": "animaciones\\animaciones_tex.png"
-  },
-  "84fd202a-cea3-41a7-b631-ef57ebfb363d": {
-    "asset": 1517037217638,
-    "meta": 1517037245918,
-    "relativePath": "animaciones\\animaciones_tex.json"
-  },
   "3844b0dd-6207-4eb5-9ef8-72357fbd64eb": {
     "asset": 1517049768801,
     "meta": 1517049071270,
@@ -318,5 +303,45 @@
     "asset": 1517075846328,
     "meta": 1517075850459,
     "relativePath": "jugador.js"
+  },
+  "b9ac6e4f-e49d-4622-88c6-490c54e8dd67": {
+    "asset": 1517076329718,
+    "meta": 1517081899575,
+    "relativePath": "Panel.js"
+  },
+  "cfdfea3f-ea5b-4864-9361-f7ec39c98ba7": {
+    "asset": 1517087876285,
+    "meta": 1517087919638,
+    "relativePath": "animaciones\\astronauta_v1_ske.json"
+  },
+  "e44029fe-78e4-4680-a353-e0be0db856f3": {
+    "asset": 1517087876302,
+    "meta": 1517087919835,
+    "relativePath": "animaciones\\astronauta_v1_tex.png"
+  },
+  "1a2baf6d-75c0-4446-97b4-40d5ae4ad1f4": {
+    "asset": 1517087876302,
+    "meta": 1517087919864,
+    "relativePath": "animaciones\\astronauta_v1_tex.json"
+  },
+  "14579aad-4287-4c26-a8df-50dcca7778d3": {
+    "asset": 1517091955244,
+    "meta": 1517092008463,
+    "relativePath": "animaciones\\astronauta_v1_LOOPPRUEV_ske.json"
+  },
+  "4f9416bb-9ab8-4459-ab7d-19a39e1f042c": {
+    "asset": 1517091955257,
+    "meta": 1517092008667,
+    "relativePath": "animaciones\\astronauta_v1_LOOPPRUEV_tex.png"
+  },
+  "aead1427-7a92-43ad-b586-9d44a21e29dd": {
+    "asset": 1517091955265,
+    "meta": 1517092008711,
+    "relativePath": "animaciones\\astronauta_v1_LOOPPRUEV_tex.json"
+  },
+  "198959a7-b024-47a5-a131-0880e68732e6": {
+    "asset": 1517095846351,
+    "meta": 1517095896139,
+    "relativePath": "cohete.plist"
   }
 }

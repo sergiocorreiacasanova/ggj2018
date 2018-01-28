@@ -47,7 +47,7 @@
                     ],
                     "height": 384,
                     "type": "panel",
-                    "width": 413.984375
+                    "width": 638.96875
                   },
                   {
                     "active": 0,
@@ -56,7 +56,7 @@
                     ],
                     "height": 384,
                     "type": "panel",
-                    "width": 428.984375
+                    "width": 204
                   }
                 ],
                 "height": 384,
@@ -99,7 +99,9 @@
         "scene",
         "timeline"
       ]
-    }
+    },
+    "window-1517095425761": {},
+    "worker": {}
   },
   "panels": {
     "preferences": {
@@ -109,7 +111,7 @@
       "height": 565
     },
     "builder": {
-      "x": 425,
+      "x": 417,
       "y": 0,
       "width": 516,
       "height": 728

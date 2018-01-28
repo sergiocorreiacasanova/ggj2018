@@ -370,3 +370,171 @@ Missing uuid: "492eab19-1367-451e-96bc-acd69d905fc3"
     at Parser.pp$3.parseExprOp (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3435:42)
     at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3408:17)
     at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2018-01-27T22:06:53.764Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1355073
+2018-01-27T22:12:53.863Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1361509
+2018-01-27T22:24:53.833Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1374523
+2018-01-27T23:25:05.348Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "C:\\Users\\ser\\Documents\\astronauta\\build",
+  "debug": false,
+  "dest": "C:\\Users\\ser\\Documents\\astronauta\\build\\web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.astronauta",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "renderMode": "0",
+  "scenes": [
+    "789a80c2-941a-4bc4-b8c6-90d335a3c279"
+  ],
+  "sourceMaps": false,
+  "startScene": "789a80c2-941a-4bc4-b8c6-90d335a3c279",
+  "template": "link",
+  "title": "astronauta",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "b8342e4a-f757-40",
+  "zipCompressJs": true,
+  "project": "C:\\Users\\ser\\Documents\\astronauta",
+  "projectName": "astronauta",
+  "debugBuildWorker": false
+}
+2018-01-27T23:25:05.355Z - normal: Building C:\Users\ser\Documents\astronauta
+2018-01-27T23:25:05.356Z - normal: Destination C:\Users\ser\Documents\astronauta\build\web-mobile
+2018-01-27T23:25:05.359Z - normal: Delete C:\Users\ser\Documents\astronauta\build\web-mobile\**\*
+2018-01-27T23:25:16.873Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451245
+2018-01-27T23:25:26.707Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451254
+2018-01-27T23:25:39.135Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451264
+2018-01-27T23:25:40.501Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451268
+2018-01-27T23:25:46.192Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451272
+2018-01-27T23:25:54.829Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451275
+2018-01-27T23:25:59.797Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451278
+2018-01-27T23:26:16.353Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451294
+2018-01-27T23:26:37.546Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451302
+2018-01-27T23:26:37.547Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451305
+2018-01-27T23:26:37.548Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451307
+2018-01-27T23:30:49.275Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451326
+2018-01-27T23:30:49.280Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451328
+2018-01-27T23:30:49.285Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451330
+2018-01-27T23:30:49.287Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451332
+2018-01-27T23:30:49.288Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451334
+2018-01-27T23:30:49.290Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451336
+2018-01-27T23:30:49.291Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451338
+2018-01-27T23:30:49.293Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451340
+2018-01-27T23:30:49.295Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451342
+2018-01-27T23:30:49.296Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451344
+2018-01-27T23:30:49.298Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451346
+2018-01-27T23:30:49.299Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451348
+2018-01-27T23:30:49.300Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451350
+2018-01-27T23:30:49.301Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451352
+2018-01-27T23:30:49.302Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451354
+2018-01-27T23:30:49.303Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451356
+2018-01-27T23:30:49.304Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451358
+2018-01-27T23:30:49.305Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451360
+2018-01-27T23:30:49.311Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451362
+2018-01-27T23:30:49.312Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451364
+2018-01-27T23:30:49.314Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451366
+2018-01-27T23:30:49.315Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451368
+2018-01-27T23:30:49.378Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451370
+2018-01-27T23:30:49.379Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451372
+2018-01-27T23:30:49.381Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451374
+2018-01-27T23:30:49.383Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451376
+2018-01-27T23:30:49.384Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451378
+2018-01-27T23:30:49.386Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451380
+2018-01-27T23:30:49.388Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451382
+2018-01-27T23:30:49.389Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451384
+2018-01-27T23:30:49.391Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451386
+2018-01-27T23:30:49.393Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451388
+2018-01-27T23:30:49.395Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451390
+2018-01-27T23:30:49.396Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451392
+2018-01-27T23:30:49.399Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451394
+2018-01-27T23:30:49.400Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451396
+2018-01-27T23:30:49.402Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451398
+2018-01-27T23:30:49.404Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451401
+2018-01-27T23:30:49.405Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451403
+2018-01-27T23:30:49.408Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451405
+2018-01-27T23:30:49.409Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451407
+2018-01-27T23:30:49.410Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451409
+2018-01-27T23:30:49.411Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451411
+2018-01-27T23:30:49.413Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451413
+2018-01-27T23:30:49.414Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451415
+2018-01-27T23:30:49.415Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451417
+2018-01-27T23:30:49.420Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1451419
+2018-01-27T23:31:03.441Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:31:13.585Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:31:23.757Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:31:33.798Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:31:43.901Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:31:53.956Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:32:03.982Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:32:14.102Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:32:24.175Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:32:34.427Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:32:44.566Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:32:54.692Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:33:04.931Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:33:15.054Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:33:25.231Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:33:35.321Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:33:48.863Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:33:59.254Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:34:09.394Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:34:19.557Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:34:29.953Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:34:40.244Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:34:50.326Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:35:00.388Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:35:10.553Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:35:20.666Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:35:30.756Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:35:40.962Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:35:51.120Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:36:01.181Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:36:11.221Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:36:50.824Z - normal: Compiled project javascript file successfully
+2018-01-27T23:36:50.826Z - normal: Start building assets
+2018-01-27T23:36:50.828Z - normal: Start spawn build-worker
+2018-01-27T23:37:00.853Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:37:10.943Z - normal: Load worker timeout, reload worker.
+2018-01-27T23:37:19.823Z - normal: Finish spawn build-worker
+2018-01-27T23:37:19.823Z - normal: Start init build-worker
+2018-01-27T23:37:49.092Z - normal: 1.8.1
+2018-01-27T23:37:50.450Z - normal: Finish init build-worker
+2018-01-27T23:37:50.450Z - normal: Start build-assets in worker
+2018-01-27T23:37:56.012Z - warn: Can not find particle texture in C:\Users\ser\Documents\astronauta\assets\particle_texture.png, plist: C:\Users\ser\Documents\astronauta\assets\particle_texture.plist
+2018-01-27T23:37:57.096Z - normal: Finish build-assets in worker
+2018-01-27T23:37:57.201Z - normal: Finish building assets
+2018-01-27T23:37:57.529Z - normal: Start building raw assets
+2018-01-27T23:37:57.532Z - normal: Start building plugin scripts
+2018-01-27T23:37:58.068Z - normal: Finish building raw assets
+2018-01-27T23:37:58.286Z - normal: Generating main.js from C:\CocosCreator\resources\static\build-templates\shares\main.js
+2018-01-27T23:37:58.829Z - normal: Generating html from C:\CocosCreator\resources\static\build-templates\web-mobile\template\index.html
+2018-01-27T23:37:59.010Z - normal: Built to "C:\Users\ser\Documents\astronauta\build\web-mobile" successfully

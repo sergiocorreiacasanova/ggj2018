@@ -1,18 +1,18 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "animaciones_tex",
-    "texture": "a6735225-082d-4971-94bc-77502fd08bcd",
+    "name": "astronauta_v1_LOOPPRUEV_tex",
+    "texture": "4f9416bb-9ab8-4459-ab7d-19a39e1f042c",
     "atlas": "",
     "rect": [
       1,
       1,
-      968,
-      999
+      645,
+      989
     ],
     "offset": [
-      -27,
-      11.5
+      -188.5,
+      16.5
     ],
     "originalSize": [
       1024,
