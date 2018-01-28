@@ -224,11 +224,6 @@
     "meta": 1517135135455,
     "relativePath": "prefab\\webview.prefab"
   },
-  "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517153907577,
-    "meta": 1517153907693,
-    "relativePath": "prueba.fire"
-  },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
     "asset": 1517150240458,
     "meta": 1517021929736,
@@ -344,16 +339,6 @@
     "meta": 1517141893132,
     "relativePath": "RetodeLuz.js"
   },
-  "1d2a0a60-1c35-470d-bbb2-29ecc75f0f01": {
-    "asset": 1517142824473,
-    "meta": 1517142833382,
-    "relativePath": "InteractivoGenerico.js"
-  },
-  "fde6093c-3432-4e56-841e-b47c93a0782a": {
-    "asset": 1517142915685,
-    "meta": 1517142928491,
-    "relativePath": "prefabInteractivo.prefab"
-  },
   "567fd8ca-6c45-48c6-8ff0-19e848a2ae76": {
     "asset": 1517145156561,
     "meta": 1517145276977,
@@ -384,19 +369,34 @@
     "meta": 1517146862070,
     "relativePath": "animaciones\\efectoluz_tex.json"
   },
-  "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517147043776,
-    "meta": 1517147049055,
-    "relativePath": "GameFlow.js"
-  },
   "803bf989-6d67-458f-803f-51263cacfc02": {
     "asset": 1517147131873,
     "meta": 1517147133827,
     "relativePath": "fondo.js"
   },
+  "5978a990-1507-4293-9662-66ba942f3430": {
+    "asset": 1517155060847,
+    "meta": 1517155071157,
+    "relativePath": "GameFlow.js"
+  },
+  "1d2a0a60-1c35-470d-bbb2-29ecc75f0f01": {
+    "asset": 1517155060863,
+    "meta": 1517155071476,
+    "relativePath": "InteractivoGenerico.js"
+  },
   "029418cc-e344-4597-9eeb-d4082cdbd33d": {
-    "asset": 1517148970303,
-    "meta": 1517148976140,
+    "asset": 1517155060878,
+    "meta": 1517155071595,
     "relativePath": "jugador.js"
+  },
+  "cbf179f5-0fca-4de8-b74d-9a513ce2e28e": {
+    "asset": 1517155060903,
+    "meta": 1517155071624,
+    "relativePath": "prefabInteractivo.prefab"
+  },
+  "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
+    "asset": 1517155060910,
+    "meta": 1517155071690,
+    "relativePath": "prueba.fire"
   }
 }

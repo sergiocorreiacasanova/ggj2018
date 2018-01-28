@@ -16,17 +16,20 @@
     "_parent": null,
     "_children": [],
     "_tag": -1,
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 2
       },
       {
         "__id__": 3
+      },
+      {
+        "__id__": 4
       }
     ],
     "_prefab": {
-      "__id__": 4
+      "__id__": 6
     },
     "_id": "",
     "_opacity": 255,
@@ -50,12 +53,12 @@
     },
     "_rotationX": 28,
     "_rotationY": 28,
-    "_scaleX": 1.3478327986842566,
-    "_scaleY": 1.1900695894435673,
+    "_scaleX": 1.0782658,
+    "_scaleY": 0.9520556,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -358.4999996250001,
-      "y": 540.6000001977502
+      "x": -355.7,
+      "y": 536
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -71,7 +74,7 @@
     "node": {
       "__id__": 1
     },
-    "_enabled": true,
+    "_enabled": false,
     "tag": 1,
     "_offset": {
       "__type__": "cc.Vec2",
@@ -96,9 +99,76 @@
     "ActivaObjeto1": null,
     "ActivaObjeto2": null,
     "ActivaObjeto3": null,
-    "DesactivaObjeto1": null,
+    "DesactivaObjeto1": {
+      "__id__": 1
+    },
     "DesactivaObjeto2": null,
     "DesactivaObjeto3": null
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "transition": 0,
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [
+      {
+        "__id__": 5
+      }
+    ],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 214,
+      "g": 214,
+      "b": 214,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 1
+    },
+    "component": "InteractivoGenerico",
+    "handler": "ActivarColision",
+    "customEventData": ""
   },
   {
     "__type__": "cc.PrefabInfo",

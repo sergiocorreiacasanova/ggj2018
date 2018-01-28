@@ -177,7 +177,7 @@ cc.Class({
 			
 			var DistanciaActual = this.distanciaPosicion(this.node.position, this.destino);
 			
-			cc.log (DistanciaActual, this.distanciaDestino, this.orbitando);
+			//cc.log (DistanciaActual, this.distanciaDestino, this.orbitando);
 			
 			if (DistanciaActual <= this.distanciaDestino && this.orbitando !== true)
 				this.distanciaDestino = DistanciaActual;
