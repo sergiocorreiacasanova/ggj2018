@@ -95,6 +95,7 @@ cc.Class({
 			}
 		}, self.node);
 		self.controlesActivos = true;
+		this.anguloActual = this.node.rotationX;
 	},
 	update: function update(dt) {
 		var variacion = this.aceleracionGiro * dt;

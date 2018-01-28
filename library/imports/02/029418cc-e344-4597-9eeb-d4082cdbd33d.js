@@ -2,8 +2,6 @@
 cc._RF.push(module, '02941jM40RFl57r1Ags29M9', 'jugador');
 // jugador.js
 
-'use strict';
-
 // Learn cc.Class:
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/class.html
 //  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/class/index.html
@@ -13,6 +11,8 @@ cc._RF.push(module, '02941jM40RFl57r1Ags29M9', 'jugador');
 // Learn life-cycle callbacks:
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/life-cycle-callbacks/index.html
+
+"use strict";
 
 cc.Class({
 	extends: cc.Component,
@@ -52,6 +52,7 @@ cc.Class({
 
 	destino: null,
 	anguloDestino: 0,
+	distanciaDestino: 0,
 	velocidadAngularDestino: 0,
 	aceleracionAngularDestino: 0,
 	deltaAnguloDesaceleracionDestino: 0,
@@ -75,19 +76,18 @@ cc.Class({
 				if (self.controlesActivos) {
 					if (isNaN(self.velocidadAngularDestino)) self.velocidadAngularDestino = 0;
 
-					self.orbitando = false;
-
 					self.destino = touch.getLocation();
 
 					if (isNaN(self.node.rotation)) self.node.rotation = 0;
 
 					self.node.rotation = (self.node.rotationX + 360) % 360;
 
-					// calcula el angulo contra la vertical x+
-					var anguloRad = (Math.PI / 2 - Math.atan2(self.destino.y - self.fondo.position.y, self.destino.x - self.fondo.position.x) + Math.PI * 2) % (Math.PI * 2);
+					if (self.distanciaPosicion(self.fondo.position, self.destino) < self.radioCentro) self.anguloDestino = self.node.rotationX;else {
+						// calcula el angulo contra la vertical x+
+						var anguloRad = (Math.PI / 2 - Math.atan2(self.destino.y - self.fondo.position.y, self.destino.x - self.fondo.position.x) + Math.PI * 2) % (Math.PI * 2);
 
-					self.anguloDestino = anguloRad / Math.PI * 180;
-
+						self.anguloDestino = anguloRad / Math.PI * 180;
+					}
 					// intento determinar hacia qué lado girar
 					/*
      	Ej 1 
@@ -108,6 +108,9 @@ cc.Class({
 						self.aceleracionAngularDestino = -self.aceleracionAngular;
 						self.deltaAnguloDesaceleracionDestino = Math.abs(diffA) / 2;
 					}
+
+					self.distanciaDestino = self.distanciaPosicion(self.node.position, self.destino);
+					self.orbitando = false;
 
 					// calcula el angulo contra la vertical x+
 					var anguloVelocidad = Math.atan2(self.destino.y - self.node.position.y, self.destino.x - self.node.position.x);
@@ -133,6 +136,9 @@ cc.Class({
 		self.anguloDestino = self.node.rotationX;
 		self.orbitando = true;
 		self.controlesActivos = true;
+		self.velocidadDestinoX = 0;
+		self.velocidadDestinoY = 0;
+		self.velocidadAngularDestino = 0;
 	},
 
 	start: function start() {},
@@ -152,7 +158,11 @@ cc.Class({
 
 			this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
 
-			if (this.distanciaPosicion(this.node.position, this.destino) < this.radioOrbitacion / 10 || this.orbitando === true) {
+			var DistanciaActual = this.distanciaPosicion(this.node.position, this.destino);
+
+			cc.log(DistanciaActual, this.distanciaDestino, this.orbitando);
+
+			if (DistanciaActual <= this.distanciaDestino && this.orbitando !== true) this.distanciaDestino = DistanciaActual;else {
 				if (this.orbitando !== true) {
 					this.velocidadDestinoX = 0;
 					this.velocidadDestinoY = 0;

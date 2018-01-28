@@ -1,14 +1,14 @@
 {
   "ver": "1.0.0",
-  "uuid": "b3614e75-cf29-42d6-9e50-fbf7f677a8d0",
+  "uuid": "69b99408-4e06-4811-81af-6c351a33b2b3",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "fondo": {
+    "tierraFondo": {
       "ver": "1.0.3",
-      "uuid": "0e482042-b31b-4e2b-9546-16548fbe8f48",
-      "rawTextureUuid": "b3614e75-cf29-42d6-9e50-fbf7f677a8d0",
+      "uuid": "48b7d3d8-7941-4b4d-b149-8941f63c35d3",
+      "rawTextureUuid": "69b99408-4e06-4811-81af-6c351a33b2b3",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -16,10 +16,10 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 1500,
-      "height": 1500,
-      "rawWidth": 1500,
-      "rawHeight": 1500,
+      "width": 373,
+      "height": 390,
+      "rawWidth": 373,
+      "rawHeight": 390,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

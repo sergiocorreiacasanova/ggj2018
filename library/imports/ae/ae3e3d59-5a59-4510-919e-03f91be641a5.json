@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "basesita 2",
-    "texture": "2aba95f6-c52f-4a8d-a087-61ff8665f12c",
+    "name": "efectoluzboton",
+    "texture": "874f358b-3b32-45d4-9e60-3b4f8a687b3a",
     "atlas": "",
     "rect": [
       0,
       0,
-      1500,
-      1500
+      55,
+      57
     ],
     "offset": [
       0,
       0
     ],
     "originalSize": [
-      1500,
-      1500
+      55,
+      57
     ]
   }
 }

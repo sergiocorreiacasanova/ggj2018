@@ -1,22 +1,22 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "astronauta",
-    "texture": "07276d05-08ad-432a-9d17-7b3f3459b503",
+    "name": "tierraFondo",
+    "texture": "69b99408-4e06-4811-81af-6c351a33b2b3",
     "atlas": "",
     "rect": [
       0,
       0,
-      217,
-      353
+      373,
+      390
     ],
     "offset": [
       0,
       0
     ],
     "originalSize": [
-      217,
-      353
+      373,
+      390
     ]
   }
 }

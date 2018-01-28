@@ -93,6 +93,7 @@ cc.Class({
             }
         }, self.node);
 		self.controlesActivos= true;
+		this.anguloActual = this.node.rotationX;
 	},
 	
     update (dt) {

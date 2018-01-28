@@ -179,8 +179,8 @@ cc.Class({
     },
 
     start: function start() {
-        this.node.getChildByName('nave').color = new cc.color(46, 46, 46, 255);
-        this.Astronauta.getChildByName('animado').color = new cc.color(46, 46, 46, 255);
+        this.node.getChildByName('nave').color = new cc.color(20, 20, 20, 255);
+        this.Astronauta.getChildByName('animado').color = new cc.color(20, 20, 20, 255);
     },
     RetoCompletado: function RetoCompletado(Componente) {
         //cc.log('LA REPUTICIMAMADRE QUELO REMIL PARIO AL QUE INVENTO ESTE LENGUAJE');

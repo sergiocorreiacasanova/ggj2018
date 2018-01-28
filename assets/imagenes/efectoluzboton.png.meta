@@ -1,14 +1,14 @@
 {
   "ver": "1.0.0",
-  "uuid": "2aba95f6-c52f-4a8d-a087-61ff8665f12c",
+  "uuid": "874f358b-3b32-45d4-9e60-3b4f8a687b3a",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "basesita 2": {
+    "efectoluzboton": {
       "ver": "1.0.3",
-      "uuid": "49c06a01-7380-45ae-92ec-50a137e59823",
-      "rawTextureUuid": "2aba95f6-c52f-4a8d-a087-61ff8665f12c",
+      "uuid": "ae3e3d59-5a59-4510-919e-03f91be641a5",
+      "rawTextureUuid": "874f358b-3b32-45d4-9e60-3b4f8a687b3a",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -16,10 +16,10 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 1500,
-      "height": 1500,
-      "rawWidth": 1500,
-      "rawHeight": 1500,
+      "width": 55,
+      "height": 57,
+      "rawWidth": 55,
+      "rawHeight": 57,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

@@ -225,19 +225,14 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517144048155,
-    "meta": 1517144048454,
+    "asset": 1517149096295,
+    "meta": 1517149096424,
     "relativePath": "prueba.fire"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
     "asset": 1517134992446,
     "meta": 1517021929736,
     "relativePath": "imagenes"
-  },
-  "07276d05-08ad-432a-9d17-7b3f3459b503": {
-    "asset": 1517022241909,
-    "meta": 1517135138225,
-    "relativePath": "imagenes\\astronauta.png"
   },
   "08e0d7ec-2850-40fb-a151-d40bcb062449": {
     "asset": 1517035338991,
@@ -283,16 +278,6 @@
     "asset": 1517049768801,
     "meta": 1517049071270,
     "relativePath": "particle_texture.plist"
-  },
-  "b3614e75-cf29-42d6-9e50-fbf7f677a8d0": {
-    "asset": 1517068697242,
-    "meta": 1517135138760,
-    "relativePath": "imagenes\\fondo.jpg"
-  },
-  "2aba95f6-c52f-4a8d-a087-61ff8665f12c": {
-    "asset": 1516981928000,
-    "meta": 1517135138813,
-    "relativePath": "imagenes\\basesita 2.png"
   },
   "a66c5320-c50b-4399-84fc-e52407e7d8d8": {
     "asset": 1517134992419,
@@ -354,16 +339,6 @@
     "meta": 1517136786127,
     "relativePath": "ScriptdeColision.js"
   },
-  "803bf989-6d67-458f-803f-51263cacfc02": {
-    "asset": 1517137761907,
-    "meta": 1517138064932,
-    "relativePath": "fondo.js"
-  },
-  "029418cc-e344-4597-9eeb-d4082cdbd33d": {
-    "asset": 1517138873030,
-    "meta": 1517138881155,
-    "relativePath": "jugador.js"
-  },
   "b9ac6e4f-e49d-4622-88c6-490c54e8dd67": {
     "asset": 1517141881018,
     "meta": 1517141893132,
@@ -379,9 +354,49 @@
     "meta": 1517142928491,
     "relativePath": "prefabInteractivo.prefab"
   },
+  "567fd8ca-6c45-48c6-8ff0-19e848a2ae76": {
+    "asset": 1517145156561,
+    "meta": 1517145276977,
+    "relativePath": "imagenes\\fondo.png"
+  },
+  "69b99408-4e06-4811-81af-6c351a33b2b3": {
+    "asset": 1517145573824,
+    "meta": 1517145580938,
+    "relativePath": "imagenes\\tierraFondo.jpg"
+  },
+  "3952d1b5-9e27-4279-b51a-a77a01144ce3": {
+    "asset": 1517146784575,
+    "meta": 1517146861881,
+    "relativePath": "animaciones\\efectoluz_ske.json"
+  },
+  "874f358b-3b32-45d4-9e60-3b4f8a687b3a": {
+    "asset": 1517145911888,
+    "meta": 1517146861972,
+    "relativePath": "imagenes\\efectoluzboton.png"
+  },
+  "aed1471e-b0d8-45d8-97e8-28864eb92097": {
+    "asset": 1517146784536,
+    "meta": 1517146862021,
+    "relativePath": "animaciones\\efectoluz_tex.png"
+  },
+  "c035718c-2a40-46db-83e6-899bc6070125": {
+    "asset": 1517146784523,
+    "meta": 1517146862070,
+    "relativePath": "animaciones\\efectoluz_tex.json"
+  },
   "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517143895791,
-    "meta": 1517143899838,
+    "asset": 1517147043776,
+    "meta": 1517147049055,
     "relativePath": "GameFlow.js"
+  },
+  "803bf989-6d67-458f-803f-51263cacfc02": {
+    "asset": 1517147131873,
+    "meta": 1517147133827,
+    "relativePath": "fondo.js"
+  },
+  "029418cc-e344-4597-9eeb-d4082cdbd33d": {
+    "asset": 1517148970303,
+    "meta": 1517148976140,
+    "relativePath": "jugador.js"
   }
 }
