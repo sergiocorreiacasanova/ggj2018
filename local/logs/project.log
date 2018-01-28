@@ -1,75 +1,54 @@
-2018-01-28T19:04:15.528Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-28T19:04:15.543Z - normal: checking language setting...
-2018-01-28T19:04:15.543Z - normal: Language: en
-2018-01-28T19:04:19.668Z - success: protocol editor-framework registered
-2018-01-28T19:04:19.668Z - success: protocol app registered
-2018-01-28T19:04:19.668Z - success: protocol theme registered
-2018-01-28T19:04:19.668Z - success: protocol packages registered
-2018-01-28T19:04:19.668Z - success: protocol unpack registerred
-2018-01-28T19:04:19.668Z - success: protocol disable-commonjs registerred
-2018-01-28T19:04:22.678Z - normal: failed to connect login server due to request timeout
-2018-01-28T19:04:22.678Z - normal: Check project D:\GGJ
-2018-01-28T19:04:22.678Z - normal: Initializing Cocos2d
-2018-01-28T19:04:25.084Z - warn: 会话不存在或已过期
-2018-01-28T19:04:25.100Z - normal: Initializing Asset Database
-2018-01-28T19:04:25.131Z - success: protocol uuid registerred
-2018-01-28T19:04:25.131Z - success: protocol db registerred
-2018-01-28T19:04:25.131Z - success: protocol thumbnail registerred
-2018-01-28T19:04:25.131Z - normal: Loading editor/builtin packages
-2018-01-28T19:04:25.162Z - success: anysdk loaded
-2018-01-28T19:04:25.303Z - success: assets loaded
-2018-01-28T19:04:25.303Z - success: builder loaded
-2018-01-28T19:04:25.303Z - success: cocos-analytics loaded
-2018-01-28T19:04:25.303Z - success: console loaded
-2018-01-28T19:04:25.318Z - success: hierarchy loaded
-2018-01-28T19:04:25.318Z - success: inspector loaded
-2018-01-28T19:04:25.318Z - success: keystore loaded
-2018-01-28T19:04:25.318Z - success: node-library loaded
-2018-01-28T19:04:25.318Z - success: package-asset loaded
-2018-01-28T19:04:25.318Z - success: preferences loaded
-2018-01-28T19:04:25.334Z - success: project-exporter loaded
-2018-01-28T19:04:25.350Z - success: project-importer loaded
-2018-01-28T19:04:25.350Z - success: project-settings loaded
-2018-01-28T19:04:25.350Z - success: ui-kit loaded
-2018-01-28T19:04:25.350Z - success: ui-grid loaded
-2018-01-28T19:04:25.365Z - success: scene loaded
-2018-01-28T19:04:25.365Z - success: sprite-editor loaded
-2018-01-28T19:04:25.365Z - success: store loaded
-2018-01-28T19:04:25.365Z - success: timeline loaded
-2018-01-28T19:04:25.365Z - normal: Loading builtin packages
-2018-01-28T19:04:25.365Z - success: asset-db-debugger loaded
-2018-01-28T19:04:25.381Z - success: code-editor loaded
-2018-01-28T19:04:25.381Z - success: color-picker loaded
-2018-01-28T19:04:25.381Z - success: package-manager loaded
-2018-01-28T19:04:25.381Z - success: sdkbox loaded
-2018-01-28T19:04:25.381Z - success: tester loaded
-2018-01-28T19:04:25.381Z - success: ui-kit-preview-extra loaded
-2018-01-28T19:04:25.397Z - success: ui-kit-preview loaded
-2018-01-28T19:04:25.397Z - success: ui-tree loaded
-2018-01-28T19:04:26.725Z - normal: Initializing project D:\GGJ
-2018-01-28T19:04:26.740Z - normal: Loading packages
-2018-01-28T19:04:26.740Z - normal: Watching packages
-2018-01-28T19:04:26.756Z - normal: Run Application
-2018-01-28T19:04:30.197Z - success: preview server running at http://localhost:7456
-2018-01-28T19:04:38.691Z - normal: 1.8.1
-2018-01-28T19:41:40.233Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T19:44:07.204Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T19:50:33.054Z - failed: [db-task][sync-changes] Failed to import asset D:\GGJ\assets\ReiniciarHoja.js, message: Compile error: SyntaxError: D:/GGJ/assets/ReiniciarHoja.js: Unexpected token, expected , (34:4)
-  32 |     }
-  33 | 
-> 34 |     ReiniciarY(Y){
-     |     ^
-  35 |         Hoja.PositionY = Y;
-  36 |     }
-  37 | 
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-01-28T20:16:43.731Z - info: shutdown preview server
+2018-01-28T20:25:18.275Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-28T20:25:18.275Z - normal: checking language setting...
+2018-01-28T20:25:18.275Z - normal: Language: en
+2018-01-28T20:25:20.218Z - success: protocol editor-framework registered
+2018-01-28T20:25:20.218Z - success: protocol app registered
+2018-01-28T20:25:20.218Z - success: protocol theme registered
+2018-01-28T20:25:20.218Z - success: protocol packages registered
+2018-01-28T20:25:20.218Z - success: protocol unpack registerred
+2018-01-28T20:25:20.218Z - success: protocol disable-commonjs registerred
+2018-01-28T20:25:22.155Z - normal: connected!
+2018-01-28T20:25:22.155Z - normal: Check project D:\GGJ
+2018-01-28T20:25:22.171Z - normal: Initializing Cocos2d
+2018-01-28T20:25:22.405Z - normal: Initializing Asset Database
+2018-01-28T20:25:22.437Z - success: protocol uuid registerred
+2018-01-28T20:25:22.437Z - success: protocol db registerred
+2018-01-28T20:25:22.437Z - success: protocol thumbnail registerred
+2018-01-28T20:25:22.437Z - normal: Loading editor/builtin packages
+2018-01-28T20:25:22.468Z - success: anysdk loaded
+2018-01-28T20:25:22.609Z - success: assets loaded
+2018-01-28T20:25:22.609Z - success: builder loaded
+2018-01-28T20:25:22.609Z - success: cocos-analytics loaded
+2018-01-28T20:25:22.624Z - success: console loaded
+2018-01-28T20:25:22.624Z - success: hierarchy loaded
+2018-01-28T20:25:22.624Z - success: inspector loaded
+2018-01-28T20:25:22.624Z - success: keystore loaded
+2018-01-28T20:25:22.624Z - success: node-library loaded
+2018-01-28T20:25:22.640Z - success: package-asset loaded
+2018-01-28T20:25:22.640Z - success: preferences loaded
+2018-01-28T20:25:22.640Z - success: project-exporter loaded
+2018-01-28T20:25:22.655Z - success: project-importer loaded
+2018-01-28T20:25:22.655Z - success: project-settings loaded
+2018-01-28T20:25:22.671Z - success: ui-kit loaded
+2018-01-28T20:25:22.671Z - success: ui-grid loaded
+2018-01-28T20:25:22.671Z - success: scene loaded
+2018-01-28T20:25:22.671Z - success: sprite-editor loaded
+2018-01-28T20:25:22.671Z - success: store loaded
+2018-01-28T20:25:22.687Z - success: timeline loaded
+2018-01-28T20:25:22.687Z - normal: Loading builtin packages
+2018-01-28T20:25:22.687Z - success: asset-db-debugger loaded
+2018-01-28T20:25:22.687Z - success: code-editor loaded
+2018-01-28T20:25:22.687Z - success: color-picker loaded
+2018-01-28T20:25:22.687Z - success: package-manager loaded
+2018-01-28T20:25:22.687Z - success: sdkbox loaded
+2018-01-28T20:25:22.702Z - success: tester loaded
+2018-01-28T20:25:22.702Z - success: ui-kit-preview-extra loaded
+2018-01-28T20:25:22.702Z - success: ui-kit-preview loaded
+2018-01-28T20:25:22.702Z - success: ui-tree loaded
+2018-01-28T20:25:23.937Z - normal: Initializing project D:\GGJ
+2018-01-28T20:25:23.952Z - normal: Loading packages
+2018-01-28T20:25:23.952Z - normal: Watching packages
+2018-01-28T20:25:23.968Z - normal: Run Application
+2018-01-28T20:25:24.929Z - success: preview server running at http://localhost:7456
+2018-01-28T20:25:30.350Z - normal: 1.8.1
+2018-01-28T20:25:53.404Z - info: shutdown preview server
