@@ -60,6 +60,8 @@ cc.Class({
 	velocidadDestinoY: 0,
 	orbitando: false,
 
+	estadoActual: null,
+
 	// LIFE-CYCLE CALLBACKS:
 	distanciaPosicion: function distanciaPosicion(a, b) {
 		return Math.sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
@@ -109,6 +111,12 @@ cc.Class({
 						self.deltaAnguloDesaceleracionDestino = Math.abs(diffA) / 2;
 					}
 
+					if (Math.abs(diffA) > 60) {
+						self.setEstado('giro');
+						setTimeout(function () {
+							self.setEstado('estatico');
+						}, 5000);
+					}
 					self.distanciaDestino = self.distanciaPosicion(self.node.position, self.destino);
 					self.orbitando = false;
 
@@ -139,9 +147,24 @@ cc.Class({
 		self.velocidadDestinoX = 0;
 		self.velocidadDestinoY = 0;
 		self.velocidadAngularDestino = 0;
-	},
 
-	start: function start() {},
+		self.estadoActual = '';
+	},
+	setEstado: function setEstado(estado) {
+
+		if (estado !== this.estadoActual) {
+			if (this.node.getChildByName(this.estadoActual)) this.node.getChildByName(this.estadoActual).active = false;
+
+			this.estadoActual = estado;
+
+			this.node.getChildByName(estado).active = true;
+
+			console.log(this.node.getChildByName(estado));
+		}
+	},
+	start: function start() {
+		this.setEstado('estatico');
+	},
 	update: function update(dt) {
 		if (isNaN(this.velocidadAngularDestino) || isNaN(this.velocidadDestinoX) || isNaN(this.velocidadDestinoY)) {} else {
 			if (Math.abs(((this.node.rotationX + 360) % 360 + 360) % 540 - ((this.anguloDestino + 360) % 360 + 360) % 540) < this.deltaAnguloDesaceleracionDestino) {
