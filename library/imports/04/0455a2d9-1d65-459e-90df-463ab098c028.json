@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "astronauta_v1_ELECTROCUT_tex",
+    "texture": "5f2f9484-fb7e-4d32-9cfa-bdd95dcc147f",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      2582,
+      1391
+    ],
+    "offset": [
+      -756,
+      327.5
+    ],
+    "originalSize": [
+      4096,
+      2048
+    ]
+  }
+}

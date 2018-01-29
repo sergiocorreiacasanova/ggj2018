@@ -115,7 +115,7 @@ cc.Class({
 						self.setEstado('giro');
 						setTimeout(function () {
 							self.setEstado('estatico');
-						}, 5750);
+						}, 5000);
 					}
 					self.distanciaDestino = self.distanciaPosicion(self.node.position, self.destino);
 					self.orbitando = false;

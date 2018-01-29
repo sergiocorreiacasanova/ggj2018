@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "bcfd2c49-ef96-46c3-828e-fce201f8997a",
+  "atlasJson": "{\"width\":4096,\"imagePath\":\"astronauta_v1_ELECTROCUT_tex.png\",\"height\":2048,\"name\":\"astronauta_v1_ELECTROCUT\",\"SubTexture\":[{\"width\":731,\"y\":1,\"height\":1391,\"name\":\"ELECTR_0002_Capa-3\",\"x\":1},{\"width\":609,\"y\":1,\"height\":1227,\"name\":\"ELECTR_0003_Capa-1-copia-2\",\"x\":1974},{\"width\":627,\"y\":1,\"height\":1211,\"name\":\"ELECTR_0001_Capa-0-copia\",\"x\":734},{\"width\":609,\"y\":1,\"height\":1227,\"name\":\"ELECTR_0000_Capa-1-copia\",\"x\":1363}]}",
+  "texture": "5f2f9484-fb7e-4d32-9cfa-bdd95dcc147f",
+  "subMetas": {}
+}
