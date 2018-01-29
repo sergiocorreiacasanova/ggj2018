@@ -1,0 +1,10 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "creditos_tex",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_atlasJson": "{\"SubTexture\":[{\"width\":1366,\"y\":1,\"height\":768,\"name\":\"iupi\",\"x\":1},{\"width\":290,\"y\":771,\"height\":178,\"name\":\"nave sola\",\"x\":1},{\"width\":87,\"y\":771,\"height\":126,\"name\":\"tipito\",\"x\":293}],\"width\":2048,\"height\":1024,\"name\":\"creditos\",\"imagePath\":\"creditos_tex.png\"}",
+  "texture": {
+    "__uuid__": "43e35ce8-a07b-4838-bf2c-94f317acfb39"
+  }
+}

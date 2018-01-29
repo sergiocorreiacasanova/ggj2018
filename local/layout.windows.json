@@ -20,7 +20,7 @@
                 ],
                 "height": 348,
                 "type": "panel",
-                "width": 292
+                "width": 283
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 265,
                 "type": "panel",
-                "width": 292
+                "width": 283
               }
             ],
             "height": 616,
             "type": "dock-v",
-            "width": 292
+            "width": 283
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 387,
                     "type": "panel",
-                    "width": 412
+                    "width": 560
                   },
                   {
                     "active": 0,
@@ -61,7 +61,7 @@
                 ],
                 "height": 387,
                 "type": "dock-h",
-                "width": 619
+                "width": 767
               },
               {
                 "active": 0,
@@ -71,12 +71,12 @@
                 ],
                 "height": 226,
                 "type": "panel",
-                "width": 619
+                "width": 767
               }
             ],
             "height": 616,
             "type": "dock-v",
-            "width": 619
+            "width": 767
           },
           {
             "active": 0,
@@ -85,7 +85,7 @@
             ],
             "height": 616,
             "type": "panel",
-            "width": 443
+            "width": 304
           }
         ],
         "type": "dock-h"
@@ -99,7 +99,8 @@
         "scene",
         "timeline"
       ]
-    }
+    },
+    "window-1517176629533": {}
   },
   "panels": {
     "preferences": {

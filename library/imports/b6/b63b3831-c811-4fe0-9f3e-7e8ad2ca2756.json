@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iupi",
+    "texture": "198948dc-2a3e-446a-b173-5ce8c9782947",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1366,
+      768
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1366,
+      768
+    ]
+  }
+}

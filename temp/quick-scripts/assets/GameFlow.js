@@ -194,12 +194,12 @@ cc.Class({
         self.AccionGeneralJuego(Componente);
         self.node.getChildByName('nave').color = new cc.color(255, 255, 255, 255);
 
-        self.Astronauta.getChildByName('tocar').color = new cc.color(255, 255, 255, 255);
-        self.Astronauta.getChildByName('agarrar').color = new cc.color(255, 255, 255, 255);
+        //self.Astronauta.getChildByName('tocar').color = new cc.color(255,255,255,255);
+        //self.Astronauta.getChildByName('agarrar').color = new cc.color(255,255,255,255);
         self.Astronauta.getChildByName('estatico').color = new cc.color(255, 255, 255, 255);
-        self.Astronauta.getChildByName('asfixia').color = new cc.color(255, 255, 255, 255);
+        //self.Astronauta.getChildByName('asfixia').color = new cc.color(255,255,255,255);
         self.Astronauta.getChildByName('giro').color = new cc.color(255, 255, 255, 255);
-        self.Astronauta.getChildByName('electrocutado').color = new cc.color(255, 255, 255, 255);
+        //self.Astronauta.getChildByName('electrocutado').color = new cc.color(255,255,255,255);
 
         self.node.getChildByName('nave').getChildByName('Cinta').color = new cc.color(255, 255, 255, 255);
       },
@@ -225,6 +225,7 @@ cc.Class({
           cc.log('Tiene la cinta');
           self.Final++;
           Componente.node.getComponent(cc.Sprite).enabled = true;
+          cc.director.loadScene('Creditos');
         } else {
           //Chispas
         }
@@ -233,8 +234,8 @@ cc.Class({
       Libro1: function Libro1(Componente) {
         //Mostrar Hoja Codigo Morse
         self.AccionGeneralJuego(Componente);
-        Componente.ActivaObjeto1.node.PostionX = -137;
-        Componente.ActivaObjeto1.node.PostionX = -43;
+        Componente.ActivaObjeto1.setPosition(Vec2(-137, -43));
+        Componente.ActivaObjeto1.setPosition(Vec2(-137, -43));
       },
 
       Libro2: function Libro2(Componente) {
@@ -289,12 +290,12 @@ cc.Class({
 
   start: function start() {
     this.node.getChildByName('nave').color = new cc.color(20, 20, 20, 255);
-    this.Astronauta.getChildByName('tocar').color = new cc.color(20, 20, 20, 255);
-    this.Astronauta.getChildByName('agarrar').color = new cc.color(20, 20, 20, 255);
+    //this.Astronauta.getChildByName('tocar').color = new cc.color(20,20,20,255);
+    //this.Astronauta.getChildByName('agarrar').color = new cc.color(20,20,20,255);
     this.Astronauta.getChildByName('estatico').color = new cc.color(20, 20, 20, 255);
-    this.Astronauta.getChildByName('asfixia').color = new cc.color(20, 20, 20, 255);
+    //this.Astronauta.getChildByName('asfixia').color = new cc.color(20,20,20,255);
     this.Astronauta.getChildByName('giro').color = new cc.color(20, 20, 20, 255);
-    this.Astronauta.getChildByName('electrocutado').color = new cc.color(20, 20, 20, 255);
+    //this.Astronauta.getChildByName('electrocutado').color = new cc.color(20,20,20,255);
     this.node.getChildByName('nave').getChildByName('Cinta').color = new cc.color(20, 20, 20, 255);
   },
   RetoCompletado: function RetoCompletado(Componente) {

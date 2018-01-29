@@ -29,7 +29,7 @@ cc.Class({
 
     // onLoad () {},
     Cerrar: function Cerrar() {
-        Ventana.active = false;
+        Ventana.Node.active = false;
     },
     start: function start() {}
     // update (dt) {},

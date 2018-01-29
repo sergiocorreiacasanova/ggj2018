@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fondito1",
+    "texture": "b6de4ff8-c647-45e5-8ae7-56064a4eda8d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1366,
+      768
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1366,
+      768
+    ]
+  }
+}

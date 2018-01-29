@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c4a293f4-84df-464f-b913-4206d11bdf33",
+  "atlasJson": "{\"SubTexture\":[{\"width\":1366,\"y\":1,\"height\":768,\"name\":\"menu solo\",\"x\":1},{\"width\":690,\"y\":771,\"height\":315,\"name\":\"sos 1\",\"x\":1},{\"width\":290,\"y\":1,\"height\":178,\"name\":\"nave sola\",\"x\":1369},{\"width\":87,\"y\":1,\"height\":126,\"name\":\"tipito\",\"x\":1661}],\"width\":2048,\"height\":2048,\"name\":\"menu\",\"imagePath\":\"menu_tex.png\"}",
+  "texture": "755b430b-aa6f-43f9-837f-d3084f47ebc0",
+  "subMetas": {}
+}

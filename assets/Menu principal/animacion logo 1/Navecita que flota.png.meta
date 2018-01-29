@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9801bb6c-f9d0-423d-8acc-2ef8bdc070f5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Navecita que flota": {
+      "ver": "1.0.3",
+      "uuid": "1b30f39a-905b-41d3-94dc-e8f5cbd41b1f",
+      "rawTextureUuid": "9801bb6c-f9d0-423d-8acc-2ef8bdc070f5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 290,
+      "height": 241,
+      "rawWidth": 290,
+      "rawHeight": 241,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
