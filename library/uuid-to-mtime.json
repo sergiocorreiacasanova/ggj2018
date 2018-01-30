@@ -285,8 +285,8 @@
     "relativePath": "animaciones\\efectoluz_tex.json"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
-    "asset": 1517313797025,
-    "meta": 1517021929736,
+    "asset": 1517324128924,
+    "meta": 1517028397635,
     "relativePath": "imagenes"
   },
   "08e0d7ec-2850-40fb-a151-d40bcb062449": {
@@ -375,8 +375,8 @@
     "relativePath": "prefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517188224185,
-    "meta": 1517315920109,
+    "asset": 1517331580965,
+    "meta": 1517331580987,
     "relativePath": "prueba.fire"
   },
   "bfdec5dc-40d9-4e7b-b148-b3071cd8da31": {
@@ -699,9 +699,19 @@
     "meta": 1517315919557,
     "relativePath": "Finales\\Final1.fire"
   },
+  "415c2191-4aab-4c7e-aedd-101489a6838b": {
+    "asset": 1517319096072,
+    "meta": 1517319097481,
+    "relativePath": "ControldeLayout.js"
+  },
+  "51af0ee8-47b7-4f0d-90e7-2e35ef3fa83f": {
+    "asset": 1517324128915,
+    "meta": 1517324128960,
+    "relativePath": "imagenes\\Transmisor.png"
+  },
   "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517188224020,
-    "meta": 1517315919559,
+    "asset": 1517331529612,
+    "meta": 1517331535309,
     "relativePath": "GameFlow.js"
   },
   "ba19dc54-d3a1-4f7d-af4f-c4c86752ef9f": {

@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '415c2GRSqtMfq7dEBSJpoOL', 'CerrarVentana');
-// CerrarVentana.js
+cc._RF.push(module, '415c2GRSqtMfq7dEBSJpoOL', 'ControldeLayout');
+// ControldeLayout.js
 
 "use strict";
 
@@ -29,7 +29,8 @@ cc.Class({
 
     // onLoad () {},
     Cerrar: function Cerrar() {
-        Ventana.Node.active = false;
+        var self = this;
+        self.Ventana.active = false;
     },
     start: function start() {}
     // update (dt) {},
