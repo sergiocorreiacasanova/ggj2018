@@ -51,4 +51,4 @@
 2018-01-30T12:38:35.767Z - normal: Run Application
 2018-01-30T12:38:40.998Z - success: preview server running at http://localhost:7456
 2018-01-30T12:38:50.008Z - normal: 1.8.1
-2018-01-30T12:38:51.417Z - normal: ScaleX != ScaleY. Don't know which one to retur
+2018-01-30T12:38:51.417Z - normal: ScaleX != ScaleY. Don't know which one to return
