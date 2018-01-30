@@ -1,211 +1,75 @@
-2018-01-28T21:43:06.675Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-28T21:43:06.675Z - normal: checking language setting...
-2018-01-28T21:43:06.690Z - normal: Language: en
-2018-01-28T21:43:08.722Z - success: protocol editor-framework registered
-2018-01-28T21:43:08.722Z - success: protocol app registered
-2018-01-28T21:43:08.722Z - success: protocol theme registered
-2018-01-28T21:43:08.722Z - success: protocol packages registered
-2018-01-28T21:43:08.722Z - success: protocol unpack registerred
-2018-01-28T21:43:08.722Z - success: protocol disable-commonjs registerred
-2018-01-28T21:43:10.550Z - normal: connected!
-2018-01-28T21:43:10.565Z - normal: Check project D:\GGJ
-2018-01-28T21:43:10.565Z - normal: Initializing Cocos2d
-2018-01-28T21:43:10.800Z - normal: Initializing Asset Database
-2018-01-28T21:43:10.847Z - success: protocol uuid registerred
-2018-01-28T21:43:10.847Z - success: protocol db registerred
-2018-01-28T21:43:10.847Z - success: protocol thumbnail registerred
-2018-01-28T21:43:10.847Z - normal: Loading editor/builtin packages
-2018-01-28T21:43:10.862Z - success: anysdk loaded
-2018-01-28T21:43:11.003Z - success: assets loaded
-2018-01-28T21:43:11.003Z - success: builder loaded
-2018-01-28T21:43:11.019Z - success: cocos-analytics loaded
-2018-01-28T21:43:11.019Z - success: console loaded
-2018-01-28T21:43:11.019Z - success: hierarchy loaded
-2018-01-28T21:43:11.019Z - success: inspector loaded
-2018-01-28T21:43:11.019Z - success: keystore loaded
-2018-01-28T21:43:11.034Z - success: node-library loaded
-2018-01-28T21:43:11.034Z - success: package-asset loaded
-2018-01-28T21:43:11.034Z - success: preferences loaded
-2018-01-28T21:43:11.034Z - success: project-exporter loaded
-2018-01-28T21:43:11.050Z - success: project-importer loaded
-2018-01-28T21:43:11.065Z - success: project-settings loaded
-2018-01-28T21:43:11.065Z - success: ui-kit loaded
-2018-01-28T21:43:11.065Z - success: ui-grid loaded
-2018-01-28T21:43:11.065Z - success: scene loaded
-2018-01-28T21:43:11.065Z - success: sprite-editor loaded
-2018-01-28T21:43:11.065Z - success: store loaded
-2018-01-28T21:43:11.081Z - success: timeline loaded
-2018-01-28T21:43:11.081Z - normal: Loading builtin packages
-2018-01-28T21:43:11.081Z - success: asset-db-debugger loaded
-2018-01-28T21:43:11.081Z - success: code-editor loaded
-2018-01-28T21:43:11.081Z - success: color-picker loaded
-2018-01-28T21:43:11.081Z - success: package-manager loaded
-2018-01-28T21:43:11.081Z - success: sdkbox loaded
-2018-01-28T21:43:11.097Z - success: tester loaded
-2018-01-28T21:43:11.097Z - success: ui-kit-preview-extra loaded
-2018-01-28T21:43:11.097Z - success: ui-kit-preview loaded
-2018-01-28T21:43:11.097Z - success: ui-tree loaded
-2018-01-28T21:43:12.362Z - normal: Initializing project D:\GGJ
-2018-01-28T21:43:12.362Z - normal: Loading packages
-2018-01-28T21:43:12.378Z - normal: Watching packages
-2018-01-28T21:43:12.378Z - normal: Run Application
-2018-01-28T21:43:15.389Z - success: preview server running at http://localhost:7456
-2018-01-28T21:43:20.851Z - normal: 1.8.1
-2018-01-28T21:43:21.593Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T21:53:56.054Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T21:56:15.162Z - normal: ScaleX != ScaleY. Don't know which one to return
-2018-01-28T21:57:20.364Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "D:\\GGJ\\build",
-  "debug": false,
-  "dest": "D:\\GGJ\\build\\web-mobile",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.astronauta",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "renderMode": "1",
-  "scenes": [
-    "789a80c2-941a-4bc4-b8c6-90d335a3c279",
-    "a2d884b6-4014-4e86-9ed5-18df67bc5f82",
-    "168b073f-c4d6-42a6-949e-bc946bacb4b1",
-    "e95e1942-1fb2-4e5c-b505-3f9af56b0d7c"
-  ],
-  "sourceMaps": false,
-  "startScene": "789a80c2-941a-4bc4-b8c6-90d335a3c279",
-  "template": "link",
-  "title": "astronauta",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "appid": "",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "b8342e4a-f757-40",
-  "zipCompressJs": true,
-  "project": "D:\\GGJ",
-  "projectName": "astronauta",
-  "debugBuildWorker": false
-}
-2018-01-28T21:57:20.366Z - normal: Building D:\GGJ
-2018-01-28T21:57:20.366Z - normal: Destination D:\GGJ\build\web-mobile
-2018-01-28T21:57:21.400Z - normal: Delete D:\GGJ\build\web-mobile\**\*
-2018-01-28T21:58:43.472Z - normal: Compiled project javascript file successfully
-2018-01-28T21:58:43.474Z - normal: Start building assets
-2018-01-28T21:58:43.474Z - normal: Start spawn build-worker
-2018-01-28T21:58:44.483Z - normal: Finish spawn build-worker
-2018-01-28T21:58:44.483Z - normal: Start init build-worker
-2018-01-28T21:58:47.331Z - normal: 1.8.1
-2018-01-28T21:58:47.440Z - normal: Finish init build-worker
-2018-01-28T21:58:47.440Z - normal: Start build-assets in worker
-2018-01-28T21:58:47.869Z - warn: Can not find particle texture in D:\GGJ\assets\particle_texture.png, plist: D:\GGJ\assets\particle_texture.plist
-2018-01-28T21:58:48.018Z - normal: Finish build-assets in worker
-2018-01-28T21:58:48.025Z - normal: Finish building assets
-2018-01-28T21:58:48.056Z - normal: Start building raw assets
-2018-01-28T21:58:48.058Z - normal: Start building plugin scripts
-2018-01-28T21:58:48.177Z - normal: Finish building raw assets
-2018-01-28T21:58:48.222Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
-2018-01-28T21:58:48.264Z - normal: Generating html from D:\CocosCreator\resources\static\build-templates\web-mobile\template\index.html
-2018-01-28T21:58:48.274Z - normal: Built to "D:\GGJ\build\web-mobile" successfully
-2018-01-28T22:00:18.531Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "D:\\GGJ\\build",
-  "debug": false,
-  "dest": "D:\\GGJ\\build\\web-mobile",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.astronauta",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "renderMode": "1",
-  "scenes": [
-    "168b073f-c4d6-42a6-949e-bc946bacb4b1",
-    "a2d884b6-4014-4e86-9ed5-18df67bc5f82",
-    "e95e1942-1fb2-4e5c-b505-3f9af56b0d7c",
-    "789a80c2-941a-4bc4-b8c6-90d335a3c279"
-  ],
-  "sourceMaps": false,
-  "startScene": "168b073f-c4d6-42a6-949e-bc946bacb4b1",
-  "template": "link",
-  "title": "astronauta",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "appid": "",
-    "orientation": "portrait"
-  },
-  "xxteaKey": "b8342e4a-f757-40",
-  "zipCompressJs": true,
-  "project": "D:\\GGJ",
-  "projectName": "astronauta",
-  "debugBuildWorker": false
-}
-2018-01-28T22:00:18.535Z - normal: Building D:\GGJ
-2018-01-28T22:00:18.535Z - normal: Destination D:\GGJ\build\web-mobile
-2018-01-28T22:00:18.536Z - normal: Delete D:\GGJ\build\web-mobile\**\*
-2018-01-28T22:00:21.313Z - normal: Compiled project javascript file successfully
-2018-01-28T22:00:21.313Z - normal: Start building assets
-2018-01-28T22:00:21.313Z - normal: Start spawn build-worker
-2018-01-28T22:00:22.294Z - normal: Finish spawn build-worker
-2018-01-28T22:00:22.294Z - normal: Start init build-worker
-2018-01-28T22:00:25.151Z - normal: 1.8.1
-2018-01-28T22:00:25.250Z - normal: Finish init build-worker
-2018-01-28T22:00:25.251Z - normal: Start build-assets in worker
-2018-01-28T22:00:25.652Z - warn: Can not find particle texture in D:\GGJ\assets\particle_texture.png, plist: D:\GGJ\assets\particle_texture.plist
-2018-01-28T22:00:25.790Z - normal: Finish build-assets in worker
-2018-01-28T22:00:25.798Z - normal: Finish building assets
-2018-01-28T22:00:25.828Z - normal: Start building raw assets
-2018-01-28T22:00:25.829Z - normal: Start building plugin scripts
-2018-01-28T22:00:25.924Z - normal: Finish building raw assets
-2018-01-28T22:00:25.934Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
-2018-01-28T22:00:25.942Z - normal: Generating html from D:\CocosCreator\resources\static\build-templates\web-mobile\template\index.html
-2018-01-28T22:00:25.970Z - normal: Built to "D:\GGJ\build\web-mobile" successfully
-2018-01-28T22:01:23.274Z - info: shutdown preview server
+2018-01-30T16:15:44.886Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-30T16:15:44.886Z - normal: checking language setting...
+2018-01-30T16:15:44.886Z - normal: Language: en
+2018-01-30T16:15:46.870Z - success: protocol editor-framework registered
+2018-01-30T16:15:46.870Z - success: protocol app registered
+2018-01-30T16:15:46.870Z - success: protocol theme registered
+2018-01-30T16:15:46.870Z - success: protocol packages registered
+2018-01-30T16:15:46.870Z - success: protocol unpack registerred
+2018-01-30T16:15:46.870Z - success: protocol disable-commonjs registerred
+2018-01-30T16:15:46.870Z - error: { Error: getaddrinfo ENOENT creator-api.cocos.com:443
+    at Object.exports._errnoException (util.js:1050:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+  code: 'ENOENT',
+  errno: 'ENOENT',
+  syscall: 'getaddrinfo',
+  hostname: 'creator-api.cocos.com',
+  host: 'creator-api.cocos.com',
+  port: 443 }
+    at D:\CocosCreator\resources\app.asar\share\login\lib\user.js:1:1441
+    at ClientRequest.Https.request.on.e (D:\CocosCreator\resources\app.asar\share\login\lib\network.js:1:873)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at TLSSocket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:191:7)
+    at connectErrorNT (net.js:1032:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+2018-01-30T16:15:46.870Z - normal: failed to connect login server... skipping login
+2018-01-30T16:15:46.870Z - normal: Check project D:\GGJ
+2018-01-30T16:15:46.886Z - normal: Initializing Cocos2d
+2018-01-30T16:15:47.120Z - normal: Initializing Asset Database
+2018-01-30T16:15:47.152Z - success: protocol uuid registerred
+2018-01-30T16:15:47.152Z - success: protocol db registerred
+2018-01-30T16:15:47.152Z - success: protocol thumbnail registerred
+2018-01-30T16:15:47.152Z - normal: Loading editor/builtin packages
+2018-01-30T16:15:47.183Z - success: anysdk loaded
+2018-01-30T16:15:47.324Z - success: assets loaded
+2018-01-30T16:15:47.324Z - success: builder loaded
+2018-01-30T16:15:47.324Z - success: cocos-analytics loaded
+2018-01-30T16:15:47.324Z - success: console loaded
+2018-01-30T16:15:47.324Z - success: hierarchy loaded
+2018-01-30T16:15:47.339Z - success: inspector loaded
+2018-01-30T16:15:47.339Z - success: keystore loaded
+2018-01-30T16:15:47.339Z - success: node-library loaded
+2018-01-30T16:15:47.339Z - success: package-asset loaded
+2018-01-30T16:15:47.339Z - success: preferences loaded
+2018-01-30T16:15:47.339Z - success: project-exporter loaded
+2018-01-30T16:15:47.355Z - success: project-importer loaded
+2018-01-30T16:15:47.370Z - success: project-settings loaded
+2018-01-30T16:15:47.370Z - success: ui-kit loaded
+2018-01-30T16:15:47.370Z - success: ui-grid loaded
+2018-01-30T16:15:47.370Z - success: scene loaded
+2018-01-30T16:15:47.370Z - success: sprite-editor loaded
+2018-01-30T16:15:47.370Z - success: store loaded
+2018-01-30T16:15:47.386Z - success: timeline loaded
+2018-01-30T16:15:47.386Z - normal: Loading builtin packages
+2018-01-30T16:15:47.386Z - success: asset-db-debugger loaded
+2018-01-30T16:15:47.386Z - success: code-editor loaded
+2018-01-30T16:15:47.386Z - success: color-picker loaded
+2018-01-30T16:15:47.386Z - success: package-manager loaded
+2018-01-30T16:15:47.386Z - success: sdkbox loaded
+2018-01-30T16:15:47.402Z - success: tester loaded
+2018-01-30T16:15:47.402Z - success: ui-kit-preview-extra loaded
+2018-01-30T16:15:47.402Z - success: ui-kit-preview loaded
+2018-01-30T16:15:47.402Z - success: ui-tree loaded
+2018-01-30T16:15:48.636Z - normal: Initializing project D:\GGJ
+2018-01-30T16:15:48.652Z - normal: Loading packages
+2018-01-30T16:15:48.652Z - normal: Watching packages
+2018-01-30T16:15:48.667Z - normal: Run Application
+2018-01-30T16:15:49.393Z - success: preview server running at http://localhost:7456
+2018-01-30T16:15:54.684Z - normal: 1.8.1
+2018-01-30T16:32:02.050Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-30T16:57:19.475Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-30T16:59:41.290Z - info: shutdown preview server

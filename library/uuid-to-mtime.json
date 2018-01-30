@@ -285,7 +285,7 @@
     "relativePath": "animaciones\\efectoluz_tex.json"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
-    "asset": 1517171933373,
+    "asset": 1517324128924,
     "meta": 1517028397635,
     "relativePath": "imagenes"
   },
@@ -375,8 +375,8 @@
     "relativePath": "PrefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517176236150,
-    "meta": 1517176236185,
+    "asset": 1517331580965,
+    "meta": 1517331580987,
     "relativePath": "prueba.fire"
   },
   "bfdec5dc-40d9-4e7b-b148-b3071cd8da31": {
@@ -493,11 +493,6 @@
     "asset": 1517168042058,
     "meta": 1517175793252,
     "relativePath": "animaciones\\ASFIXIA\\astronauta_v1_ASFIXIA_tex.png"
-  },
-  "d31ee74f-dd7e-4047-864f-296c50f7febb": {
-    "asset": 1517169043521,
-    "meta": 1517175794951,
-    "relativePath": "ReiniciarHoja.js"
   },
   "17eddc67-9496-4adf-8cdc-37b70021ed82": {
     "asset": 1517171306606,
@@ -679,16 +674,6 @@
     "meta": 1517175794159,
     "relativePath": "Creditos\\library\\tipito.png"
   },
-  "415c2191-4aab-4c7e-aedd-101489a6838b": {
-    "asset": 1517174832383,
-    "meta": 1517175793924,
-    "relativePath": "CerrarVentana.js"
-  },
-  "56183c51-de22-43c5-a128-1dd01c3f17db": {
-    "asset": 1517175258931,
-    "meta": 1517175794159,
-    "relativePath": "Final1.anim"
-  },
   "868bf335-fb41-40a9-803a-a29d227ca792": {
     "asset": 1517175298948,
     "meta": 1517175276079,
@@ -699,9 +684,19 @@
     "meta": 1517175794299,
     "relativePath": "Finales\\Final1.fire"
   },
+  "415c2191-4aab-4c7e-aedd-101489a6838b": {
+    "asset": 1517319096072,
+    "meta": 1517319097481,
+    "relativePath": "ControldeLayout.js"
+  },
+  "51af0ee8-47b7-4f0d-90e7-2e35ef3fa83f": {
+    "asset": 1517324128915,
+    "meta": 1517324128960,
+    "relativePath": "imagenes\\Transmisor.png"
+  },
   "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517176569879,
-    "meta": 1517176574706,
+    "asset": 1517331529612,
+    "meta": 1517331535309,
     "relativePath": "GameFlow.js"
   }
 }

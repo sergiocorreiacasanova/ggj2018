@@ -1,0 +1,20 @@
+Sobre el Presonaje:
+	-Animaciones,
+	-
+
+Sobre el Juego:
+	-Timer,
+	-Finales,
+	-
+
+Componente "ComputadoraZoom":
+	-Que Cambie el dibujo de la Pantalla dependiendo el momento del Juego,
+	-Implenetar Morse,
+	-Ingreso del Texto para la frecuencia,
+	-Efecto de click para la Palanca,
+	-
+
+Componente "Tablero":
+	-Chispas en el Tablero Roto,
+	-Efectos de Sonido,	
+	-
