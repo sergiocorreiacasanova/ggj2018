@@ -700,8 +700,8 @@
     "relativePath": "prefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517403970086,
-    "meta": 1517403970134,
+    "asset": 1517406113722,
+    "meta": 1517406113741,
     "relativePath": "prueba.fire"
   },
   "c4a293f4-84df-464f-b913-4206d11bdf33": {
@@ -714,11 +714,6 @@
     "meta": 1517403329447,
     "relativePath": "ReiniciarHoja.js"
   },
-  "2cee419e-1370-407e-8bcd-f6e9b50a52a8": {
-    "asset": 1517402563946,
-    "meta": 1517403329463,
-    "relativePath": "Timer.js"
-  },
   "44dab9fc-3f1b-41da-b526-2971ace7fc71": {
     "asset": 1517402563947,
     "meta": 1517403329481,
@@ -728,5 +723,10 @@
     "asset": 1517402563942,
     "meta": 1517403329583,
     "relativePath": "Menu principal\\menu_tex.png"
+  },
+  "2cee419e-1370-407e-8bcd-f6e9b50a52a8": {
+    "asset": 1517406944159,
+    "meta": 1517406951908,
+    "relativePath": "Timer.js"
   }
 }

@@ -12,20 +12,29 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-             Reloj:{
+             Timer:{
              default: null, 
              type: cc.Node, 
              serializable: true,   
             },
+			TiempoLimiteSegundos:{
+				default: 240,
+				serializable:true,
+			}
     },
-
+	inicio: null,
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+    onLoad () {
+		this.inicio = (new Date()).getTime();
+		
+	},
 
     start () {
 
     },
 
-    // update (dt) {},
+    update (dt) {
+		this.Timer.getComponent(cc.Label).string = (this.TiempoLimiteSegundos *1000 - ((new Date()).getTime() - this.inicio));
+	},
 });

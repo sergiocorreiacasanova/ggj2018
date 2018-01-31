@@ -18,21 +18,26 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        Reloj: {
+        Timer: {
             default: null,
             type: cc.Node,
             serializable: true
+        },
+        TiempoLimiteSegundos: {
+            default: 240,
+            serializable: true
         }
     },
-
+    inicio: null,
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-
-    start: function start() {}
-}
-
-// update (dt) {},
-);
+    onLoad: function onLoad() {
+        this.inicio = new Date().getTime();
+    },
+    start: function start() {},
+    update: function update(dt) {
+        this.Timer.getComponent(cc.Label).string = this.TiempoLimiteSegundos * 1000 - (new Date().getTime() - this.inicio);
+    }
+});
 
 cc._RF.pop();

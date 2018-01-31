@@ -402,17 +402,17 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100.1,
+      "width": 116.78,
       "height": 40
     },
-    "_rotationX": -415,
-    "_rotationY": -415,
+    "_rotationX": -414.6,
+    "_rotationY": -414.6,
     "_scaleX": 0.675,
     "_scaleY": 0.675,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -463.1991552,
-      "y": 355.1626926
+      "x": -462.8,
+      "y": 356.7
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -430,14 +430,14 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_actualFontSize": 40,
-    "_fontSize": 40,
+    "_actualFontSize": 30,
+    "_fontSize": 30,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "01:03",
+    "_N$string": "01:03.00",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -3729,9 +3729,10 @@
       "__id__": 6
     },
     "_enabled": true,
-    "Reloj": {
+    "Timer": {
       "__id__": 8
-    }
+    },
+    "TiempoLimiteSegundos": 240
   },
   {
     "__type__": "cc.Node",
