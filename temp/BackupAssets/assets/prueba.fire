@@ -3731,21 +3731,12 @@
     "Timer": {
       "__id__": 8
     },
-<<<<<<< HEAD
     "TiempoLimiteSegundos": 24,
     "tiempo": 0,
     "strT": 0,
     "min": 0,
     "mili": 0,
     "seg": 0
-=======
-    "TiempoLimiteSegundos": 240,
-    "tiempo": 240,
-    "strT": 240,
-    "min": 240,
-    "mili": 240,
-    "seg": 240
->>>>>>> 58e47b5f546c2711a013885240356e223780dccc
   },
   {
     "__type__": "cc.Node",
