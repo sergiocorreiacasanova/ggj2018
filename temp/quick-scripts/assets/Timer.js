@@ -2,7 +2,7 @@
 cc._RF.push(module, '2cee4GeE3BAfovN9um1ClKo', 'Timer', __filename);
 // Timer.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/class.html
@@ -26,7 +26,28 @@ cc.Class({
         TiempoLimiteSegundos: {
             default: 240,
             serializable: true
+        },
+
+        tiempo: {
+            default: 0
+        },
+
+        strT: {
+            default: 0
+        },
+
+        min: {
+            default: 0
+        },
+
+        mili: {
+            default: 0
+        },
+
+        seg: {
+            default: 0
         }
+
     },
     inicio: null,
     // LIFE-CYCLE CALLBACKS:
@@ -36,7 +57,16 @@ cc.Class({
     },
     start: function start() {},
     update: function update(dt) {
-        this.Timer.getComponent(cc.Label).string = this.TiempoLimiteSegundos * 1000 - (new Date().getTime() - this.inicio);
+        var self = this;
+        self.tiempo = (this.TiempoLimiteSegundos * 1000 - (new Date().getTime() - this.inicio)) / 100;
+        self.tiempo = self.tiempo | 0;
+        self.min = self.tiempo / 1000;
+        self.min = self.min | 0;
+        self.mili = self.tiempo % 10;
+        self.seg = self.tiempo % 1000 / 10;
+        self.seg = self.seg | 0;
+        self.strT = self.min + ':' + self.seg + ':' + self.mili;
+        this.Timer.getComponent(cc.Label).string = self.strT;
     }
 });
 
