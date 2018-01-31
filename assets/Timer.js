@@ -12,10 +12,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-             Timer:{
-             default: null, 
-             type: cc.Node, 
-             serializable: true,   
+            Timer:{
+				default: null, 
+				type: cc.Node, 
+				serializable: true,   
             },
 			TiempoLimiteSegundos:{
 				default: 240,
@@ -23,12 +23,13 @@ cc.Class({
 			},
 
     },
+	
 	inicio: null,
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
 		this.inicio = (new Date()).getTime();
-		
+		this.tiempo = 1;
 	},
 
     start () {
@@ -36,15 +37,25 @@ cc.Class({
     },
 
     update (dt) {
-		var tiempo = this.TiempoLimiteSegundos *1000 - ((new Date()).getTime() - this.inicio);
-        if(tiempo > 0){
-			var Miliseg = '000' + (Math.floor((tiempo % 1000)/10)).toString();
-	    	var Segundos = '00' + (Math.floor(tiempo / 1000) % 60).toString(); //in s
-			var Minutos = '00' + (Math.floor(tiempo / 60 / 1000)).toString(); //in minutes
+		
+		if(this.tiempo > 0){
+			this.tiempo = this.TiempoLimiteSegundos *1000 - ((new Date()).getTime() - this.inicio);
 			
-			this.Timer.getComponent(cc.Label).string = Minutos.substr(Minutos.length - 2) + ":" + 
-														Segundos.substr(Segundos.length -2) + "." + 
-														Miliseg.substr(Miliseg.length -2);
+			if(this.tiempo > 0){
+				var Miliseg = '000' + (Math.floor((this.tiempo % 1000)/10)).toString();
+				var Segundos = '00' + (Math.floor(this.tiempo / 1000) % 60).toString(); //in s
+				var Minutos = '00' + (Math.floor(this.tiempo / 60 / 1000)).toString(); //in minutes
+				
+				this.Timer.getComponent(cc.Label).string = Minutos.substr(Minutos.length - 2) + ":" + 
+															Segundos.substr(Segundos.length -2) + "." + 
+															Miliseg.substr(Miliseg.length -2);
+			}
+			else
+			{
+				this.Timer.getComponent(cc.Label).string = '...---...';
+				this.node.getComponent('GameFlow').timeout();
+			}												
+														
 		}
 	},
 });

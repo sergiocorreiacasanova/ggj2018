@@ -485,8 +485,8 @@
     "relativePath": "Menu principal\\animacion logo 1\\sos 3.png"
   },
   "168b073f-c4d6-42a6-949e-bc946bacb4b1": {
-    "asset": 1517402563943,
-    "meta": 1517416991216,
+    "asset": 1517432382952,
+    "meta": 1517432382969,
     "relativePath": "MenuPrincipal.fire"
   },
   "3844b0dd-6207-4eb5-9ef8-72357fbd64eb": {
@@ -500,8 +500,8 @@
     "relativePath": "prefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517431120233,
-    "meta": 1517431120268,
+    "asset": 1517435089109,
+    "meta": 1517435089131,
     "relativePath": "prueba.fire"
   },
   "c4a293f4-84df-464f-b913-4206d11bdf33": {
@@ -523,11 +523,6 @@
     "asset": 1517402563942,
     "meta": 1517416991413,
     "relativePath": "Menu principal\\menu_tex.png"
-  },
-  "2cee419e-1370-407e-8bcd-f6e9b50a52a8": {
-    "asset": 1517418647443,
-    "meta": 1517418650253,
-    "relativePath": "Timer.js"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
     "asset": 1515702464000,
@@ -714,14 +709,19 @@
     "meta": 1517427093244,
     "relativePath": "prefab\\webview.prefab"
   },
-  "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517429992680,
-    "meta": 1517429996139,
-    "relativePath": "GameFlow.js"
+  "2cee419e-1370-407e-8bcd-f6e9b50a52a8": {
+    "asset": 1517434508700,
+    "meta": 1517434510723,
+    "relativePath": "Timer.js"
   },
   "029418cc-e344-4597-9eeb-d4082cdbd33d": {
-    "asset": 1517430408960,
-    "meta": 1517430427046,
+    "asset": 1517434888034,
+    "meta": 1517434907841,
     "relativePath": "jugador.js"
+  },
+  "5978a990-1507-4293-9662-66ba942f3430": {
+    "asset": 1517435068349,
+    "meta": 1517435074610,
+    "relativePath": "GameFlow.js"
   }
 }

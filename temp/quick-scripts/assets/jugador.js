@@ -188,10 +188,12 @@ cc.Class({
    Armature.Animation.FadeIn("Shoot", 0.05f, -1, 0); // a shooting animation that plays in loop (-1)
    Armature.Animation.FadeIn("Kick", 0.025f, 0, 1); // while shooting, he also kicks in one round. Not sure if that 0 plays once though, but I hope you get my point :D
    */
-
-			this.node.getChildByName(estado).getComponent(dragonBones.ArmatureDisplay).armature().animation.fadeIn("animtion0", -1, -1, 0);
-
-			console.log(this.node.getChildByName(estado));
+			if (estado === 'asfixia') {
+				this.node.getChildByName(estado).getComponent(dragonBones.ArmatureDisplay).armature().animation.fadeIn("animtion0", -1, 1, 0);
+				this.controlesActivos = false;
+			} else {
+				this.node.getChildByName(estado).getComponent(dragonBones.ArmatureDisplay).armature().animation.fadeIn("animtion0", -1, -1, 0);
+			}
 		}
 	},
 	start: function start() {
@@ -236,16 +238,20 @@ cc.Class({
 					this.velocidadDestinoY = 0;
 					this.orbitando = true;
 				}
-
-				if (this.velocidadDestinoX > this.velocidadDestinoY) {
-					this.velocidadDestinoX = this.velocidadDestinoY;
-				} else {
-					this.velocidadDestinoY = this.velocidadDestinoX;
-				}
-
-				this.velocidadDestinoX = this.velocidadDestinoX * .5 + (this.destino.x - this.node.position.x) * .5 + this.radioOrbitacion * (Math.random() - .5);
-
-				this.velocidadDestinoY = this.velocidadDestinoY * .5 + (this.destino.y - this.node.position.y) * .5 + this.radioOrbitacion * (Math.random() - .5);
+				/*
+    if (this.velocidadDestinoX > this.velocidadDestinoY)
+    {
+    	this.velocidadDestinoX = this.velocidadDestinoY;
+    }
+    else
+    {
+    	this.velocidadDestinoY = this.velocidadDestinoX;
+    }
+    
+    this.velocidadDestinoX = this.velocidadDestinoX *.5 + (this.destino.x - this.node.position.x)*.5 + this.radioOrbitacion * (Math.random() -.5);
+    						
+    this.velocidadDestinoY = this.velocidadDestinoY *.5 + (this.destino.y - this.node.position.y)*.5 + this.radioOrbitacion * (Math.random() -.5);
+    */
 			}
 
 			this.node.setPosition(this.node.position.x + this.velocidadDestinoX * dt, this.node.position.y + this.velocidadDestinoY * dt);

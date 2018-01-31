@@ -1,71 +1,149 @@
-2018-01-31T17:17:47.454Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-31T17:17:47.469Z - normal: checking language setting...
-2018-01-31T17:17:47.469Z - normal: Language: en
-2018-01-31T17:17:51.316Z - success: protocol editor-framework registered
-2018-01-31T17:17:51.316Z - success: protocol app registered
-2018-01-31T17:17:51.316Z - success: protocol theme registered
-2018-01-31T17:17:51.317Z - success: protocol packages registered
-2018-01-31T17:17:51.317Z - success: protocol unpack registerred
-2018-01-31T17:17:51.317Z - success: protocol disable-commonjs registerred
-2018-01-31T17:17:53.641Z - normal: connected!
-2018-01-31T17:17:53.643Z - normal: Check project C:\Users\ser\Documents\CocosCreator\SOS
-2018-01-31T17:17:53.645Z - normal: Initializing Cocos2d
-2018-01-31T17:17:54.290Z - normal: Initializing Asset Database
-2018-01-31T17:17:54.372Z - success: protocol uuid registerred
-2018-01-31T17:17:54.373Z - success: protocol db registerred
-2018-01-31T17:17:54.374Z - success: protocol thumbnail registerred
-2018-01-31T17:17:54.375Z - normal: Loading editor/builtin packages
-2018-01-31T17:17:54.423Z - success: anysdk loaded
-2018-01-31T17:17:54.746Z - success: assets loaded
-2018-01-31T17:17:54.752Z - success: builder loaded
-2018-01-31T17:17:54.761Z - success: cocos-analytics loaded
-2018-01-31T17:17:54.768Z - success: console loaded
-2018-01-31T17:17:54.777Z - success: hierarchy loaded
-2018-01-31T17:17:54.785Z - success: inspector loaded
-2018-01-31T17:17:54.788Z - success: keystore loaded
-2018-01-31T17:17:54.793Z - success: node-library loaded
-2018-01-31T17:17:54.805Z - success: package-asset loaded
-2018-01-31T17:17:54.814Z - success: preferences loaded
-2018-01-31T17:17:54.818Z - success: project-exporter loaded
-2018-01-31T17:17:54.854Z - success: project-importer loaded
-2018-01-31T17:17:54.859Z - success: project-settings loaded
-2018-01-31T17:17:54.864Z - success: ui-kit loaded
-2018-01-31T17:17:54.868Z - success: ui-grid loaded
-2018-01-31T17:17:54.874Z - success: scene loaded
-2018-01-31T17:17:54.877Z - success: sprite-editor loaded
-2018-01-31T17:17:54.894Z - success: store loaded
-2018-01-31T17:17:54.903Z - success: timeline loaded
-2018-01-31T17:17:54.904Z - normal: Loading builtin packages
-2018-01-31T17:17:54.909Z - success: asset-db-debugger loaded
-2018-01-31T17:17:54.913Z - success: code-editor loaded
-2018-01-31T17:17:54.915Z - success: color-picker loaded
-2018-01-31T17:17:54.920Z - success: package-manager loaded
-2018-01-31T17:17:54.929Z - success: sdkbox loaded
-2018-01-31T17:17:54.938Z - success: tester loaded
-2018-01-31T17:17:54.942Z - success: ui-kit-preview-extra loaded
-2018-01-31T17:17:54.946Z - success: ui-kit-preview loaded
-2018-01-31T17:17:54.949Z - success: ui-tree loaded
-2018-01-31T17:17:58.681Z - normal: Initializing project C:\Users\ser\Documents\CocosCreator\SOS
-2018-01-31T17:17:58.692Z - normal: Loading packages
-2018-01-31T17:17:58.701Z - normal: Watching packages
-2018-01-31T17:17:58.734Z - normal: Run Application
-2018-01-31T17:18:00.469Z - success: preview server running at http://localhost:7458
-2018-01-31T17:18:13.200Z - normal: 1.8.1
-2018-01-31T18:08:03.911Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\CocosCreator\SOS\assets\jugador.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/CocosCreator/SOS/assets/jugador.js: Unexpected token, expected , (223:72)
-  221 | 			}
-  222 | 			
-> 223 | 			cc.log(this.distanciaAngular(this.node.rotationX, this.anguloDestino);
-      | 			                                                                     ^
-  224 | 			
-  225 | 			this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
-  226 | 			
+2018-01-31T20:48:30.985Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-31T20:48:30.985Z - normal: checking language setting...
+2018-01-31T20:48:30.985Z - normal: Language: en
+2018-01-31T20:48:33.817Z - success: protocol editor-framework registered
+2018-01-31T20:48:33.817Z - success: protocol app registered
+2018-01-31T20:48:33.833Z - success: protocol theme registered
+2018-01-31T20:48:33.833Z - success: protocol packages registered
+2018-01-31T20:48:33.833Z - success: protocol unpack registerred
+2018-01-31T20:48:33.833Z - success: protocol disable-commonjs registerred
+2018-01-31T20:48:35.796Z - normal: connected!
+2018-01-31T20:48:35.796Z - normal: Check project C:\Users\ser\Documents\CocosCreator\SOS
+2018-01-31T20:48:35.812Z - normal: Initializing Cocos2d
+2018-01-31T20:48:36.275Z - normal: Initializing Asset Database
+2018-01-31T20:48:36.352Z - success: protocol uuid registerred
+2018-01-31T20:48:36.352Z - success: protocol db registerred
+2018-01-31T20:48:36.352Z - success: protocol thumbnail registerred
+2018-01-31T20:48:36.352Z - normal: Loading editor/builtin packages
+2018-01-31T20:48:36.400Z - success: anysdk loaded
+2018-01-31T20:48:36.611Z - success: assets loaded
+2018-01-31T20:48:36.621Z - success: builder loaded
+2018-01-31T20:48:36.621Z - success: cocos-analytics loaded
+2018-01-31T20:48:36.621Z - success: console loaded
+2018-01-31T20:48:36.638Z - success: hierarchy loaded
+2018-01-31T20:48:36.638Z - success: inspector loaded
+2018-01-31T20:48:36.638Z - success: keystore loaded
+2018-01-31T20:48:36.638Z - success: node-library loaded
+2018-01-31T20:48:36.654Z - success: package-asset loaded
+2018-01-31T20:48:36.654Z - success: preferences loaded
+2018-01-31T20:48:36.654Z - success: project-exporter loaded
+2018-01-31T20:48:36.685Z - success: project-importer loaded
+2018-01-31T20:48:36.685Z - success: project-settings loaded
+2018-01-31T20:48:36.702Z - success: ui-kit loaded
+2018-01-31T20:48:36.702Z - success: ui-grid loaded
+2018-01-31T20:48:36.702Z - success: scene loaded
+2018-01-31T20:48:36.718Z - success: sprite-editor loaded
+2018-01-31T20:48:36.718Z - success: store loaded
+2018-01-31T20:48:36.718Z - success: timeline loaded
+2018-01-31T20:48:36.718Z - normal: Loading builtin packages
+2018-01-31T20:48:36.734Z - success: asset-db-debugger loaded
+2018-01-31T20:48:36.734Z - success: code-editor loaded
+2018-01-31T20:48:36.734Z - success: color-picker loaded
+2018-01-31T20:48:36.734Z - success: package-manager loaded
+2018-01-31T20:48:36.749Z - success: sdkbox loaded
+2018-01-31T20:48:36.749Z - success: tester loaded
+2018-01-31T20:48:36.749Z - success: ui-kit-preview-extra loaded
+2018-01-31T20:48:36.749Z - success: ui-kit-preview loaded
+2018-01-31T20:48:36.765Z - success: ui-tree loaded
+2018-01-31T20:48:38.815Z - normal: Initializing project C:\Users\ser\Documents\CocosCreator\SOS
+2018-01-31T20:48:38.815Z - normal: Loading packages
+2018-01-31T20:48:38.832Z - normal: Watching packages
+2018-01-31T20:48:38.863Z - normal: Run Application
+2018-01-31T20:48:40.503Z - success: preview server running at http://localhost:7458
+2018-01-31T20:48:51.097Z - normal: 1.8.1
+2018-01-31T20:59:03.460Z - normal: ScaleX != ScaleY. Don't know which one to return
+2018-01-31T21:15:51.153Z - error: Node name can not include '/'.
+    at Object.errorID (C:\CocosCreator\resources\engine\CCDebugger.js:338:24)
+    at cc_Node.set (C:\CocosCreator\resources\engine\cocos2d\core\utils\base-node.js:185:24)
+    at setNodePropertyByPath (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:4064)
+    at Object.Editor.setPropertyByPath (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:5180)
+    at Object.setProperty (C:\CocosCreator\resources\app.asar\editor\page\scene-utils\index.js:1:14257)
+    at HTMLElement.scene:set-property (file:///C:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:8307)
+    at Object.Panel._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:2283)
+    at EventEmitter.ipcRenderer.on.o (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:3960)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-01-31T21:16:40.717Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\CocosCreator\SOS\assets\GameFlow.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/CocosCreator/SOS/assets/GameFlow.js: Unexpected token, expected , (288:3)
+  286 | 			}
+  287 | 
+> 288 | 			MusicaCreepy: function(Componente){
+      | 			^
+  289 | 				//Mostrar Hoja Frecuencias
+  290 | 				self.AccionGeneralJuego(Componente);
+  291 | 				cc.audioEngine.playEffect(self.MusicaCreepy, false);
     at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
     at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
     at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseCallExpressionArguments (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3564:12)
-    at Parser.pp$3.parseSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3533:31)
-    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
+    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
     at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
     at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
     at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
     at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-01-31T21:30:44.872Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\CocosCreator\SOS\assets\Timer.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/CocosCreator/SOS/assets/Timer.js: this is a reserved word (20:3)
+  18 |              serializable: true,   
+  19 |             },
+> 20 | 			this.tiempoLimiteSegundos:{
+     | 			^
+  21 | 				default: 240,
+  22 | 				serializable:true,
+  23 | 			},
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp$3.checkReservedWord (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4347:10)
+    at Parser.pp$3.parseObjectProperty (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4121:10)
+    at Parser.pp$3.parseObjPropValue (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4140:84)
+    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2018-01-31T21:32:04.301Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\CocosCreator\SOS\assets\Timer.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/CocosCreator/SOS/assets/Timer.js: Unexpected token (55:49)
+  53 | 			else
+  54 | 			{
+> 55 | 				this.Timer.getComponent(cc.Label).string = --:--.--;
+     | 				                                             ^
+  56 | 				this.node.getComponent('GameFlow').timeout();
+  57 | 			}												
+  58 | 														
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3455:26)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3367:23)
+2018-01-31T21:32:55.389Z - error: Unknown type of Timer.tiempo, property should be defined in 'properties' or 'ctor'
+    at Object.errorID (C:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\cocos2d\core\platform\preprocess-class.js:310:20)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:968:25)
+    at __define (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:17:4)
+    at C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:63:13
+    at Object.<anonymous> (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:70:11)
+    at Object.<anonymous> (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:73:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2018-01-31T21:33:48.719Z - error: Unknown type of Timer.tiempo, property should be defined in 'properties' or 'ctor'
+    at Object.errorID (C:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\cocos2d\core\platform\preprocess-class.js:310:20)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:968:25)
+    at __define (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:17:4)
+    at C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:63:13
+    at Object.<anonymous> (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:70:11)
+    at Object.<anonymous> (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:73:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+2018-01-31T21:34:49.040Z - error: Unknown type of Timer.tiempo, property should be defined in 'properties' or 'ctor'
+    at Object.errorID (C:\CocosCreator\resources\engine\CCDebugger.js:343:18)
+    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\cocos2d\core\platform\preprocess-class.js:310:20)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:968:25)
+    at __define (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:17:4)
+    at C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:64:13
+    at Object.<anonymous> (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:71:11)
+    at Object.<anonymous> (C:\Users\ser\Documents\CocosCreator\SOS\temp\quick-scripts\assets\Timer.js:74:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)

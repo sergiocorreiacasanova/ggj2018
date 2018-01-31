@@ -126,8 +126,17 @@ cc.Class({
                 this._bPanel = value;
             }
         },
+        Asfixia: {
+            default: null,
+            url: cc.AudioClip
+        },
 
         Chispas: {
+            default: null,
+            url: cc.AudioClip
+        },
+
+        MusicaCreepy: {
             default: null,
             url: cc.AudioClip
         },
@@ -244,19 +253,25 @@ cc.Class({
                 }
             },
 
-            Libro1: function Libro1(Componente) {
+            LibroA: function LibroA(Componente) {
                 //Mostrar Hoja Codigo Morse
                 self.AccionGeneralJuego(Componente);
             },
 
-            Libro2: function Libro2(Componente) {
+            LibroN: function LibroN(Componente) {
                 //Mostrar Hoja Extra
                 self.AccionGeneralJuego(Componente);
             },
 
-            Libro3: function Libro3(Componente) {
+            LibroR: function LibroR(Componente) {
                 //Mostrar Hoja Frecuencias
                 self.AccionGeneralJuego(Componente);
+            },
+
+            MusicaCreepy: function MusicaCreepy(Componente) {
+                //Mostrar Hoja Frecuencias
+                self.AccionGeneralJuego(Componente);
+                cc.audioEngine.playEffect(self.MusicaCreepy, false);
             }
 
         };
@@ -279,9 +294,17 @@ cc.Class({
         }
     },
 
-
+    timeout: function timeout() {
+        var self = this;
+        cc.audioEngine.playEffect(this.Asfixia, false);
+        this.Astronauta.getComponent('jugador').setEstado('asfixia');
+        this.Final = 2; // sin aire
+        setTimeout(function () {
+            self.MostrarFinal();
+        }, 5000);
+    },
     MostrarFinal: function MostrarFinal() {
-        switch (self.Final) {
+        switch (this.Final) {
             case 1:
                 //Explocion;
                 break;
