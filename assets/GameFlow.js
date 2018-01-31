@@ -133,6 +133,11 @@ cc.Class({
                 },
             },
 
+            Chispas:{
+                default: null,
+                url: cc.AudioClip,
+            },
+
             Computadora:{
              default: null, 
              type: cc.Node, 
@@ -203,6 +208,8 @@ cc.Class({
 		
 		this.AccionesJuego = {
 			Luz: function(Componente){
+
+                self.bBoton = true;
 				self.AccionGeneralJuego(Componente);
 				self.node.getChildByName('nave').color = new cc.color(255,255,255,255);
 				
@@ -214,6 +221,8 @@ cc.Class({
 				//self.Astronauta.getChildByName('electrocutado').color = new cc.color(255,255,255,255);
 				
                 self.node.getChildByName('nave').getChildByName('Cinta').color = new cc.color(255,255,255,255);
+
+
 			},
 
 			Computadora: function(Componente){
@@ -232,38 +241,36 @@ cc.Class({
 			},
 
 			Panel: function(Componente){
-				self.AccionGeneralJuego(Componente);
 				cc.log(self.bCinta);
 				if(self.bCinta){
 					cc.log('Tiene la cinta');
-					self.Final++;
+                    self.AccionGeneralJuego(Componente);
+					self.Final = 2;
                     Componente.node.getComponent(cc.Sprite).enabled = true;
-                    cc.director.loadScene('Creditos');
 				}
 				else{
-					//Chispas
-				}
+                    if(!self.bChispas)
+                        self.bChispas = true;
+                        cc.audioEngine.playEffect(self.Chispas, false);
+                        /**self.scheduleOnce(funtion() {
+                           reiniciarSonido();
+                        },10);**/
+    				}
 			},
 
 			Libro1: function(Componente){
 				//Mostrar Hoja Codigo Morse
 				self.AccionGeneralJuego(Componente);
-                Componente.ActivaObjeto1.setPosition(Vec2(-137, -43));
-                Componente.ActivaObjeto1.setPosition(Vec2(-137, -43));
 			},
 
 			Libro2: function(Componente){
 				//Mostrar Hoja Extra
 				self.AccionGeneralJuego(Componente);
-                Componente.ActivaObjeto1.node.PostionX = -137;
-                Componente.ActivaObjeto1.node.PostionX = -43;
 			},
 
 			Libro3: function(Componente){
 				//Mostrar Hoja Frecuencias
 				self.AccionGeneralJuego(Componente);
-                Componente.ActivaObjeto1.node.PostionX = -137;
-                Componente.ActivaObjeto1.node.PostionX = -43;
 			}
 
 
@@ -272,26 +279,28 @@ cc.Class({
 		
         var manager = cc.director.getCollisionManager();
         manager.enabled = true;
-       // manager.enabledDebugDraw = true; // DEBUG
+        manager.enabledDebugDraw = true; // DEBUG
     },
 
 	AccionGeneralJuego(Componente)
 	{
+        var self = this;
 		console.log(Componente.ActivaObjeto1);
-		
-		if (Componente.ActivaObjeto1)
-			Componente.ActivaObjeto1.active = true;
-		if (Componente.ActivaObjeto2)
-			Componente.ActivaObjeto2.active = true;
-		if (Componente.ActivaObjeto3)
-			Componente.ActivaObjeto3.active = true;
-		
-		if (Componente.DesactivaObjeto1)
-			Componente.DesactivaObjeto1.active = false;
-		if (Componente.DesactivaObjeto2)
-			Componente.DesactivaObjeto2.active = false;
-		if (Componente.DesactivaObjeto3)
-			Componente.DesactivaObjeto3.active = false;
+		if (self.bBoton) {
+    		if (Componente.ActivaObjeto1)
+    			Componente.ActivaObjeto1.active = true;
+    		if (Componente.ActivaObjeto2)
+    			Componente.ActivaObjeto2.active = true;
+    		if (Componente.ActivaObjeto3)
+    			Componente.ActivaObjeto3.active = true;
+    		
+    		if (Componente.DesactivaObjeto1)
+    			Componente.DesactivaObjeto1.active = false;
+    		if (Componente.DesactivaObjeto2)
+    			Componente.DesactivaObjeto2.active = false;
+    		if (Componente.DesactivaObjeto3)
+    			Componente.DesactivaObjeto3.active = false;
+        }
 	},
 	
     MostrarFinal: function(){
@@ -331,5 +340,10 @@ cc.Class({
 			this.AccionGeneralJuego(Componente);
     }    
 
+
+    /**reiniciarSonido(){
+        var self = this;
+        self.bChispas = false;
+    }**/
     // update (dt) {},
 });
