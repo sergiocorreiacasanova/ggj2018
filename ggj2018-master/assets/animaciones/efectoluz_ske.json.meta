@@ -1,6 +1,0 @@
-{
-  "ver": "1.0.0",
-  "uuid": "3952d1b5-9e27-4279-b51a-a77a01144ce3",
-  "dragonBonesJson": "{\"frameRate\":24,\"armature\":[{\"type\":\"Armature\",\"frameRate\":24,\"aabb\":{\"width\":55,\"y\":-28.5,\"height\":57,\"x\":-27.5},\"animation\":[{\"ik\":[],\"frame\":[],\"ffd\":[],\"bone\":[{\"frame\":[{\"duration\":48,\"transform\":{\"skX\":-14.6441,\"skY\":-14.6441},\"tweenEasing\":0},{\"duration\":0,\"transform\":{\"skX\":-1.6266,\"skY\":-1.6266}}],\"name\":\"root\"}],\"duration\":48,\"slot\":[{\"frame\":[{\"duration\":24,\"color\":{\"aM\":0},\"tweenEasing\":0},{\"duration\":24,\"tweenEasing\":0},{\"duration\":0,\"color\":{\"aM\":0},\"tweenEasing\":null}],\"name\":\"efectoluzboton\"}],\"playTimes\":0,\"name\":\"animtion0\"}],\"ik\":[],\"skin\":[{\"name\":\"\",\"slot\":[{\"display\":[{\"path\":\"efectoluzboton\",\"type\":\"image\",\"name\":\"efectoluzboton\",\"transform\":{}}],\"name\":\"efectoluzboton\"}]}],\"slot\":[{\"name\":\"efectoluzboton\",\"parent\":\"root\",\"color\":{}}],\"defaultActions\":[{\"gotoAndPlay\":\"animtion0\"}],\"name\":\"Armature\",\"bone\":[{\"transform\":{},\"name\":\"root\"}]}],\"isGlobal\":0,\"name\":\"efectoluz\",\"version\":\"4.0\"}",
-  "subMetas": {}
-}

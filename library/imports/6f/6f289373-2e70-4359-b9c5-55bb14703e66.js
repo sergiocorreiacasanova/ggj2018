@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/CerrarVentana.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '415c2GRSqtMfq7dEBSJpoOL', 'CerrarVentana', __filename);
-// CerrarVentana.js
+"use strict";
+cc._RF.push(module, '6f289NzLnBDWbnFVbsUcD5m', 'ControldeLayout');
+// ControldeLayout.js
 
 "use strict";
 
@@ -29,7 +29,8 @@ cc.Class({
 
     // onLoad () {},
     Cerrar: function Cerrar() {
-        Ventana.Node.active = false;
+        var self = this;
+        self.Ventana.active = false;
     },
     start: function start() {}
     // update (dt) {},
@@ -37,15 +38,3 @@ cc.Class({
 });
 
 cc._RF.pop();
-        }
-        if (CC_EDITOR) {
-            __define(__module.exports, __require, __module);
-        }
-        else {
-            cc.registerModuleFunc(__filename, function () {
-                __define(__module.exports, __require, __module);
-            });
-        }
-        })();
-        //# sourceMappingURL=CerrarVentana.js.map
-        
