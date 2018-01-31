@@ -402,7 +402,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 116.78,
+      "width": 0,
       "height": 40
     },
     "_rotationX": -414.6,
@@ -437,7 +437,7 @@
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "01:03.00",
+    "_N$string": "",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -3732,7 +3732,12 @@
     "Timer": {
       "__id__": 8
     },
-    "TiempoLimiteSegundos": 240
+    "TiempoLimiteSegundos": 24,
+    "tiempo": 0,
+    "strT": 0,
+    "min": 0,
+    "mili": 0,
+    "seg": 0
   },
   {
     "__type__": "cc.Node",
