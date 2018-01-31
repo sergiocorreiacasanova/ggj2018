@@ -49,6 +49,7 @@ cc.Class({
 	destino: null,
 	anguloDestino: 0,
 	distanciaDestino: 0,
+	distanciaAngularDestino: 0,
 	velocidadAngularDestino: 0,
 	aceleracionAngularDestino:0,
 	deltaAnguloDesaceleracionDestino:0,
@@ -80,32 +81,21 @@ cc.Class({
 					if (isNaN(self.node.rotation))
 						self.node.rotation = 0;
 					
-					self.node.rotation = (self.node.rotationX +360) % 360;
+					//self.node.rotation = (self.node.rotationX ) % 180;
 					
 					if (self.distanciaPosicion(self.fondo.position, self.destino) < self.radioCentro)
 						self.anguloDestino = self.node.rotationX;
 					else
 					{
 						// calcula el angulo contra la vertical x+
-						var anguloRad = (Math.PI/2 - Math.atan2(self.destino.y - self.fondo.position.y, self.destino.x - self.fondo.position.x) + Math.PI*2) % (Math.PI*2);
+						var anguloRad = Math.atan2(self.destino.y - self.fondo.position.y, self.destino.x - self.fondo.position.x);
 						
-						self.anguloDestino = anguloRad / Math.PI * 180;
-						
-						
+						self.anguloDestino = (90 - anguloRad / Math.PI * 180);
 					}
 					// intento determinar hacia qué lado girar
-					/*
-						Ej 1 
-						destino = 270
-						nodo = 30
-						destino - nodo >180 -> gira contrareloj
-						Ej 2
-						Destino = 30
-						nodo = 270
-						Destino - nodo < -180 - gira reloj
-					*/
-					var diffA = ((self.anguloDestino + 180) - (self.node.rotationX + 180)) % 180; 
-
+					
+					var diffA  = self.distanciaAngular(self.anguloDestino, self.node.rotationX);
+					
 					if (diffA > 0)
 					{
 						self.aceleracionAngularDestino = self.aceleracionAngular;
@@ -117,12 +107,11 @@ cc.Class({
 						self.deltaAnguloDesaceleracionDestino = Math.abs(diffA)/2;
 					}
 					
-					if (Math.abs(diffA) > 60)
+					self.distanciaAngularDestino = Math.abs(diffA);
+					
+					if (self.distanciaAngularDestino > 60)
 					{
 						self.setEstado('giro');
-						setTimeout(function(){
-							self.setEstado('estatico');
-						}, 5000);
 					}
 					self.distanciaDestino = self.distanciaPosicion(self.node.position, self.destino);
 					self.orbitando = false;
@@ -162,7 +151,35 @@ cc.Class({
 		
     },
 	setEstado(estado){
-
+/*
+		if (estado === 'estatico' && 
+				this.fondo.getComponent('GameFlow')&& 
+				this.fondo.getComponent('GameFlow').ColiderActivo &&
+				this.fondo.getComponent('GameFlow').ColiderActivo.enabled)
+			estado = 'tocar';
+		*/
+		var self = this;
+		
+		switch (estado){
+			case 'giro':	
+				setTimeout(function(){
+					self.setEstado('estatico');
+				}, 5750);
+				break
+			case 'agarrar':	
+				setTimeout(function(){
+					self.setEstado('estatico');
+				}, 1500);
+				break
+			case 'electrocutado':	
+				setTimeout(function(){
+					self.setEstado('estatico');
+				}, 2000);
+				break
+			default:
+		}
+		
+		
 		if (estado !== this.estadoActual)
 		{
 			if (this.node.getChildByName(this.estadoActual))
@@ -172,6 +189,21 @@ cc.Class({
 			
 			this.node.getChildByName(estado).active = true;
 			
+			/*
+			DragonBone.Animation.FadeIn(
+			string animationName, float fadeInTime = -1.0f, int playTimes = -1,
+			int layer = 0, string group = null, AnimationFadeOutMode fadeOutMode = AnimationFadeOutMode.SameLayerAndGroup,
+			bool additiveBlending = false, bool displayControl = true,
+			bool pauseFadeOut = true, bool pauseFadeIn = true
+			)
+
+			Sample:
+			Armature.Animation.FadeIn("Shoot", 0.05f, -1, 0); // a shooting animation that plays in loop (-1)
+			Armature.Animation.FadeIn("Kick", 0.025f, 0, 1); // while shooting, he also kicks in one round. Not sure if that 0 plays once though, but I hope you get my point :D
+			*/
+			
+			this.node.getChildByName(estado).getComponent(dragonBones.ArmatureDisplay).armature().animation.fadeIn("animtion0", -1, -1, 0);
+			
 			console.log (this.node.getChildByName(estado));
 			
 		}
@@ -179,7 +211,18 @@ cc.Class({
     start () {
 		this.setEstado('estatico');
     },
-	
+	distanciaAngular(a, b){
+		
+		var diffA = (a - b) % 360;
+		
+		if (diffA < 0)
+			diffA = diffA + 360;
+		
+		if (diffA > 180)
+			diffA = diffA - 360;
+		
+		return diffA;
+	},
 	update (dt){
 		if (isNaN(this.velocidadAngularDestino) || isNaN(this.velocidadDestinoX) || isNaN(this.velocidadDestinoY))
 		{
@@ -187,21 +230,26 @@ cc.Class({
 		}
 		else
 		{
-			if (Math.abs(((this.node.rotationX + 360) % 360 + 360) % 540 - ((this.anguloDestino + 360)% 360 + 360) % 540)  < this.deltaAnguloDesaceleracionDestino)
+			var diffA = Math.abs(this.distanciaAngular(this.node.rotationX, this.anguloDestino));
+			// a mitad de camino entre angulos, desacelero.
+			if (diffA < this.deltaAnguloDesaceleracionDestino)
 			{
 				this.aceleracionAngularDestino = -this.aceleracionAngularDestino;
 				this.deltaAnguloDesaceleracionDestino = -1;  // queda deshabilitado
 			}
-			
-			this.velocidadAngularDestino += this.aceleracionAngularDestino;
-			
-			if (Math.abs((this.node.rotation + 360) % 540 - (this.anguloDestino + 360) % 540) < 5)
+			// Mientras la distancia angular se esté achicando, sigo rotando, de lo contrario queda quieto.
+			if (this.distanciaAngularDestino >= diffA)
+			{
+				this.velocidadAngularDestino += this.aceleracionAngularDestino;
+				this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
+				this.distanciaAngularDestino = diffA;
+			}
+			else
 			{
 				this.aceleracionAngularDestino = 0;
 				this.velocidadAngularDestino = 0;
+				//this.node.rotation = this.anguloDestino;
 			}
-			
-			this.node.rotation = this.node.rotationX + this.velocidadAngularDestino * dt;
 			
 			var DistanciaActual = this.distanciaPosicion(this.node.position, this.destino);
 			

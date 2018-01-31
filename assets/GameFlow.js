@@ -214,11 +214,11 @@ cc.Class({
 				self.node.getChildByName('nave').color = new cc.color(255,255,255,255);
 				
 				//self.Astronauta.getChildByName('tocar').color = new cc.color(255,255,255,255);
-				//self.Astronauta.getChildByName('agarrar').color = new cc.color(255,255,255,255);
+				self.Astronauta.getChildByName('agarrar').color = new cc.color(255,255,255,255);
 				self.Astronauta.getChildByName('estatico').color = new cc.color(255,255,255,255);
-				//self.Astronauta.getChildByName('asfixia').color = new cc.color(255,255,255,255);
+				self.Astronauta.getChildByName('asfixia').color = new cc.color(255,255,255,255);
 				self.Astronauta.getChildByName('giro').color = new cc.color(255,255,255,255);
-				//self.Astronauta.getChildByName('electrocutado').color = new cc.color(255,255,255,255);
+				self.Astronauta.getChildByName('electrocutado').color = new cc.color(255,255,255,255);
 				
                 self.node.getChildByName('nave').getChildByName('Cinta').color = new cc.color(255,255,255,255);
 
@@ -238,6 +238,7 @@ cc.Class({
 			Cinta: function(Componente){
 				self.AccionGeneralJuego(Componente);
 				self.bCinta = true;
+				self.Astronauta.getComponent('jugador').setEstado('agarrar');
 			},
 
 			Panel: function(Componente){
@@ -252,6 +253,8 @@ cc.Class({
                     if(!self.bChispas)
                         self.bChispas = true;
                         cc.audioEngine.playEffect(self.Chispas, false);
+						
+						self.Astronauta.getComponent('jugador').setEstado('electrocutado');
                         /**self.scheduleOnce(funtion() {
                            reiniciarSonido();
                         },10);**/
@@ -323,11 +326,11 @@ cc.Class({
     start () {
 		this.node.getChildByName('nave').color = new cc.color(20,20,20,255);
 		//this.Astronauta.getChildByName('tocar').color = new cc.color(20,20,20,255);
-		//this.Astronauta.getChildByName('agarrar').color = new cc.color(20,20,20,255);
+		this.Astronauta.getChildByName('agarrar').color = new cc.color(20,20,20,255);
 		this.Astronauta.getChildByName('estatico').color = new cc.color(20,20,20,255);
-		//this.Astronauta.getChildByName('asfixia').color = new cc.color(20,20,20,255);
+		this.Astronauta.getChildByName('asfixia').color = new cc.color(20,20,20,255);
 		this.Astronauta.getChildByName('giro').color = new cc.color(20,20,20,255);
-		//this.Astronauta.getChildByName('electrocutado').color = new cc.color(20,20,20,255);
+		this.Astronauta.getChildByName('electrocutado').color = new cc.color(20,20,20,255);
         this.node.getChildByName('nave').getChildByName('Cinta').color = new cc.color(20,20,20,255);
     },
 

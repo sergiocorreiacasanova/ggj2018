@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 387,
+                "height": 268,
                 "type": "panel",
-                "width": 220.671875
+                "width": 301
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 226,
+                "height": 345,
                 "type": "panel",
-                "width": 220.671875
+                "width": 301
               }
             ],
             "height": 616,
             "type": "dock-v",
-            "width": 220.671875
+            "width": 301
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 387,
                     "type": "panel",
-                    "width": 597.109375
+                    "width": 486.984375
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 387,
                     "type": "panel",
-                    "width": 226.671875
+                    "width": 204
                   }
                 ],
                 "height": 387,
                 "type": "dock-h",
-                "width": 826.78125
+                "width": 693.984375
               },
               {
                 "active": 0,
@@ -71,12 +71,12 @@
                 ],
                 "height": 226,
                 "type": "panel",
-                "width": 826.78125
+                "width": 693.984375
               }
             ],
             "height": 616,
             "type": "dock-v",
-            "width": 826.78125
+            "width": 693.984375
           },
           {
             "active": 0,
@@ -85,7 +85,7 @@
             ],
             "height": 616,
             "type": "panel",
-            "width": 304.546875
+            "width": 357
           }
         ],
         "type": "dock-h"
