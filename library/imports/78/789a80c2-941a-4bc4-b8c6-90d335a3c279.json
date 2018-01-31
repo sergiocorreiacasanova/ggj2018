@@ -389,9 +389,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 0,
-      "b": 0,
+      "r": 168,
+      "g": 57,
+      "b": 57,
       "a": 255
     },
     "_cascadeOpacityEnabled": true,
@@ -402,19 +402,19 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
+      "width": 116.78,
       "height": 40
     },
     "_rotationX": -414.6,
     "_rotationY": -414.6,
-    "_scaleX": 0.675,
-    "_scaleY": 0.675,
+    "_scaleX": 0.6,
+    "_scaleY": 0.775,
     "_position": {
       "__type__": "cc.Vec2",
       "x": -462.8,
       "y": 356.7
     },
-    "_skewX": 0,
+    "_skewX": 7.9,
     "_skewY": 0,
     "_localZOrder": 0,
     "_globalZOrder": 0,
@@ -437,7 +437,7 @@
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "",
+    "_N$string": "00:00.00",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -3732,12 +3732,7 @@
     "Timer": {
       "__id__": 8
     },
-    "TiempoLimiteSegundos": 24,
-    "tiempo": 0,
-    "strT": 0,
-    "min": 0,
-    "mili": 0,
-    "seg": 0
+    "TiempoLimiteSegundos": 240
   },
   {
     "__type__": "cc.Node",

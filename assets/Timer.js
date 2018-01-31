@@ -18,28 +18,8 @@ cc.Class({
              serializable: true,   
             },
 			TiempoLimiteSegundos:{
-				default: 24,
+				default: 240,
 				serializable:true,
-			},
-
-			tiempo:{
-				default: 0,
-			},
-
-    		strT:{
-				default: 0,
-			},
-
-    		min:{
-				default: 0,
-			},
-
-    		mili:{
-				default: 0,
-			},
-
-    		seg:{
-				default: 0,
 			},
 
     },
@@ -56,16 +36,15 @@ cc.Class({
     },
 
     update (dt) {
-        if(this.min >= 0 && this.seg >= 0 && this.mili >= 0){
-	    	this.tiempo = ((this.TiempoLimiteSegundos *1000 - ((new Date()).getTime() - this.inicio)) / 100);
-	    	this.tiempo = this.tiempo | 0;
-	    	this.min = this.tiempo / 1000;
-	    	this.min = this.min | 0;
-	    	this.mili = this.tiempo % 10;
-	    	this.seg = (this.tiempo % 1000) / 10;
-	    	this.seg = this.seg | 0;
-	    	this.strT = this.min + ':' + this.seg + ':' + this.mili;
-			this.Timer.getComponent(cc.Label).string = this.strT;
+		var tiempo = this.TiempoLimiteSegundos *1000 - ((new Date()).getTime() - this.inicio);
+        if(tiempo > 0){
+			var Miliseg = '000' + (Math.floor((tiempo % 1000)/10)).toString();
+	    	var Segundos = '00' + (Math.floor(tiempo / 1000) % 60).toString(); //in s
+			var Minutos = '00' + (Math.floor(tiempo / 60 / 1000)).toString(); //in minutes
+			
+			this.Timer.getComponent(cc.Label).string = Minutos.substr(Minutos.length - 2) + ":" + 
+														Segundos.substr(Segundos.length -2) + "." + 
+														Miliseg.substr(Miliseg.length -2);
 		}
 	},
 });

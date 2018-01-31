@@ -1,91 +1,71 @@
-2018-01-31T15:42:27.125Z - normal: Load ~/.CocosCreator/settings.json
-2018-01-31T15:42:27.125Z - normal: checking language setting...
-2018-01-31T15:42:27.125Z - normal: Language: en
-2018-01-31T15:42:29.063Z - success: protocol editor-framework registered
-2018-01-31T15:42:29.063Z - success: protocol app registered
-2018-01-31T15:42:29.063Z - success: protocol theme registered
-2018-01-31T15:42:29.063Z - success: protocol packages registered
-2018-01-31T15:42:29.063Z - success: protocol unpack registerred
-2018-01-31T15:42:29.063Z - success: protocol disable-commonjs registerred
-2018-01-31T15:42:29.063Z - error: { Error: getaddrinfo ENOENT creator-api.cocos.com:443
-    at Object.exports._errnoException (util.js:1050:11)
-    at errnoException (dns.js:33:15)
-    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
-  code: 'ENOENT',
-  errno: 'ENOENT',
-  syscall: 'getaddrinfo',
-  hostname: 'creator-api.cocos.com',
-  host: 'creator-api.cocos.com',
-  port: 443 }
-    at D:\CocosCreator\resources\app.asar\share\login\lib\user.js:1:1441
-    at ClientRequest.Https.request.on.e (D:\CocosCreator\resources\app.asar\share\login\lib\network.js:1:873)
-    at emitOne (events.js:96:13)
-    at ClientRequest.emit (events.js:191:7)
-    at TLSSocket.socketErrorListener (_http_client.js:358:9)
-    at emitOne (events.js:96:13)
-    at TLSSocket.emit (events.js:191:7)
-    at connectErrorNT (net.js:1032:8)
-    at _combinedTickCallback (internal/process/next_tick.js:80:11)
-2018-01-31T15:42:29.078Z - normal: failed to connect login server... skipping login
-2018-01-31T15:42:29.078Z - normal: Check project D:\ggj2018
-2018-01-31T15:42:29.078Z - normal: Initializing Cocos2d
-2018-01-31T15:42:29.313Z - normal: Initializing Asset Database
-2018-01-31T15:42:29.344Z - success: protocol uuid registerred
-2018-01-31T15:42:29.344Z - success: protocol db registerred
-2018-01-31T15:42:29.359Z - success: protocol thumbnail registerred
-2018-01-31T15:42:29.359Z - normal: Loading editor/builtin packages
-2018-01-31T15:42:29.375Z - success: anysdk loaded
-2018-01-31T15:42:29.516Z - success: assets loaded
-2018-01-31T15:42:29.516Z - success: builder loaded
-2018-01-31T15:42:29.516Z - success: cocos-analytics loaded
-2018-01-31T15:42:29.516Z - success: console loaded
-2018-01-31T15:42:29.531Z - success: hierarchy loaded
-2018-01-31T15:42:29.531Z - success: inspector loaded
-2018-01-31T15:42:29.531Z - success: keystore loaded
-2018-01-31T15:42:29.531Z - success: node-library loaded
-2018-01-31T15:42:29.531Z - success: package-asset loaded
-2018-01-31T15:42:29.531Z - success: preferences loaded
-2018-01-31T15:42:29.547Z - success: project-exporter loaded
-2018-01-31T15:42:29.563Z - success: project-importer loaded
-2018-01-31T15:42:29.563Z - success: project-settings loaded
-2018-01-31T15:42:29.563Z - success: ui-kit loaded
-2018-01-31T15:42:29.578Z - success: ui-grid loaded
-2018-01-31T15:42:29.578Z - success: scene loaded
-2018-01-31T15:42:29.578Z - success: sprite-editor loaded
-2018-01-31T15:42:29.578Z - success: store loaded
-2018-01-31T15:42:29.578Z - success: timeline loaded
-2018-01-31T15:42:29.578Z - normal: Loading builtin packages
-2018-01-31T15:42:29.594Z - success: asset-db-debugger loaded
-2018-01-31T15:42:29.594Z - success: code-editor loaded
-2018-01-31T15:42:29.594Z - success: color-picker loaded
-2018-01-31T15:42:29.594Z - success: package-manager loaded
-2018-01-31T15:42:29.594Z - success: sdkbox loaded
-2018-01-31T15:42:29.594Z - success: tester loaded
-2018-01-31T15:42:29.594Z - success: ui-kit-preview-extra loaded
-2018-01-31T15:42:29.609Z - success: ui-kit-preview loaded
-2018-01-31T15:42:29.609Z - success: ui-tree loaded
-2018-01-31T15:42:30.844Z - normal: Initializing project D:\ggj2018
-2018-01-31T15:42:30.859Z - normal: Loading packages
-2018-01-31T15:42:30.859Z - normal: Watching packages
-2018-01-31T15:42:30.875Z - normal: Run Application
-2018-01-31T15:42:31.631Z - success: preview server running at http://localhost:7456
-2018-01-31T15:42:36.978Z - normal: 1.8.1
-2018-01-31T15:47:05.330Z - failed: [db-task][sync-changes] Failed to import asset D:\ggj2018\assets\Timer.js, message: Compile error: SyntaxError: D:/ggj2018/assets/Timer.js: Unexpected token (59:16)
-  57 | 
-  58 |     update (dt) {
-> 59 |         if(this..min >= 0 && this..seg >= 0 && this..mili >= 0){
-     |                 ^
-  60 | 	    	this..tiempo = ((this.TiempoLimiteSegundos *1000 - ((new Date()).getTime() - this.inicio)) / 100);
-  61 | 	    	this..tiempo = this..tiempo | 0;
-  62 | 	    	this..min = this..tiempo / 1000;
-    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseIdentifier (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4332:10)
-    at Parser.pp$3.parseSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3517:30)
-    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
-2018-01-31T15:49:22.724Z - info: shutdown preview server
+2018-01-31T16:42:53.170Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-31T16:42:53.200Z - normal: checking language setting...
+2018-01-31T16:42:53.200Z - normal: Language: en
+2018-01-31T16:42:56.779Z - success: protocol editor-framework registered
+2018-01-31T16:42:56.780Z - success: protocol app registered
+2018-01-31T16:42:56.780Z - success: protocol theme registered
+2018-01-31T16:42:56.780Z - success: protocol packages registered
+2018-01-31T16:42:56.780Z - success: protocol unpack registerred
+2018-01-31T16:42:56.781Z - success: protocol disable-commonjs registerred
+2018-01-31T16:42:59.207Z - normal: connected!
+2018-01-31T16:42:59.209Z - normal: Check project C:\Users\ser\Documents\CocosCreator\SOS
+2018-01-31T16:42:59.213Z - normal: Initializing Cocos2d
+2018-01-31T16:42:59.799Z - normal: Initializing Asset Database
+2018-01-31T16:42:59.896Z - success: protocol uuid registerred
+2018-01-31T16:42:59.896Z - success: protocol db registerred
+2018-01-31T16:42:59.897Z - success: protocol thumbnail registerred
+2018-01-31T16:42:59.897Z - normal: Loading editor/builtin packages
+2018-01-31T16:42:59.955Z - success: anysdk loaded
+2018-01-31T16:43:00.207Z - success: assets loaded
+2018-01-31T16:43:00.212Z - success: builder loaded
+2018-01-31T16:43:00.217Z - success: cocos-analytics loaded
+2018-01-31T16:43:00.223Z - success: console loaded
+2018-01-31T16:43:00.229Z - success: hierarchy loaded
+2018-01-31T16:43:00.234Z - success: inspector loaded
+2018-01-31T16:43:00.236Z - success: keystore loaded
+2018-01-31T16:43:00.242Z - success: node-library loaded
+2018-01-31T16:43:00.245Z - success: package-asset loaded
+2018-01-31T16:43:00.252Z - success: preferences loaded
+2018-01-31T16:43:00.255Z - success: project-exporter loaded
+2018-01-31T16:43:00.286Z - success: project-importer loaded
+2018-01-31T16:43:00.291Z - success: project-settings loaded
+2018-01-31T16:43:00.297Z - success: ui-kit loaded
+2018-01-31T16:43:00.304Z - success: ui-grid loaded
+2018-01-31T16:43:00.310Z - success: scene loaded
+2018-01-31T16:43:00.312Z - success: sprite-editor loaded
+2018-01-31T16:43:00.318Z - success: store loaded
+2018-01-31T16:43:00.331Z - success: timeline loaded
+2018-01-31T16:43:00.331Z - normal: Loading builtin packages
+2018-01-31T16:43:00.336Z - success: asset-db-debugger loaded
+2018-01-31T16:43:00.339Z - success: code-editor loaded
+2018-01-31T16:43:00.341Z - success: color-picker loaded
+2018-01-31T16:43:00.345Z - success: package-manager loaded
+2018-01-31T16:43:00.352Z - success: sdkbox loaded
+2018-01-31T16:43:00.359Z - success: tester loaded
+2018-01-31T16:43:00.366Z - success: ui-kit-preview-extra loaded
+2018-01-31T16:43:00.369Z - success: ui-kit-preview loaded
+2018-01-31T16:43:00.373Z - success: ui-tree loaded
+2018-01-31T16:43:03.406Z - normal: Initializing project C:\Users\ser\Documents\CocosCreator\SOS
+2018-01-31T16:43:03.412Z - normal: Loading packages
+2018-01-31T16:43:03.427Z - normal: Watching packages
+2018-01-31T16:43:03.468Z - normal: Run Application
+2018-01-31T16:43:12.156Z - success: preview server running at http://localhost:7458
+2018-01-31T16:43:25.861Z - normal: 1.8.1
+2018-01-31T16:57:50.965Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ser\Documents\CocosCreator\SOS\assets\Timer.js, message: Compile error: SyntaxError: C:/Users/ser/Documents/CocosCreator/SOS/assets/Timer.js: Unexpected token, expected ; (45:82)
+  43 | 			var miDiff = Math.floor(tiempo / 60 / 1000); //in minutes
+  44 | 			
+> 45 | 			this.Timer.getComponent(cc.Label).string = miDiff + ":" + seDiff + "." + msDiff);
+     | 			                                                                               ^
+  46 | 		}
+  47 | 	},
+  48 | });
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseBlock (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
+    at Parser.pp$1.parseStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1868:19)
+    at Parser.pp$1.parseIfStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2059:26)
+    at Parser.pp$1.parseStatement (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1846:19)
