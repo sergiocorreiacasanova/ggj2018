@@ -56,6 +56,7 @@ cc.Class({
     },
 
     update (dt) {
+<<<<<<< HEAD
         if(this.min >= 0 && this.seg >= 0 && this.mili >= 0){
 	    	this.tiempo = ((this.TiempoLimiteSegundos *1000 - ((new Date()).getTime() - this.inicio)) / 100);
 	    	this.tiempo = this.tiempo | 0;
@@ -67,5 +68,17 @@ cc.Class({
 	    	this.strT = this.min + ':' + this.seg + ':' + this.mili;
 			this.Timer.getComponent(cc.Label).string = this.strT;
 		}
+=======
+   		var self = this;
+    	self.tiempo = ((this.TiempoLimiteSegundos *1000 - ((new Date()).getTime() - this.inicio)) / 100);
+    	self.tiempo = self.tiempo | 0;
+    	self.min = self.tiempo / 1000;
+    	self.min = self.min | 0;
+    	self.mili = self.tiempo % 10;
+    	self.seg = (self.tiempo % 1000) / 10;
+    	self.seg = self.seg | 0;
+    	self.strT = self.min + ':' + self.seg + ':' + self.mili;
+		this.Timer.getComponent(cc.Label).string = self.strT;
+>>>>>>> 58e47b5f546c2711a013885240356e223780dccc
 	},
 });

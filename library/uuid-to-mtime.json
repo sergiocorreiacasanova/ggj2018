@@ -504,6 +504,14 @@
     "meta": 1517407927270,
     "relativePath": "Creditos\\library\\sos 3.png"
   },
+<<<<<<< HEAD
+=======
+  "56183c51-de22-43c5-a128-1dd01c3f17db": {
+    "asset": 1517404666348,
+    "meta": 1517407927286,
+    "relativePath": "Final1.anim"
+  },
+>>>>>>> 58e47b5f546c2711a013885240356e223780dccc
   "868bf335-fb41-40a9-803a-a29d227ca792": {
     "asset": 1517404666351,
     "meta": 1517404666349,
@@ -695,8 +703,13 @@
     "relativePath": "prefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
+<<<<<<< HEAD
     "asset": 1517413762251,
     "meta": 1517413762270,
+=======
+    "asset": 1517413000793,
+    "meta": 1517413000818,
+>>>>>>> 58e47b5f546c2711a013885240356e223780dccc
     "relativePath": "prueba.fire"
   },
   "c4a293f4-84df-464f-b913-4206d11bdf33": {
@@ -720,8 +733,13 @@
     "relativePath": "Menu principal\\menu_tex.png"
   },
   "2cee419e-1370-407e-8bcd-f6e9b50a52a8": {
+<<<<<<< HEAD
     "asset": 1517413664069,
     "meta": 1517413665551,
+=======
+    "asset": 1517412973684,
+    "meta": 1517412976047,
+>>>>>>> 58e47b5f546c2711a013885240356e223780dccc
     "relativePath": "Timer.js"
   }
 }

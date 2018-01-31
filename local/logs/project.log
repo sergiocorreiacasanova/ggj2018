@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2018-01-31T15:42:27.125Z - normal: Load ~/.CocosCreator/settings.json
 2018-01-31T15:42:27.125Z - normal: checking language setting...
 2018-01-31T15:42:27.125Z - normal: Language: en
@@ -8,6 +9,18 @@
 2018-01-31T15:42:29.063Z - success: protocol unpack registerred
 2018-01-31T15:42:29.063Z - success: protocol disable-commonjs registerred
 2018-01-31T15:42:29.063Z - error: { Error: getaddrinfo ENOENT creator-api.cocos.com:443
+=======
+2018-01-31T14:12:01.412Z - normal: Load ~/.CocosCreator/settings.json
+2018-01-31T14:12:01.427Z - normal: checking language setting...
+2018-01-31T14:12:01.427Z - normal: Language: en
+2018-01-31T14:12:03.396Z - success: protocol editor-framework registered
+2018-01-31T14:12:03.396Z - success: protocol app registered
+2018-01-31T14:12:03.396Z - success: protocol theme registered
+2018-01-31T14:12:03.396Z - success: protocol packages registered
+2018-01-31T14:12:03.396Z - success: protocol unpack registerred
+2018-01-31T14:12:03.396Z - success: protocol disable-commonjs registerred
+2018-01-31T14:12:03.396Z - error: { Error: getaddrinfo ENOENT creator-api.cocos.com:443
+>>>>>>> 58e47b5f546c2711a013885240356e223780dccc
     at Object.exports._errnoException (util.js:1050:11)
     at errnoException (dns.js:33:15)
     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
@@ -26,6 +39,7 @@
     at TLSSocket.emit (events.js:191:7)
     at connectErrorNT (net.js:1032:8)
     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+<<<<<<< HEAD
 2018-01-31T15:42:29.078Z - normal: failed to connect login server... skipping login
 2018-01-31T15:42:29.078Z - normal: Check project D:\ggj2018
 2018-01-31T15:42:29.078Z - normal: Initializing Cocos2d
@@ -89,3 +103,122 @@
     at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
     at Parser.pp$3.parseExpression (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3306:19)
 2018-01-31T15:49:22.724Z - info: shutdown preview server
+=======
+2018-01-31T14:12:03.396Z - normal: failed to connect login server... skipping login
+2018-01-31T14:12:03.396Z - normal: Check project D:\ggj2018
+2018-01-31T14:12:03.412Z - normal: Initializing Cocos2d
+2018-01-31T14:12:03.646Z - normal: Initializing Asset Database
+2018-01-31T14:12:03.677Z - success: protocol uuid registerred
+2018-01-31T14:12:03.677Z - success: protocol db registerred
+2018-01-31T14:12:03.677Z - success: protocol thumbnail registerred
+2018-01-31T14:12:03.677Z - normal: Loading editor/builtin packages
+2018-01-31T14:12:03.709Z - success: anysdk loaded
+2018-01-31T14:12:03.849Z - success: assets loaded
+2018-01-31T14:12:03.849Z - success: builder loaded
+2018-01-31T14:12:03.849Z - success: cocos-analytics loaded
+2018-01-31T14:12:03.849Z - success: console loaded
+2018-01-31T14:12:03.865Z - success: hierarchy loaded
+2018-01-31T14:12:03.865Z - success: inspector loaded
+2018-01-31T14:12:03.865Z - success: keystore loaded
+2018-01-31T14:12:03.865Z - success: node-library loaded
+2018-01-31T14:12:03.865Z - success: package-asset loaded
+2018-01-31T14:12:03.865Z - success: preferences loaded
+2018-01-31T14:12:03.880Z - success: project-exporter loaded
+2018-01-31T14:12:03.896Z - success: project-importer loaded
+2018-01-31T14:12:03.896Z - success: project-settings loaded
+2018-01-31T14:12:03.896Z - success: ui-kit loaded
+2018-01-31T14:12:03.896Z - success: ui-grid loaded
+2018-01-31T14:12:03.896Z - success: scene loaded
+2018-01-31T14:12:03.912Z - success: sprite-editor loaded
+2018-01-31T14:12:03.912Z - success: store loaded
+2018-01-31T14:12:03.912Z - success: timeline loaded
+2018-01-31T14:12:03.912Z - normal: Loading builtin packages
+2018-01-31T14:12:03.912Z - success: asset-db-debugger loaded
+2018-01-31T14:12:03.912Z - success: code-editor loaded
+2018-01-31T14:12:03.912Z - success: color-picker loaded
+2018-01-31T14:12:03.927Z - success: package-manager loaded
+2018-01-31T14:12:03.927Z - success: sdkbox loaded
+2018-01-31T14:12:03.927Z - success: tester loaded
+2018-01-31T14:12:03.927Z - success: ui-kit-preview-extra loaded
+2018-01-31T14:12:03.927Z - success: ui-kit-preview loaded
+2018-01-31T14:12:03.927Z - success: ui-tree loaded
+2018-01-31T14:12:05.178Z - normal: Initializing project D:\ggj2018
+2018-01-31T14:12:05.178Z - normal: Loading packages
+2018-01-31T14:12:05.178Z - normal: Watching packages
+2018-01-31T14:12:05.194Z - normal: Run Application
+2018-01-31T14:12:08.505Z - success: preview server running at http://localhost:7456
+2018-01-31T14:12:13.867Z - normal: 1.8.1
+2018-01-31T15:19:29.211Z - failed: [db-task][sync-changes] Failed to import asset D:\ggj2018\assets\Timer.js, message: Compile error: SyntaxError: D:/ggj2018/assets/Timer.js: Unexpected token, expected , (25:3)
+  23 | 			}
+  24 | 
+> 25 | 			var tiempo;
+     | 			^
+  26 |     		var strT;
+  27 |     		var min;
+  28 |     		var mili;
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-01-31T15:19:40.085Z - failed: [db-task][sync-changes] Failed to import asset D:\ggj2018\assets\Timer.js, message: Compile error: SyntaxError: D:/ggj2018/assets/Timer.js: Unexpected token, expected , (23:4)
+  21 | 				default: 240,
+  22 | 				serializable:true,
+> 23 | 			};
+     | 			 ^
+  24 | 
+  25 | 			var tiempo;
+  26 |     		var strT;
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-01-31T15:19:50.787Z - failed: [db-task][sync-changes] Failed to import asset D:\ggj2018\assets\Timer.js, message: Compile error: SyntaxError: D:/ggj2018/assets/Timer.js: var is a reserved word (25:3)
+  23 | 			},
+  24 | 
+> 25 | 			var tiempo;
+     | 			^
+  26 |     		var strT;
+  27 |     		var min;
+  28 |     		var mili;
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp$3.checkReservedWord (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4347:10)
+    at Parser.pp$3.parseObjectProperty (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4121:10)
+    at Parser.pp$3.parseObjPropValue (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4140:84)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4048:10)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+2018-01-31T15:20:20.581Z - failed: [db-task][sync-changes] Failed to import asset D:\ggj2018\assets\Timer.js, message: Compile error: SyntaxError: D:/ggj2018/assets/Timer.js: Unexpected token, expected , (25:9)
+  23 | 			},
+  24 | 
+> 25 | 			tiempo;
+     | 			      ^
+  26 |     		strT;
+  27 |     		min;
+  28 |     		mili;
+    at Parser.pp$5.raise (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (D:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-01-31T15:36:41.117Z - info: shutdown preview server
+>>>>>>> 58e47b5f546c2711a013885240356e223780dccc
