@@ -31,14 +31,14 @@ cc.Class({
             serializable: true
         },
 
-        bCapa: {
+        bFrecIngresada: {
             get: function get() {
-                if (typeof this._bCapa === "undefined") this._bCapa = false;
+                if (typeof this._bFrecIngresada === "undefined") this._bFrecIngresada = false;
 
-                return this._bCapa;
+                return this._bFrecIngresada;
             },
             set: function set(value) {
-                this._bCapa = value;
+                this._bFrecIngresada = value;
             }
         },
 
@@ -183,11 +183,12 @@ cc.Class({
         //Final que se presenta al jugador
         Final: {
             default: 1
-        }
+        },
 
+        inicio: null
     },
 
-    bCapa: false,
+    bFrecIngresada: false,
     bBoton: false,
     bComputadora: false,
     bLibros: false,
@@ -202,6 +203,7 @@ cc.Class({
         var self = this;
         var Luces = this.Boton;
         Luces.active = true;
+        self.bFrecIngresada = true;
 
         this.AccionesJuego = {
             Luz: function Luz(Componente) {
@@ -223,9 +225,9 @@ cc.Class({
             Computadora: function Computadora(Componente) {
                 self.AccionGeneralJuego(Componente);
                 if (self.bComputadora) {
-                    //Ya ingreso el codigo magico
+                    //Mostrar computadora Funcionando
                 } else {
-                        //Todavia no ingreso codigo magico
+                        //Mostrar computadora rota
                     }
             },
 
@@ -242,6 +244,7 @@ cc.Class({
                     self.AccionGeneralJuego(Componente);
                     self.Final = 2;
                     Componente.node.getComponent(cc.Sprite).enabled = true;
+                    self.bComputadora = true;
                 } else {
                     if (!self.bChispas) self.bChispas = true;
                     cc.audioEngine.playEffect(self.Chispas, false);
@@ -276,6 +279,7 @@ cc.Class({
 
         };
 
+        //Control de componentes de Colision
         var manager = cc.director.getCollisionManager();
         manager.enabled = true;
         manager.enabledDebugDraw = true; // DEBUG
@@ -298,11 +302,12 @@ cc.Class({
         var self = this;
         cc.audioEngine.playEffect(this.Asfixia, false);
         this.Astronauta.getComponent('jugador').setEstado('asfixia');
-        this.Final = 2; // sin aire
+        // Esta de mas ACionJuego cambia el final this.Final = 3; // sin aire
         setTimeout(function () {
             self.MostrarFinal();
         }, 5000);
     },
+
     MostrarFinal: function MostrarFinal() {
         switch (this.Final) {
             case 1:
@@ -334,14 +339,42 @@ cc.Class({
         console.log(Componente);
         cc.log('Dispara accion ', Componente.node.name);
         if (this.AccionesJuego[Componente.node.name]) this.AccionesJuego[Componente.node.name](Componente);else this.AccionGeneralJuego(Componente);
-    }
+    },
+    ChequearBit: function ChequearBit(Duracion) {
+        if (Duracion < 100) {
+            //hacer punto
+        } else {
+            if (Duracion > 300 && Duracion < 500) {
+                //hacer Raya
+            }
+        }
+    },
 
+
+    IniciarBit: function IniciarBit() {
+        var self = this;
+        if (self.bFrecIngresada) {
+            if (!self.inicio) {
+                //Sigue llamando inclusi si no se solto la barra
+                self.inicio = new Date().getTime();
+            }
+        }
+    },
+
+    FinalizarBit: function FinalizarBit() {
+        var self = this;
+        var fin = new Date().getTime();
+        if (self.bFrecIngresada) {
+            fin = fin - self.inicio;
+            self.inicio = null;
+            self.ChequearBit(fin);
+        }
+    }
     /**reiniciarSonido(){
         var self = this;
         self.bChispas = false;
     }**/
     // update (dt) {},
-
 });
 
 cc._RF.pop();

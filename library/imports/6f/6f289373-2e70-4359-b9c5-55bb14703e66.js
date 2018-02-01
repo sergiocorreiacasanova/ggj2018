@@ -27,7 +27,8 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+    //onLoad () {},
+
     Cerrar: function Cerrar() {
         var self = this;
         self.Ventana.active = false;

@@ -21,14 +21,14 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+    //onLoad () {},
+    
     Cerrar(){
         var self = this;
         self.Ventana.active = false;
     },
         
     start () {
-
     }
     // update (dt) {},
 });

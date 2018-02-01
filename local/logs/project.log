@@ -1,53 +1,73 @@
-2018-02-01T04:55:12.617Z - normal: Load ~/.CocosCreator/settings.json
-2018-02-01T04:55:12.628Z - normal: checking language setting...
-2018-02-01T04:55:12.629Z - normal: Language: en
-2018-02-01T04:55:16.183Z - success: protocol editor-framework registered
-2018-02-01T04:55:16.183Z - success: protocol app registered
-2018-02-01T04:55:16.183Z - success: protocol theme registered
-2018-02-01T04:55:16.183Z - success: protocol packages registered
-2018-02-01T04:55:16.184Z - success: protocol unpack registerred
-2018-02-01T04:55:16.185Z - success: protocol disable-commonjs registerred
-2018-02-01T04:55:18.642Z - normal: connected!
-2018-02-01T04:55:18.645Z - normal: Check project C:\Users\ser\Documents\CocosCreator\SOS
-2018-02-01T04:55:18.648Z - normal: Initializing Cocos2d
-2018-02-01T04:55:19.197Z - normal: Initializing Asset Database
-2018-02-01T04:55:19.291Z - success: protocol uuid registerred
-2018-02-01T04:55:19.291Z - success: protocol db registerred
-2018-02-01T04:55:19.291Z - success: protocol thumbnail registerred
-2018-02-01T04:55:19.292Z - normal: Loading editor/builtin packages
-2018-02-01T04:55:19.337Z - success: anysdk loaded
-2018-02-01T04:55:19.594Z - success: assets loaded
-2018-02-01T04:55:19.598Z - success: builder loaded
-2018-02-01T04:55:19.605Z - success: cocos-analytics loaded
-2018-02-01T04:55:19.612Z - success: console loaded
-2018-02-01T04:55:19.618Z - success: hierarchy loaded
-2018-02-01T04:55:19.624Z - success: inspector loaded
-2018-02-01T04:55:19.627Z - success: keystore loaded
-2018-02-01T04:55:19.632Z - success: node-library loaded
-2018-02-01T04:55:19.637Z - success: package-asset loaded
-2018-02-01T04:55:19.640Z - success: preferences loaded
-2018-02-01T04:55:19.644Z - success: project-exporter loaded
-2018-02-01T04:55:19.676Z - success: project-importer loaded
-2018-02-01T04:55:19.680Z - success: project-settings loaded
-2018-02-01T04:55:19.683Z - success: ui-kit loaded
-2018-02-01T04:55:19.687Z - success: ui-grid loaded
-2018-02-01T04:55:19.693Z - success: scene loaded
-2018-02-01T04:55:19.695Z - success: sprite-editor loaded
-2018-02-01T04:55:19.701Z - success: store loaded
-2018-02-01T04:55:19.710Z - success: timeline loaded
-2018-02-01T04:55:19.710Z - normal: Loading builtin packages
-2018-02-01T04:55:19.714Z - success: asset-db-debugger loaded
-2018-02-01T04:55:19.717Z - success: code-editor loaded
-2018-02-01T04:55:19.718Z - success: color-picker loaded
-2018-02-01T04:55:19.722Z - success: package-manager loaded
-2018-02-01T04:55:19.729Z - success: sdkbox loaded
-2018-02-01T04:55:19.736Z - success: tester loaded
-2018-02-01T04:55:19.740Z - success: ui-kit-preview-extra loaded
-2018-02-01T04:55:19.743Z - success: ui-kit-preview loaded
-2018-02-01T04:55:19.745Z - success: ui-tree loaded
-2018-02-01T04:55:22.238Z - normal: Initializing project C:\Users\ser\Documents\CocosCreator\SOS
-2018-02-01T04:55:22.260Z - normal: Loading packages
-2018-02-01T04:55:22.273Z - normal: Watching packages
-2018-02-01T04:55:22.330Z - normal: Run Application
-2018-02-01T04:55:24.111Z - success: preview server running at http://localhost:7458
-2018-02-01T04:55:34.940Z - normal: 1.8.1
+2018-02-01T16:40:30.202Z - normal: Load ~/.CocosCreator/settings.json
+2018-02-01T16:40:30.218Z - normal: checking language setting...
+2018-02-01T16:40:30.218Z - normal: Language: en
+2018-02-01T16:40:32.186Z - success: protocol editor-framework registered
+2018-02-01T16:40:32.186Z - success: protocol app registered
+2018-02-01T16:40:32.186Z - success: protocol theme registered
+2018-02-01T16:40:32.186Z - success: protocol packages registered
+2018-02-01T16:40:32.186Z - success: protocol unpack registerred
+2018-02-01T16:40:32.186Z - success: protocol disable-commonjs registerred
+2018-02-01T16:40:32.186Z - error: { Error: getaddrinfo ENOENT creator-api.cocos.com:443
+    at Object.exports._errnoException (util.js:1050:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+  code: 'ENOENT',
+  errno: 'ENOENT',
+  syscall: 'getaddrinfo',
+  hostname: 'creator-api.cocos.com',
+  host: 'creator-api.cocos.com',
+  port: 443 }
+    at D:\CocosCreator\resources\app.asar\share\login\lib\user.js:1:1441
+    at ClientRequest.Https.request.on.e (D:\CocosCreator\resources\app.asar\share\login\lib\network.js:1:873)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at TLSSocket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:191:7)
+    at connectErrorNT (net.js:1032:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+2018-02-01T16:40:32.186Z - normal: failed to connect login server... skipping login
+2018-02-01T16:40:32.186Z - normal: Check project D:\ggj2018
+2018-02-01T16:40:32.186Z - normal: Initializing Cocos2d
+2018-02-01T16:40:32.436Z - normal: Initializing Asset Database
+2018-02-01T16:40:32.483Z - success: protocol uuid registerred
+2018-02-01T16:40:32.483Z - success: protocol db registerred
+2018-02-01T16:40:32.483Z - success: protocol thumbnail registerred
+2018-02-01T16:40:32.483Z - normal: Loading editor/builtin packages
+2018-02-01T16:40:32.499Z - success: anysdk loaded
+2018-02-01T16:40:32.640Z - success: assets loaded
+2018-02-01T16:40:32.640Z - success: builder loaded
+2018-02-01T16:40:32.640Z - success: cocos-analytics loaded
+2018-02-01T16:40:32.655Z - success: console loaded
+2018-02-01T16:40:32.655Z - success: hierarchy loaded
+2018-02-01T16:40:32.655Z - success: inspector loaded
+2018-02-01T16:40:32.655Z - success: keystore loaded
+2018-02-01T16:40:32.655Z - success: node-library loaded
+2018-02-01T16:40:32.655Z - success: package-asset loaded
+2018-02-01T16:40:32.671Z - success: preferences loaded
+2018-02-01T16:40:32.671Z - success: project-exporter loaded
+2018-02-01T16:40:32.686Z - success: project-importer loaded
+2018-02-01T16:40:32.686Z - success: project-settings loaded
+2018-02-01T16:40:32.686Z - success: ui-kit loaded
+2018-02-01T16:40:32.702Z - success: ui-grid loaded
+2018-02-01T16:40:32.702Z - success: scene loaded
+2018-02-01T16:40:32.702Z - success: sprite-editor loaded
+2018-02-01T16:40:32.702Z - success: store loaded
+2018-02-01T16:40:32.702Z - success: timeline loaded
+2018-02-01T16:40:32.702Z - normal: Loading builtin packages
+2018-02-01T16:40:32.718Z - success: asset-db-debugger loaded
+2018-02-01T16:40:32.718Z - success: code-editor loaded
+2018-02-01T16:40:32.718Z - success: color-picker loaded
+2018-02-01T16:40:32.718Z - success: package-manager loaded
+2018-02-01T16:40:32.718Z - success: sdkbox loaded
+2018-02-01T16:40:32.718Z - success: tester loaded
+2018-02-01T16:40:32.718Z - success: ui-kit-preview-extra loaded
+2018-02-01T16:40:32.733Z - success: ui-kit-preview loaded
+2018-02-01T16:40:32.733Z - success: ui-tree loaded
+2018-02-01T16:40:33.999Z - normal: Initializing project D:\ggj2018
+2018-02-01T16:40:34.015Z - normal: Loading packages
+2018-02-01T16:40:34.015Z - normal: Watching packages
+2018-02-01T16:40:34.030Z - normal: Run Application
+2018-02-01T16:40:34.765Z - success: preview server running at http://localhost:7456
+2018-02-01T16:40:39.908Z - normal: 1.8.1
+2018-02-01T17:33:32.051Z - info: shutdown preview server
