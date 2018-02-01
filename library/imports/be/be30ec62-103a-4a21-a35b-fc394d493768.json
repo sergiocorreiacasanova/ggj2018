@@ -1,0 +1,10 @@
+{
+  "__type__": "dragonBones.DragonBonesAtlasAsset",
+  "_name": "HormiguitaAnimacion_tex",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_atlasJson": "{\"SubTexture\":[{\"frameX\":-35,\"frameHeight\":356,\"y\":1,\"frameY\":-34,\"frameWidth\":300,\"width\":213,\"height\":297,\"name\":\"HORNNIGITA\",\"x\":1}],\"width\":256,\"height\":512,\"name\":\"HormiguitaAnimacion\",\"imagePath\":\"HormiguitaAnimacion_tex.png\"}",
+  "texture": {
+    "__uuid__": "3ae0a915-5a76-4bd4-bf5e-b27746a381e3"
+  }
+}

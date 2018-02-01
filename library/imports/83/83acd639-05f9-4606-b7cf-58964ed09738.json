@@ -1,0 +1,7 @@
+{
+  "__type__": "dragonBones.DragonBonesAsset",
+  "_name": "HormiguitaAnimacion_ske",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_dragonBonesJson": "{\"frameRate\":24,\"armature\":[{\"animation\":[{\"ffd\":[],\"playTimes\":0,\"frame\":[],\"slot\":[],\"ik\":[],\"duration\":75,\"name\":\"animtion0\",\"bone\":[{\"frame\":[{\"duration\":75,\"transform\":{}}],\"name\":\"root\"},{\"frame\":[{\"duration\":75,\"transform\":{\"y\":-83,\"skX\":42.6296,\"x\":212,\"skY\":42.6296},\"tweenEasing\":0},{\"duration\":0,\"transform\":{\"y\":-29.0401,\"skX\":176.6419,\"x\":-1081.276,\"skY\":176.6419}}],\"name\":\"HORNNIGITA\"}]}],\"type\":\"Armature\",\"frameRate\":24,\"skin\":[{\"name\":\"\",\"slot\":[{\"display\":[{\"path\":\"HORNNIGITA\",\"type\":\"image\",\"name\":\"HORNNIGITA\",\"transform\":{\"y\":4.9346,\"skX\":89.2559,\"x\":43.5678,\"skY\":89.2559}}],\"name\":\"HORNNIGITA\"}]}],\"slot\":[{\"color\":{},\"name\":\"HORNNIGITA\",\"parent\":\"HORNNIGITA\"}],\"ik\":[],\"aabb\":{\"width\":300,\"y\":-211.5,\"height\":356,\"x\":-177.5},\"name\":\"Armature\",\"bone\":[{\"transform\":{},\"name\":\"root\"},{\"length\":77,\"transform\":{\"y\":10,\"skX\":-89.2559,\"x\":-33,\"skY\":-89.2559},\"parent\":\"root\",\"name\":\"HORNNIGITA\"}],\"defaultActions\":[{\"gotoAndPlay\":\"animtion0\"}]}],\"isGlobal\":0,\"name\":\"HormiguitaAnimacion\",\"version\":\"4.0\"}"
+}

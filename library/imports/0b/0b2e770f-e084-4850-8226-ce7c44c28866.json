@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "HormiguitaAnimacion_tex",
+    "texture": "3ae0a915-5a76-4bd4-bf5e-b27746a381e3",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      213,
+      297
+    ],
+    "offset": [
+      -20.5,
+      106.5
+    ],
+    "originalSize": [
+      256,
+      512
+    ]
+  }
+}
