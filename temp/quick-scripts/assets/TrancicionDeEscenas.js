@@ -17,25 +17,23 @@ cc._RF.push(module, '44dabn8PxtB2rUmKXGs5/xx', 'TrancicionDeEscenas', __filename
 cc.Class({
     extends: cc.Component,
 
-    properties: {
-        canvas: {
-            default: null,
-            type: cc.Node,
-            serializable: true
-        }
-    },
+    properties: {},
 
     // LIFE-CYCLE CALLBACKS:
 
     //onLoad () {	},
 
     start: function start() {},
-    Transision: function Transision() {
+    ComenzarJuego: function ComenzarJuego() {
         cc.director.loadScene('prueba');
+    },
+
+
+    TransicionAFinal: function TransicionAFinal(nombre) {
+        cc.director.loadScene(nombre);
     }
 
     // update (dt) {},
-
 });
 
 cc._RF.pop();

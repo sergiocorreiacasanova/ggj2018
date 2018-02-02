@@ -12,11 +12,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-    	canvas:{
-    		default: null,
-            type: cc.Node, 
-            serializable: true,
-    	}
+
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -27,8 +23,12 @@ cc.Class({
 
     },
 
-    Transision(){
+    ComenzarJuego(){
     	cc.director.loadScene('prueba');
+    },
+
+    TransicionAFinal: function(nombre){
+       cc.director.loadScene(nombre); 
     }
 
     // update (dt) {},

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "76a9b269-bf5d-4a37-a921-03788fb818e1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Tutoria": {
+      "ver": "1.0.3",
+      "uuid": "b0d5ea40-63a7-4a98-a4ce-fd894e309531",
+      "rawTextureUuid": "76a9b269-bf5d-4a37-a921-03788fb818e1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 516,
+      "height": 166,
+      "rawWidth": 516,
+      "rawHeight": 166,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

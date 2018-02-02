@@ -141,6 +141,11 @@ cc.Class({
             url: cc.AudioClip
         },
 
+        Tono: {
+            default: null,
+            url: cc.AudioClip
+        },
+
         Computadora: {
             default: null,
             type: cc.Node,
@@ -175,6 +180,12 @@ cc.Class({
             }
         },
 
+        Salida: {
+            default: null,
+            type: cc.Node,
+            serializable: true
+        },
+
         //Parte actual del juego ("nivel actual")
         Estado: {
             default: 0
@@ -185,7 +196,11 @@ cc.Class({
             default: 1
         },
 
-        inicio: null
+        inicio: null,
+
+        codigo: null,
+
+        RepSonido: null
     },
 
     bFrecIngresada: false,
@@ -197,13 +212,14 @@ cc.Class({
 
     ColiderActivo: null,
 
+    borrar: 0,
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
         var self = this;
         var Luces = this.Boton;
         Luces.active = true;
-        self.bFrecIngresada = true;
 
         this.AccionesJuego = {
             Luz: function Luz(Componente) {
@@ -225,10 +241,8 @@ cc.Class({
             Computadora: function Computadora(Componente) {
                 self.AccionGeneralJuego(Componente);
                 if (self.bComputadora) {
-                    //Mostrar computadora Funcionando
-                } else {
-                        //Mostrar computadora rota
-                    }
+                    self.Capa.active = true;
+                }
             },
 
             Cinta: function Cinta(Componente) {
@@ -244,15 +258,13 @@ cc.Class({
                     self.AccionGeneralJuego(Componente);
                     self.Final = 2;
                     Componente.node.getComponent(cc.Sprite).enabled = true;
+                    self.getComponent('Timer').ActualizarTiempo(200);
                     self.bComputadora = true;
                 } else {
                     if (!self.bChispas) self.bChispas = true;
                     cc.audioEngine.playEffect(self.Chispas, false);
 
                     self.Astronauta.getComponent('jugador').setEstado('electrocutado');
-                    /**self.scheduleOnce(funtion() {
-                       reiniciarSonido();
-                    },10);**/
                 }
             },
 
@@ -275,6 +287,10 @@ cc.Class({
                 //Mostrar Hoja Frecuencias
                 self.AccionGeneralJuego(Componente);
                 cc.audioEngine.playEffect(self.MusicaCreepy, false);
+            },
+
+            Salida: function Salida(Componente) {
+                self.MostrarFinal();
             }
 
         };
@@ -282,7 +298,7 @@ cc.Class({
         //Control de componentes de Colision
         var manager = cc.director.getCollisionManager();
         manager.enabled = true;
-        manager.enabledDebugDraw = true; // DEBUG
+        //manager.enabledDebugDraw = true; // DEBUG
     },
     AccionGeneralJuego: function AccionGeneralJuego(Componente) {
         var self = this;
@@ -298,29 +314,26 @@ cc.Class({
         }
     },
 
+
     timeout: function timeout() {
-        var self = this;
-        cc.audioEngine.playEffect(this.Asfixia, false);
-        this.Astronauta.getComponent('jugador').setEstado('asfixia');
-        // Esta de mas ACionJuego cambia el final this.Final = 3; // sin aire
-        setTimeout(function () {
-            self.MostrarFinal();
-        }, 5000);
+        this.MostrarFinal();
     },
 
     MostrarFinal: function MostrarFinal() {
+        var self = this;
         switch (this.Final) {
             case 1:
-                //Explocion;
+                cc.director.loadScene('Creditos');
                 break;
             case 2:
-                //Sin Aire;
+                cc.audioEngine.playEffect(this.Asfixia, false);
+                this.Astronauta.getComponent('jugador').setEstado('asfixia');
+                setTimeout(function () {
+                    cc.director.loadScene('Creditos');
+                }, 4000);
                 break;
             case 3:
-                //???
-                break;
-            case 4:
-                //Final Real, Creditos
+                cc.director.loadScene('Creditos');
                 break;
         }
     },
@@ -341,12 +354,36 @@ cc.Class({
         if (this.AccionesJuego[Componente.node.name]) this.AccionesJuego[Componente.node.name](Componente);else this.AccionGeneralJuego(Componente);
     },
     ChequearBit: function ChequearBit(Duracion) {
-        if (Duracion < 100) {
-            //hacer punto
-        } else {
-            if (Duracion > 300 && Duracion < 500) {
-                //hacer Raya
+        if (Duracion < 200) {
+            if (!this.codigo) {
+                this.codigo = '.';
+                this.borrar = 1;
+            } else {
+                this.codigo = this.codigo + '.';
+                this.borrar = this.borrar + 1;
             }
+        } else {
+            if (Duracion > 250 && Duracion < 1000) {
+                if (!this.codigo) {
+                    this.codigo = '-';
+                    this.borrar = 0;
+                } else {
+                    this.codigo = this.codigo + '-';
+                    this.borrar = 0;
+                }
+            }
+        }
+        if (this.codigo == '...---...') {
+            this.Capa.getComponentInChildren(cc.Label).string = 'Escape Habilitado';
+            this.Final = 3;
+            this.Salida.active = true;
+        }
+
+        if (this.codigo.length > 9 || this.borrar > 3) this.codigo = null;
+        if (this.codigo) {
+            this.Capa.getComponentInChildren(cc.RichText).string = this.codigo;
+        } else {
+            this.Capa.getComponentInChildren(cc.RichText).string = '';
         }
     },
 
@@ -355,8 +392,9 @@ cc.Class({
         var self = this;
         if (self.bFrecIngresada) {
             if (!self.inicio) {
-                //Sigue llamando inclusi si no se solto la barra
+                //Sigue llamando incluso si no se solto la barra
                 self.inicio = new Date().getTime();
+                self.RepSonido = cc.audioEngine.playEffect(self.Tono, false);
             }
         }
     },
@@ -367,7 +405,16 @@ cc.Class({
         if (self.bFrecIngresada) {
             fin = fin - self.inicio;
             self.inicio = null;
+            cc.audioEngine.stopEffect(self.RepSonido);
             self.ChequearBit(fin);
+        }
+    },
+
+    ChequearFrecuencia: function ChequearFrecuencia() {
+        var self = this;
+        if (self.Capa.getComponentInChildren(cc.EditBox).string = '505.0') {
+            self.Capa.getComponentInChildren(cc.Label).string = 'Transmitiendo';
+            self.bFrecIngresada = true;
         }
     }
     /**reiniciarSonido(){

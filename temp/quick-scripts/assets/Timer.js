@@ -38,6 +38,13 @@ cc.Class({
 								this.tiempo = 1;
 				},
 				start: function start() {},
+
+
+				ActualizarTiempo: function ActualizarTiempo(NewTime) {
+								var self = this;
+								self.TiempoLimiteSegundos = NewTime;
+				},
+
 				update: function update(dt) {
 
 								if (this.tiempo > 0) {

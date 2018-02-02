@@ -40,473 +40,468 @@
     "relativePath": "prefab"
   },
   "fc0bc170-c6b4-45d8-9e21-ec7149996f43": {
-    "asset": 1517490123947,
-    "meta": 1517490123821,
+    "asset": 1517582683114,
+    "meta": 1517575188988,
     "relativePath": "animaciones"
   },
   "48718165-d222-4ecc-881c-2fee2ea2e3b6": {
-    "asset": 1517490123838,
-    "meta": 1517490123822,
+    "asset": 1517575189004,
+    "meta": 1517575188989,
     "relativePath": "animaciones\\AGARRAR"
   },
   "223bbcfc-03cd-4a36-bf20-56163ea780ab": {
-    "asset": 1517490123824,
-    "meta": 1517497165407,
+    "asset": 1517575188990,
+    "meta": 1517575580991,
     "relativePath": "animaciones\\AGARRAR\\astronauta_v1_AGARRAR_ske.json"
   },
   "a7ce7ae0-6e37-44f7-a23c-1f1c89a4dc1b": {
-    "asset": 1517490123853,
-    "meta": 1517490123840,
+    "asset": 1517575189019,
+    "meta": 1517575189005,
     "relativePath": "animaciones\\ASFIXIA"
   },
   "5c5f3991-62ac-45a2-94a4-ff14853e8ff8": {
-    "asset": 1517490123841,
-    "meta": 1517490123842,
+    "asset": 1517575189007,
+    "meta": 1517575189008,
     "relativePath": "animaciones\\ASFIXIA\\ASFIXIA.dbani"
   },
   "630bdbcb-cac1-4e9f-9304-3c453c8f0ab8": {
-    "asset": 1517490123843,
-    "meta": 1517497165439,
+    "asset": 1517575189009,
+    "meta": 1517575582535,
     "relativePath": "animaciones\\ASFIXIA\\astronauta_v1_ASFIXIA_ske.json"
   },
   "7c319ed0-27c3-4861-af5b-3d302d85d2fe": {
-    "asset": 1517490123826,
-    "meta": 1517497167944,
+    "asset": 1517575188992,
+    "meta": 1517575585320,
     "relativePath": "animaciones\\AGARRAR\\astronauta_v1_AGARRAR_tex.json"
   },
   "9c6b721e-cd98-41cc-a79e-ffae1d16a25d": {
-    "asset": 1517490123837,
-    "meta": 1517497165501,
+    "asset": 1517575189003,
+    "meta": 1517575582598,
     "relativePath": "animaciones\\AGARRAR\\astronauta_v1_AGARRAR_tex.png"
   },
   "d9fe0bca-b23f-4561-b1f1-0e52ed6a3b2c": {
-    "asset": 1517490123852,
-    "meta": 1517497165579,
+    "asset": 1517575189019,
+    "meta": 1517575582660,
     "relativePath": "animaciones\\ASFIXIA\\astronauta_v1_ASFIXIA_tex.png"
   },
   "01c68e91-d89b-461e-9960-9f057337c9c3": {
-    "asset": 1517490123845,
-    "meta": 1517497167944,
+    "asset": 1517575189011,
+    "meta": 1517575585320,
     "relativePath": "animaciones\\ASFIXIA\\astronauta_v1_ASFIXIA_tex.json"
   },
   "ba19dc54-d3a1-4f7d-af4f-c4c86752ef9f": {
-    "asset": 1517490123887,
-    "meta": 1517497165517,
+    "asset": 1517575189055,
+    "meta": 1517575582613,
     "relativePath": "animaciones\\astronauta_v1_ELECTROCUT_ske.json"
   },
   "14579aad-4287-4c26-a8df-50dcca7778d3": {
-    "asset": 1517490123912,
-    "meta": 1517497165595,
+    "asset": 1517575189081,
+    "meta": 1517575582676,
     "relativePath": "animaciones\\astronauta_v1_LOOPPRUEV_ske.json"
   },
   "bcfd2c49-ef96-46c3-828e-fce201f8997a": {
-    "asset": 1517490123890,
-    "meta": 1517497167960,
+    "asset": 1517575189057,
+    "meta": 1517575585336,
     "relativePath": "animaciones\\astronauta_v1_ELECTROCUT_tex.json"
   },
   "aead1427-7a92-43ad-b586-9d44a21e29dd": {
-    "asset": 1517490123914,
-    "meta": 1517497167960,
+    "asset": 1517575189083,
+    "meta": 1517575585336,
     "relativePath": "animaciones\\astronauta_v1_LOOPPRUEV_tex.json"
   },
   "4f9416bb-9ab8-4459-ab7d-19a39e1f042c": {
-    "asset": 1517490123921,
-    "meta": 1517497165876,
+    "asset": 1517575189091,
+    "meta": 1517575582770,
     "relativePath": "animaciones\\astronauta_v1_LOOPPRUEV_tex.png"
   },
   "cfdfea3f-ea5b-4864-9361-f7ec39c98ba7": {
-    "asset": 1517490123924,
-    "meta": 1517497165907,
+    "asset": 1517575189093,
+    "meta": 1517575582926,
     "relativePath": "animaciones\\astronauta_v1_ske.json"
   },
   "e44029fe-78e4-4680-a353-e0be0db856f3": {
-    "asset": 1517490123933,
-    "meta": 1517497165970,
+    "asset": 1517575189103,
+    "meta": 1517575583004,
     "relativePath": "animaciones\\astronauta_v1_tex.png"
   },
   "5f2f9484-fb7e-4d32-9cfa-bdd95dcc147f": {
-    "asset": 1517490123910,
-    "meta": 1517497165845,
+    "asset": 1517575189079,
+    "meta": 1517575582895,
     "relativePath": "animaciones\\astronauta_v1_ELECTROCUT_tex.png"
   },
   "3952d1b5-9e27-4279-b51a-a77a01144ce3": {
-    "asset": 1517490123943,
-    "meta": 1517497166010,
+    "asset": 1517575189113,
+    "meta": 1517575583035,
     "relativePath": "animaciones\\efectoluz_ske.json"
   },
   "1a2baf6d-75c0-4446-97b4-40d5ae4ad1f4": {
-    "asset": 1517490123926,
-    "meta": 1517497167975,
+    "asset": 1517575189095,
+    "meta": 1517575585351,
     "relativePath": "animaciones\\astronauta_v1_tex.json"
   },
   "a6c6023d-b1d0-40a7-9694-1265264efa92": {
-    "asset": 1517490123869,
-    "meta": 1517490123854,
+    "asset": 1517575189033,
+    "meta": 1517575189020,
     "relativePath": "animaciones\\GIRO"
   },
   "bc18f182-db6e-4d2d-81c8-41a09cae7567": {
-    "asset": 1517490123856,
-    "meta": 1517497166032,
+    "asset": 1517575189021,
+    "meta": 1517575583051,
     "relativePath": "animaciones\\GIRO\\astronauta_v1_GIRO_ske.json"
   },
   "c035718c-2a40-46db-83e6-899bc6070125": {
-    "asset": 1517490123945,
-    "meta": 1517497167991,
+    "asset": 1517575189116,
+    "meta": 1517575585367,
     "relativePath": "animaciones\\efectoluz_tex.json"
   },
   "aed1471e-b0d8-45d8-97e8-28864eb92097": {
-    "asset": 1517490123946,
-    "meta": 1517497166039,
+    "asset": 1517575189118,
+    "meta": 1517575583066,
     "relativePath": "animaciones\\efectoluz_tex.png"
   },
   "49346ea7-2eda-4a05-82d0-282249d58c24": {
-    "asset": 1517490123858,
-    "meta": 1517497167991,
+    "asset": 1517575189023,
+    "meta": 1517575585367,
     "relativePath": "animaciones\\GIRO\\astronauta_v1_GIRO_tex.json"
   },
   "7c6fcba4-9476-444f-b016-079405437521": {
-    "asset": 1517490123886,
-    "meta": 1517490123877,
+    "asset": 1517582683114,
+    "meta": 1517575189042,
     "relativePath": "animaciones\\LOOP_ESTATICO"
   },
   "2ca20909-fb09-45a9-8744-a4171a33afe1": {
-    "asset": 1517490123878,
-    "meta": 1517497166132,
+    "asset": 1517575189044,
+    "meta": 1517575583176,
     "relativePath": "animaciones\\LOOP_ESTATICO\\astronauta_v1_LOOPESTACT_ske.json"
   },
   "e5995eca-514f-4d05-8742-f62ddb3daf59": {
-    "asset": 1517490123869,
-    "meta": 1517497166113,
+    "asset": 1517575189033,
+    "meta": 1517575583129,
     "relativePath": "animaciones\\GIRO\\astronauta_v1_GIRO_tex.png"
   },
   "bfdec5dc-40d9-4e7b-b148-b3071cd8da31": {
-    "asset": 1517490123982,
-    "meta": 1517490123948,
+    "asset": 1517582027165,
+    "meta": 1517575189121,
     "relativePath": "audio"
   },
   "a9e87943-ac2b-4b2b-ba15-18a458c8580b": {
-    "asset": 1517490123886,
-    "meta": 1517497166226,
+    "asset": 1517575189053,
+    "meta": 1517575583892,
     "relativePath": "animaciones\\LOOP_ESTATICO\\astronauta_v1_LOOPESTACT_tex.png"
   },
   "0a5a6ccd-baec-4b98-945c-beb69d2f6002": {
-    "asset": 1517490123880,
-    "meta": 1517497168006,
+    "asset": 1517575189047,
+    "meta": 1517575585382,
     "relativePath": "animaciones\\LOOP_ESTATICO\\astronauta_v1_LOOPESTACT_tex.json"
   },
   "17eddc67-9496-4adf-8cdc-37b70021ed82": {
-    "asset": 1517490123950,
-    "meta": 1517490123951,
+    "asset": 1517575189123,
+    "meta": 1517575189124,
     "relativePath": "audio\\Chispas.mp3"
   },
   "d14abd5a-3152-4c5d-a73c-e4accff82f6f": {
-    "asset": 1517490123964,
-    "meta": 1517490123965,
+    "asset": 1517575189166,
+    "meta": 1517575189167,
     "relativePath": "audio\\explosion.mp3"
   },
   "3638f5c4-2f1b-48b2-a0a4-2575ae8af653": {
-    "asset": 1517490123979,
-    "meta": 1517490123980,
+    "asset": 1517575189181,
+    "meta": 1517575189182,
     "relativePath": "audio\\fondo.mp3"
   },
   "3c28609e-e802-475f-8276-8b591975e15b": {
-    "asset": 1517490123954,
-    "meta": 1517490123955,
+    "asset": 1517575189126,
+    "meta": 1517575189156,
     "relativePath": "audio\\MusicaEspera.mp3"
   },
   "b835b3cf-364f-4641-9edb-d9f9de68dbb2": {
-    "asset": 1517490123958,
-    "meta": 1517490123959,
+    "asset": 1517575189159,
+    "meta": 1517575189160,
     "relativePath": "audio\\MusicaFinal.mp3"
   },
   "ed0d0793-6027-4bbd-acd0-80e59d2ca062": {
-    "asset": 1517490123961,
-    "meta": 1517490123962,
+    "asset": 1517575189162,
+    "meta": 1517575189163,
     "relativePath": "audio\\PuertaAbierta.mp3"
   },
   "9a0795a4-456a-412f-bd3c-dcc762074c8b": {
-    "asset": 1517490123963,
-    "meta": 1517490123963,
+    "asset": 1517575189164,
+    "meta": 1517575189165,
     "relativePath": "audio\\PuertaCerrada.mp3"
   },
   "95192fa2-cf90-4147-ae86-97bb3b736242": {
-    "asset": 1517490123981,
-    "meta": 1517490123982,
+    "asset": 1517575189183,
+    "meta": 1517575189184,
     "relativePath": "audio\\succion.mp3"
   },
   "198959a7-b024-47a5-a131-0880e68732e6": {
-    "asset": 1517490123983,
-    "meta": 1517490123984,
+    "asset": 1517575189185,
+    "meta": 1517575189186,
     "relativePath": "cohete.plist"
   },
   "a83d2d2d-5a7b-4077-86dc-88d8cc7804df": {
-    "asset": 1517490123735,
-    "meta": 1517490123718,
+    "asset": 1517575188907,
+    "meta": 1517575188891,
     "relativePath": "Creditos"
   },
   "e95e1942-1fb2-4e5c-b505-3f9af56b0d7c": {
-    "asset": 1517490123716,
-    "meta": 1517497166661,
-    "relativePath": "Creditos.fire"
+    "asset": 1517575188890,
+    "meta": 1517575583955,
+    "relativePath": "Finales\\Creditos.fire"
   },
   "dbd8a674-8c67-4130-b1ce-95d0fd4be34c": {
-    "asset": 1517490123721,
-    "meta": 1517497166669,
+    "asset": 1517575188895,
+    "meta": 1517575583961,
     "relativePath": "Creditos\\creditos_ske.json"
   },
   "97ecefc0-014e-4d19-86a8-23a8cb4b72d3": {
-    "asset": 1517490123719,
-    "meta": 1517490123720,
+    "asset": 1517575188892,
+    "meta": 1517575188893,
     "relativePath": "Creditos\\creditos.dbproj"
   },
   "c9045a2b-317f-436e-99d8-7ff190989160": {
-    "asset": 1517490123766,
-    "meta": 1517490123734,
+    "asset": 1517575188944,
+    "meta": 1517575188907,
     "relativePath": "Creditos\\library"
   },
   "43e35ce8-a07b-4838-bf2c-94f317acfb39": {
-    "asset": 1517490123732,
-    "meta": 1517497166764,
+    "asset": 1517575188905,
+    "meta": 1517575584054,
     "relativePath": "Creditos\\creditos_tex.png"
   },
   "f1e72717-4c6e-4a86-892e-5117e3e64397": {
-    "asset": 1517490123738,
-    "meta": 1517497166764,
+    "asset": 1517575188909,
+    "meta": 1517575584054,
     "relativePath": "Creditos\\library\\fondito.png"
   },
   "b6de4ff8-c647-45e5-8ae7-56064a4eda8d": {
-    "asset": 1517490123742,
-    "meta": 1517497166827,
+    "asset": 1517575188913,
+    "meta": 1517575584179,
     "relativePath": "Creditos\\library\\fondito1.png"
   },
   "198948dc-2a3e-446a-b173-5ce8c9782947": {
-    "asset": 1517490123747,
-    "meta": 1517497166827,
+    "asset": 1517575188918,
+    "meta": 1517575584164,
     "relativePath": "Creditos\\library\\iupi.png"
   },
   "54d9939b-3d9a-4adb-ab4d-c2f45e185b3a": {
-    "asset": 1517490123723,
-    "meta": 1517497168022,
+    "asset": 1517575188896,
+    "meta": 1517575585398,
     "relativePath": "Creditos\\creditos_tex.json"
   },
   "36809f5d-0da4-4fc5-a7e6-b4198c30fa43": {
-    "asset": 1517490123754,
-    "meta": 1517497166858,
+    "asset": 1517575188924,
+    "meta": 1517575584195,
     "relativePath": "Creditos\\library\\nave sola.png"
   },
   "eabf4611-e3e3-4936-bcb5-d896d051e5f3": {
-    "asset": 1517490123751,
-    "meta": 1517497166858,
+    "asset": 1517575188922,
+    "meta": 1517575584210,
     "relativePath": "Creditos\\library\\menu solo.jpg"
   },
   "751f5ca0-9227-4310-90fe-3000ccd0b1bd": {
-    "asset": 1517490123757,
-    "meta": 1517497166889,
+    "asset": 1517575188927,
+    "meta": 1517575584226,
     "relativePath": "Creditos\\library\\sos 1.png"
   },
   "6b70c338-ddda-4f8d-97a8-ed82d74b76c3": {
-    "asset": 1517490123760,
-    "meta": 1517497166874,
+    "asset": 1517575188930,
+    "meta": 1517575584242,
     "relativePath": "Creditos\\library\\sos 2.png"
   },
   "8ad1cbda-e44e-4166-85a5-a5ef5451b7eb": {
-    "asset": 1517490123764,
-    "meta": 1517497166921,
+    "asset": 1517575188932,
+    "meta": 1517575584257,
     "relativePath": "Creditos\\library\\sos 3.png"
   },
   "868bf335-fb41-40a9-803a-a29d227ca792": {
-    "asset": 1517490123770,
-    "meta": 1517490123768,
+    "asset": 1517582694543,
+    "meta": 1517575188946,
     "relativePath": "Finales"
   },
   "a2d884b6-4014-4e86-9ed5-18df67bc5f82": {
-    "asset": 1517490123769,
-    "meta": 1517497167288,
+    "asset": 1517575188947,
+    "meta": 1517575584570,
     "relativePath": "Finales\\Final1.fire"
   },
   "62db3cf2-ad1c-4149-9919-f968b46455cb": {
-    "asset": 1517490123766,
-    "meta": 1517497166905,
+    "asset": 1517575188934,
+    "meta": 1517575584257,
     "relativePath": "Creditos\\library\\tipito.png"
   },
   "a6e5c8cc-1e87-471c-b9c9-87054f47dc03": {
-    "asset": 1517499502903,
-    "meta": 1517490123986,
+    "asset": 1517587922120,
+    "meta": 1517575189189,
     "relativePath": "imagenes"
   },
   "08e0d7ec-2850-40fb-a151-d40bcb062449": {
-    "asset": 1517490124010,
-    "meta": 1517490123996,
+    "asset": 1517575189218,
+    "meta": 1517575189202,
     "relativePath": "imagenes\\astronauta"
   },
   "f956fa01-561e-4d9c-8385-fed515035857": {
-    "asset": 1517490123998,
-    "meta": 1517497167303,
+    "asset": 1517575189204,
+    "meta": 1517575584601,
     "relativePath": "imagenes\\astronauta\\astronaut_0001_CARA.png"
   },
   "c0eab326-c8a1-49b3-80ee-16de0dcab0d3": {
-    "asset": 1517490124000,
-    "meta": 1517497167319,
+    "asset": 1517575189207,
+    "meta": 1517575584601,
     "relativePath": "imagenes\\astronauta\\astronaut_0002_TORSO.png"
   },
   "ad06db1f-3253-42c4-ab3f-d8456a4b5850": {
-    "asset": 1517490124002,
-    "meta": 1517497167335,
+    "asset": 1517575189210,
+    "meta": 1517575584617,
     "relativePath": "imagenes\\astronauta\\astronaut_0003_BRAZ_DERECHO.png"
   },
   "cd228d29-b845-4efa-a3b2-d602a4f3bdde": {
-    "asset": 1517490124004,
-    "meta": 1517497167350,
+    "asset": 1517575189212,
+    "meta": 1517575584664,
     "relativePath": "imagenes\\astronauta\\astronaut_0004_BRAZ_IZQIERDO.png"
   },
   "aba84d81-b0aa-479e-b0d4-cebf2b968b63": {
-    "asset": 1517490124007,
-    "meta": 1517497167366,
+    "asset": 1517575189215,
+    "meta": 1517575584710,
     "relativePath": "imagenes\\astronauta\\astronaut_0005_PIER-DERECHA.png"
   },
   "5a0fd5f2-b41c-4a29-b83d-b552557a66f3": {
-    "asset": 1517490124009,
-    "meta": 1517497167366,
+    "asset": 1517575189217,
+    "meta": 1517575584695,
     "relativePath": "imagenes\\astronauta\\astronaut_0006_PIERI-ZQUIERDA.png"
   },
   "9adcf4c6-6fb9-4008-9154-1364b12e15ff": {
-    "asset": 1517490124011,
-    "meta": 1517497167397,
+    "asset": 1517575189220,
+    "meta": 1517575584726,
     "relativePath": "imagenes\\cinta_0000_Capa-3.png"
   },
   "4ba3964a-761d-41f3-bfdf-667ff05a04cc": {
-    "asset": 1517490123988,
-    "meta": 1517497167381,
+    "asset": 1517575189191,
+    "meta": 1517575584710,
     "relativePath": "imagenes\\Cruz.jpg"
   },
   "874f358b-3b32-45d4-9e60-3b4f8a687b3a": {
-    "asset": 1517490124017,
-    "meta": 1517497167413,
+    "asset": 1517575189226,
+    "meta": 1517575584742,
     "relativePath": "imagenes\\efectoluzboton.png"
   },
   "3fa57e51-b141-4c2b-84b2-c5c0c97d6b57": {
-    "asset": 1517490124015,
-    "meta": 1517497167428,
+    "asset": 1517575189224,
+    "meta": 1517575584757,
     "relativePath": "imagenes\\easteregg.png"
   },
   "f581ccc7-6af8-4d46-87d8-7e1b9d1738d5": {
-    "asset": 1517490124026,
-    "meta": 1517497167444,
+    "asset": 1517575189236,
+    "meta": 1517575584773,
     "relativePath": "imagenes\\panel arreglado.png"
   },
   "567fd8ca-6c45-48c6-8ff0-19e848a2ae76": {
-    "asset": 1517490124024,
-    "meta": 1517497167475,
+    "asset": 1517575189234,
+    "meta": 1517575584804,
     "relativePath": "imagenes\\fondo.png"
   },
   "a66c5320-c50b-4399-84fc-e52407e7d8d8": {
-    "asset": 1517490123990,
-    "meta": 1517497167460,
+    "asset": 1517575189193,
+    "meta": 1517575584789,
     "relativePath": "imagenes\\PC.jpg"
   },
   "35da3892-3868-4d97-a9d8-1aa88e738c0d": {
-    "asset": 1517490124029,
-    "meta": 1517497167506,
+    "asset": 1517575189240,
+    "meta": 1517575584851,
     "relativePath": "imagenes\\radioayuda2_0001_Capa-9-copia.png"
   },
   "92725b48-94af-4fda-a3a1-dfad8014512b": {
-    "asset": 1517490124032,
-    "meta": 1517497167506,
+    "asset": 1517575189243,
+    "meta": 1517575584835,
     "relativePath": "imagenes\\radioayuda_0001s_0000_Capa-6.png"
   },
   "a39df124-adf4-44bc-9d67-061ce6390df0": {
-    "asset": 1517490123992,
-    "meta": 1517497167522,
+    "asset": 1517575189195,
+    "meta": 1517575584867,
     "relativePath": "imagenes\\Tapa.png"
   },
   "69b99408-4e06-4811-81af-6c351a33b2b3": {
-    "asset": 1517490124034,
-    "meta": 1517497167538,
+    "asset": 1517575189245,
+    "meta": 1517575584867,
     "relativePath": "imagenes\\tierraFondo.jpg"
   },
   "51af0ee8-47b7-4f0d-90e7-2e35ef3fa83f": {
-    "asset": 1517490123994,
-    "meta": 1517497167647,
+    "asset": 1517575189198,
+    "meta": 1517575584914,
     "relativePath": "imagenes\\Transmisor.png"
   },
   "1d2a0a60-1c35-470d-bbb2-29ecc75f0f01": {
-    "asset": 1517490123774,
-    "meta": 1517497167569,
+    "asset": 1517575188949,
+    "meta": 1517575585039,
     "relativePath": "InteractivoGenerico.js"
   },
   "d1003a6b-2b52-4110-b0ad-4b28cbc15323": {
-    "asset": 1517490123813,
-    "meta": 1517490123775,
+    "asset": 1517582702952,
+    "meta": 1517575188952,
     "relativePath": "Menu principal"
   },
   "328ed387-24ef-4b20-9b04-4de803938d55": {
-    "asset": 1517490123794,
-    "meta": 1517490123777,
+    "asset": 1517575188966,
+    "meta": 1517575188952,
     "relativePath": "Menu principal\\animacion logo 1"
   },
   "9801bb6c-f9d0-423d-8acc-2ef8bdc070f5": {
-    "asset": 1517490123779,
-    "meta": 1517497167694,
+    "asset": 1517575188954,
+    "meta": 1517575585054,
     "relativePath": "Menu principal\\animacion logo 1\\Navecita que flota.png"
   },
   "4fb7e703-aabe-4832-b191-c15651a12cd2": {
-    "asset": 1517490123783,
-    "meta": 1517497167710,
+    "asset": 1517575188958,
+    "meta": 1517575585070,
     "relativePath": "Menu principal\\animacion logo 1\\menu solo.jpg"
   },
   "845c103e-1257-4994-9bdc-aa5cd17cc1c4": {
-    "asset": 1517490123790,
-    "meta": 1517497167741,
+    "asset": 1517575188963,
+    "meta": 1517575585101,
     "relativePath": "Menu principal\\animacion logo 1\\sos 2.png"
   },
   "ca5ac2cb-b7c3-42a0-b910-20ad35c615ae": {
-    "asset": 1517490123787,
-    "meta": 1517497167725,
+    "asset": 1517575188960,
+    "meta": 1517575585086,
     "relativePath": "Menu principal\\animacion logo 1\\sos 1.png"
   },
   "e7c15873-6956-4539-911b-65bff0413fe8": {
-    "asset": 1517490123795,
-    "meta": 1517497167756,
+    "asset": 1517575188967,
+    "meta": 1517575585117,
     "relativePath": "Menu principal\\menu_ske.json"
   },
   "25fff432-8f00-4d39-afb9-f41528a8630d": {
-    "asset": 1517490123793,
-    "meta": 1517497167756,
+    "asset": 1517575188966,
+    "meta": 1517575585117,
     "relativePath": "Menu principal\\animacion logo 1\\sos 3.png"
   },
   "168b073f-c4d6-42a6-949e-bc946bacb4b1": {
-    "asset": 1517490123814,
-    "meta": 1517497167788,
-    "relativePath": "MenuPrincipal.fire"
+    "asset": 1517579776573,
+    "meta": 1517579776608,
+    "relativePath": "Menu principal\\MenuPrincipal.fire"
   },
   "3844b0dd-6207-4eb5-9ef8-72357fbd64eb": {
-    "asset": 1517490124037,
-    "meta": 1517490124038,
+    "asset": 1517575189250,
+    "meta": 1517575189251,
     "relativePath": "particle_texture.plist"
   },
   "cbf179f5-0fca-4de8-b74d-9a513ce2e28e": {
-    "asset": 1517490124040,
-    "meta": 1517497167788,
+    "asset": 1517575189252,
+    "meta": 1517575585164,
     "relativePath": "prefabInteractivo.prefab"
   },
   "789a80c2-941a-4bc4-b8c6-90d335a3c279": {
-    "asset": 1517506411700,
-    "meta": 1517506411723,
+    "asset": 1517597844381,
+    "meta": 1517597844403,
     "relativePath": "prueba.fire"
   },
   "c4a293f4-84df-464f-b913-4206d11bdf33": {
-    "asset": 1517490123804,
-    "meta": 1517497168053,
+    "asset": 1517575188969,
+    "meta": 1517575585429,
     "relativePath": "Menu principal\\menu_tex.json"
   },
-  "44dab9fc-3f1b-41da-b526-2971ace7fc71": {
-    "asset": 1517490123820,
-    "meta": 1517497167928,
-    "relativePath": "TrancicionDeEscenas.js"
-  },
   "755b430b-aa6f-43f9-837f-d3084f47ebc0": {
-    "asset": 1517490123812,
-    "meta": 1517497167866,
+    "asset": 1517575188977,
+    "meta": 1517575585242,
     "relativePath": "Menu principal\\menu_tex.png"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
@@ -694,69 +689,84 @@
     "meta": 1517497165126,
     "relativePath": "prefab\\webview.prefab"
   },
-  "2cee419e-1370-407e-8bcd-f6e9b50a52a8": {
-    "asset": 1517490123818,
-    "meta": 1517497167928,
-    "relativePath": "Timer.js"
-  },
   "029418cc-e344-4597-9eeb-d4082cdbd33d": {
-    "asset": 1517490124036,
-    "meta": 1517497167678,
+    "asset": 1517575189247,
+    "meta": 1517575585039,
     "relativePath": "jugador.js"
   },
   "929f5c35-6e90-4ab3-9429-69ec1e008961": {
-    "asset": 1517490123935,
-    "meta": 1517497165923,
+    "asset": 1517575189105,
+    "meta": 1517575582941,
     "relativePath": "animaciones\\chispazoanimatic_ske.json"
   },
   "83acd639-05f9-4606-b7cf-58964ed09738": {
-    "asset": 1517490123871,
-    "meta": 1517497166070,
+    "asset": 1517575189035,
+    "meta": 1517575583098,
     "relativePath": "animaciones\\HormiguitaAnimacion_ske.json"
   },
   "18e964f2-0b3b-4831-9a92-037be67f39cb": {
-    "asset": 1517490123937,
-    "meta": 1517497167975,
+    "asset": 1517575189107,
+    "meta": 1517575585351,
     "relativePath": "animaciones\\chispazoanimatic_tex.json"
   },
   "cb8a8a1b-91aa-476b-8f2c-068821b9f22f": {
-    "asset": 1517490123939,
-    "meta": 1517497165986,
+    "asset": 1517575189109,
+    "meta": 1517575583020,
     "relativePath": "animaciones\\chispazoanimatic_tex.png"
   },
   "be30ec62-103a-4a21-a35b-fc394d493768": {
-    "asset": 1517490123873,
-    "meta": 1517497168006,
+    "asset": 1517575189038,
+    "meta": 1517575585382,
     "relativePath": "animaciones\\HormiguitaAnimacion_tex.json"
   },
   "3ae0a915-5a76-4bd4-bf5e-b27746a381e3": {
-    "asset": 1517490123875,
-    "meta": 1517497166139,
+    "asset": 1517575189040,
+    "meta": 1517575583160,
     "relativePath": "animaciones\\HormiguitaAnimacion_tex.png"
   },
   "f6fda2c4-12e0-4df6-9f8e-f67abb7aa008": {
-    "asset": 1517490123941,
-    "meta": 1517490123942,
+    "asset": 1517575189112,
+    "meta": 1517575189113,
     "relativePath": "animaciones\\chisporroteo.plist"
   },
   "6f289373-2e70-4359-b9c5-55bb14703e66": {
-    "asset": 1517498294037,
-    "meta": 1517498295021,
+    "asset": 1517575188888,
+    "meta": 1517575583923,
     "relativePath": "ControldeLayout.js"
   },
-  "77774f8d-93ed-4a91-9b59-ea12e2f42883": {
-    "asset": 1517499502895,
-    "meta": 1517499502938,
-    "relativePath": "imagenes\\Tutoria.png"
+  "d31ee74f-dd7e-4047-864f-296c50f7febb": {
+    "asset": 1517575188980,
+    "meta": 1517575585273,
+    "relativePath": "ReiniciarHoja.js"
+  },
+  "71e0ec02-5292-47b8-a246-dd953d6167a5": {
+    "asset": 1517582027163,
+    "meta": 1517582027169,
+    "relativePath": "audio\\Tono.wav"
   },
   "803bf989-6d67-458f-803f-51263cacfc02": {
-    "asset": 1517502439048,
-    "meta": 1517502454457,
+    "asset": 1517585599826,
+    "meta": 1517585602366,
     "relativePath": "fondo.js"
   },
+  "76a9b269-bf5d-4a37-a921-03788fb818e1": {
+    "asset": 1517587922117,
+    "meta": 1517587922153,
+    "relativePath": "imagenes\\Tutoria.jpg"
+  },
+  "44dab9fc-3f1b-41da-b526-2971ace7fc71": {
+    "asset": 1517589572598,
+    "meta": 1517589623675,
+    "relativePath": "TrancicionDeEscenas.js"
+  },
+  "2cee419e-1370-407e-8bcd-f6e9b50a52a8": {
+    "asset": 1517590681957,
+    "meta": 1517590703707,
+    "relativePath": "Timer.js"
+  },
   "5978a990-1507-4293-9662-66ba942f3430": {
-    "asset": 1517505544322,
-    "meta": 1517505560311,
+    "asset": 1517598289935,
+    "meta": 1517598291863,
     "relativePath": "GameFlow.js"
   }
 }

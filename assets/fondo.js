@@ -83,6 +83,11 @@ cc.Class({
 						cc.log('Barra soltada');
 						self.getComponent('GameFlow').FinalizarBit();                        
                         break;
+
+                    case cc.KEY.enter:
+                    	cc.log('Ingreso Texto');
+						self.getComponent('GameFlow').ChequearFrecuencia();                        
+                        break;
                 }
             }
         }, self.node);

@@ -287,7 +287,7 @@
       "__id__": 2
     },
     "component": "TrancicionDeEscenas",
-    "handler": "Transision",
+    "handler": "ComenzarJuego",
     "customEventData": ""
   },
   {

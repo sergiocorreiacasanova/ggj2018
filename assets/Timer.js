@@ -36,6 +36,11 @@ cc.Class({
 
     },
 
+    ActualizarTiempo: function(NewTime){
+    	var self = this;
+    	self.TiempoLimiteSegundos = NewTime;
+    },
+
     update (dt) {
 		
 		if(this.tiempo > 0){
